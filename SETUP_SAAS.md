@@ -4,25 +4,26 @@ Deployment guide for the $1/mo Creator plan (Supabase Auth + Storage + Postgres,
 
 ## Supabase
 
-1. Create a project at https://supabase.com. Note the project URL, anon key, and service role key.
-2. Run the SQL below in the SQL editor.
-3. Create a Storage bucket named `comics` (public: false).
+Project: `https://xaawyyvtqttoudwqxabw.supabase.co` (anon + service-role keys in the
+local `.env`; DB password in `plans/Hempforge.txt`). Schema, trigger, and the `comics`
+bucket are **already applied** (2026-08-13 via `scripts/supabase_setup.py`).
+To re-run: `set CME_DB_PASSWORD=... && python scripts/supabase_setup.py`.
 
 ```sql
-create table if not exists users (
+create table if not exists public.users (
   id uuid primary key default gen_random_uuid(),
   supabase_uid uuid unique references auth.users(id),
   email text,
   stripe_customer_id text,
   plan text default 'free',
   subscription_status text default 'inactive',
-  current_period_end timestamptz,
+  current_period_end bigint,          -- unix epoch seconds (matches is_creator check)
   created_at timestamptz default now()
 );
 
-create table if not exists comics (
+create table if not exists public.comics (
   id uuid primary key default gen_random_uuid(),
-  user_id uuid references users(id),
+  user_id uuid references public.users(id),
   filename text,
   storage_path text,
   size_bytes bigint,
@@ -32,14 +33,33 @@ create table if not exists comics (
   created_at timestamptz default now()
 );
 
-create table if not exists insights (
+create table if not exists public.insights (
   id uuid primary key default gen_random_uuid(),
-  comic_id uuid references comics(id),
-  user_id uuid references users(id),
+  comic_id uuid references public.comics(id),
+  user_id uuid references public.users(id),
   report jsonb,
   created_at timestamptz default now()
 );
+
+-- Auto-create a users row on signup so Stripe can grant Creator.
+create or replace function public.handle_new_user()
+returns trigger language plpgsql security definer set search_path = public
+as $$
+begin
+  insert into public.users (supabase_uid, email, plan, subscription_status)
+  values (new.id, new.email, 'free', 'inactive')
+  on conflict (supabase_uid) do nothing;
+  return new;
+end;
+$$;
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created
+  after insert on auth.users
+  for each row execute procedure public.handle_new_user();
 ```
+
+Storage: bucket `comics` (private, 25 MB file limit). The backend uploads with the
+service-role key, so RLS is bypassed and ownership is enforced in code via `user_id`.
 
 ## Stripe
 
