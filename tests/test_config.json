@@ -1,0 +1,79 @@
+{
+  "unit_tests": {
+    "enabled": true,
+    "coverage_target": 0.8,
+    "timeout": 300,
+    "test_patterns": [
+      "test_*.py",
+      "*_test.py"
+    ],
+    "exclude_patterns": [
+      "__pycache__",
+      ".pytest_cache"
+    ]
+  },
+  "integration_tests": {
+    "enabled": true,
+    "coverage_target": 0.7,
+    "timeout": 600,
+    "environments": [
+      "development",
+      "staging"
+    ],
+    "dependencies": [
+      "database",
+      "cache",
+      "external_apis"
+    ]
+  },
+  "performance_tests": {
+    "enabled": true,
+    "targets": {
+      "response_time": 1000,
+      "throughput": 100,
+      "concurrent_users": 50,
+      "error_rate": 0.01
+    },
+    "duration": 300,
+    "ramp_up": 60
+  },
+  "load_tests": {
+    "enabled": true,
+    "scenarios": [
+      {
+        "name": "protocol_generation_load",
+        "users": 100,
+        "duration": 300,
+        "spawn_rate": 10
+      },
+      {
+        "name": "content_generation_load",
+        "users": 50,
+        "duration": 600,
+        "spawn_rate": 5
+      },
+      {
+        "name": "search_operations_load",
+        "users": 200,
+        "duration": 300,
+        "spawn_rate": 20
+      }
+    ]
+  },
+  "security_tests": {
+    "enabled": true,
+    "tests": [
+      "sql_injection",
+      "xss",
+      "csrf",
+      "authentication",
+      "authorization"
+    ],
+    "frequency": "weekly",
+    "tools": [
+      "bandit",
+      "safety",
+      "trivy"
+    ]
+  }
+}

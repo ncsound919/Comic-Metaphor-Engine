@@ -1,0 +1,79 @@
+<file_path>
+Build Lab\Book-Writing-Assistant--main\Comic Metaphor Logic\comic_books\sample_comic.txt
+</file_path>
+
+<edit_description>
+Create a sample comic book file for testing the analysis feature
+</edit_description>
+
+1. The "Civil War" Protocol
+
+Source Material:
+Civil War (2006-2007) - A Marvel Comics crossover event where superheroes are divided over the Superhero Registration Act, leading to conflict between friends and allies.
+
+The Narrative:
+In a world where superheroes are beloved celebrities, a catastrophic incident causes public opinion to turn against them. The government proposes the Superhero Registration Act, requiring all heroes to register their identities and operate under government oversight. This divides the hero community: Iron Man supports registration for accountability, while Captain America opposes it as an infringement on freedom. The conflict escalates into a full-scale civil war among heroes, testing loyalties, friendships, and the very nature of heroism.
+
+The Business Translation
+Civil War represents the tension between individual autonomy and collective responsibility in organizations. It explores how mandatory compliance policies can fracture teams, how leaders must choose between principle and pragmatism, and how conflicts can destroy relationships even among allies. The story shows the cost of division and the importance of reconciliation in maintaining organizational integrity.
+
+* D1 (Bio/Internal): Evolutionary Conflict
+* Logic: Internal divisions within teams mirror biological evolution - adaptation vs. preservation of core identity. Heroes must evolve or risk extinction.
+* Metric: Team cohesion score - measured by conflict resolution time and post-conflict productivity.
+
+* D2 (Tech/External): Registration Systems
+* Logic: External regulatory pressures force technological adaptation. Heroes must integrate surveillance and compliance tech into their operations.
+* Metric: Compliance adoption rate - percentage of team members fully integrated with new systems within 30 days.
+
+* D3 (Eco/Resources): Alliance Economics
+* Logic: Resource allocation during conflict prioritizes survival over growth. Alliances form and break based on resource needs.
+* Metric: Resource utilization efficiency - ratio of resources used for conflict vs. mission objectives.
+
+* D4 (Cosmic/Limit): Moral Entropy
+* Logic: Prolonged conflict leads to moral decay and loss of purpose. The universe imposes limits on how long division can persist.
+* Metric: Moral alignment index - deviation from core values over time, measured quarterly.
+
+Vector Entry (JSON):
+{
+  "id": "protocol_civil_war",
+  "archetype": "Civil War Pattern",
+  "business_logic": "Managing internal conflicts and regulatory compliance in high-stakes environments",
+  "application": "Organizational change management and conflict resolution",
+  "narrative": "Heroes divided by law, fighting friends in ideological battle"
+}
+
+2. The "Infinity War" Protocol
+
+Source Material:
+Infinity War (2018) - Thanos collects the Infinity Stones to wipe out half of all life, forcing heroes to unite against existential threat.
+
+The Narrative:
+Thanos, believing the universe is overpopulated, seeks to balance it by eliminating half of all living beings. He acquires the Infinity Stones, artifacts of immense power. The Avengers and their allies must overcome their differences to stop him, learning that unity is the only path to victory against overwhelming odds.
+
+The Business Translation
+Infinity War demonstrates the power of unified purpose against existential threats. It shows how diverse teams can overcome internal conflicts when faced with a common enemy, and how resource scarcity (the stones) drives strategic alliances and sacrifices.
+
+* D1 (Bio/Internal): Population Balance
+* Logic: Internal growth must be balanced with external capacity limits.
+* Metric: Growth sustainability ratio.
+
+* D2 (Tech/External): Infinity Tech Integration
+* Logic: Advanced technology requires careful integration to avoid catastrophic failure.
+* Metric: Technology adoption success rate.
+
+* D3 (Eco/Resources): Stone Economics
+* Logic: Critical resources drive strategic decisions and alliances.
+* Metric: Resource acquisition efficiency.
+
+* D4 (Cosmic/Limit): Universal Balance
+* Logic: Cosmic forces impose limits on expansion and power.
+* Metric: Balance maintenance index.
+
+Vector Entry (JSON):
+{
+  "id": "protocol_infinity_war",
+  "archetype": "Infinity War Pattern",
+  "business_logic": "Managing existential threats through strategic alliances",
+  "application": "Crisis management and cross-functional collaboration",
+  "narrative": "Universe threatened by imbalance, heroes unite against god-like power"
+}

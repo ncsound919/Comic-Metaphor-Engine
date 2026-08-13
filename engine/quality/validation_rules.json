@@ -1,0 +1,84 @@
+{
+  "protocol": {
+    "required_fields": [
+      "id",
+      "title",
+      "description",
+      "dimensions"
+    ],
+    "field_constraints": {
+      "id": {
+        "type": "string",
+        "min_length": 1,
+        "max_length": 100
+      },
+      "title": {
+        "type": "string",
+        "min_length": 5,
+        "max_length": 200
+      },
+      "description": {
+        "type": "string",
+        "min_length": 50,
+        "max_length": 1000
+      }
+    },
+    "dimension_requirements": {
+      "D1": {
+        "required": true,
+        "type": "string",
+        "min_length": 10
+      },
+      "D2": {
+        "required": true,
+        "type": "string",
+        "min_length": 10
+      },
+      "D3": {
+        "required": true,
+        "type": "string",
+        "min_length": 10
+      },
+      "D4": {
+        "required": true,
+        "type": "string",
+        "min_length": 10
+      }
+    }
+  },
+  "content": {
+    "required_fields": [
+      "title",
+      "body",
+      "format",
+      "metadata"
+    ],
+    "length_constraints": {
+      "title": {
+        "min": 5,
+        "max": 200
+      },
+      "body": {
+        "min": 100,
+        "max": 5000
+      }
+    },
+    "format_requirements": {
+      "markdown": {
+        "allowed": true,
+        "extensions": [
+          ".md",
+          ".markdown"
+        ]
+      },
+      "json": {
+        "allowed": true,
+        "pretty_print": true
+      },
+      "html": {
+        "allowed": true,
+        "minify": true
+      }
+    }
+  }
+}

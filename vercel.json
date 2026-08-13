@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 300
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/health",
+      "schedule": "*/10 * * * *"
+    }
+  ]
+}

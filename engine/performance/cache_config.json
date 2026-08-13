@@ -1,0 +1,47 @@
+{
+  "memory_cache": {
+    "enabled": true,
+    "max_size": 1000,
+    "ttl_seconds": 300,
+    "eviction_policy": "lru"
+  },
+  "disk_cache": {
+    "enabled": true,
+    "directory": "C:\\Users\\tap45\\Desktop\\Comic Metaphor Engine\\Comic Metaphor Logic\\engine\\performance\\cache",
+    "max_size_mb": 1000,
+    "compression": true
+  },
+  "redis_cache": {
+    "enabled": true,
+    "host": "localhost",
+    "port": 6379,
+    "db": 0,
+    "password": null,
+    "ssl": false
+  },
+  "cache_strategies": {
+    "protocols": {
+      "cache_key": "protocol:{id}",
+      "ttl": 3600,
+      "invalidation": [
+        "protocol_updated",
+        "protocol_deleted"
+      ]
+    },
+    "embeddings": {
+      "cache_key": "embedding:{hash}",
+      "ttl": 86400,
+      "invalidation": [
+        "model_updated"
+      ]
+    },
+    "search_results": {
+      "cache_key": "search:{query_hash}",
+      "ttl": 300,
+      "invalidation": [
+        "protocol_added",
+        "protocol_updated"
+      ]
+    }
+  }
+}

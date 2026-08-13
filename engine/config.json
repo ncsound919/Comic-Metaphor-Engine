@@ -1,0 +1,9 @@
+{
+  "orchestration": {
+    "engine": "draymond",
+    "workflows_enabled": true,
+    "automation_enabled": true,
+    "monitoring_enabled": true,
+    "workflow_directory": "workflows"
+  }
+}

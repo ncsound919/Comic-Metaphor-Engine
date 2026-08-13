@@ -1,0 +1,48 @@
+{
+  "name": "comic_metaphor_ci_cd",
+  "version": "1.0",
+  "stages": [
+    {
+      "name": "build",
+      "commands": [
+        "docker build -t comic-metaphor:latest .",
+        "docker tag comic-metaphor:latest comic-metaphor:$CI_COMMIT_SHA"
+      ]
+    },
+    {
+      "name": "test",
+      "commands": [
+        "pytest tests/",
+        "python -m pytest --cov=engine --cov-report=xml"
+      ]
+    },
+    {
+      "name": "deploy_development",
+      "environment": "development",
+      "commands": [
+        "docker-compose up -d",
+        "python scripts/health_check.py"
+      ],
+      "trigger": "push_to_main"
+    },
+    {
+      "name": "deploy_staging",
+      "environment": "staging",
+      "commands": [
+        "kubectl apply -f k8s/staging/",
+        "./scripts/deploy_staging.sh"
+      ],
+      "trigger": "manual"
+    },
+    {
+      "name": "deploy_production",
+      "environment": "production",
+      "commands": [
+        "kubectl apply -f k8s/production/",
+        "./scripts/deploy_production.sh"
+      ],
+      "trigger": "manual",
+      "approval_required": true
+    }
+  ]
+}

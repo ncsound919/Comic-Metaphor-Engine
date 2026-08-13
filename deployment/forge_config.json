@@ -1,0 +1,57 @@
+{
+  "project": "comic_metaphor_engine",
+  "version": "2.0.0",
+  "deployed_by": "cheetah_supreme_marathon",
+  "deployment_date": "2026-02-04T21:57:23.493787",
+  "environments": {
+    "development": {
+      "host": "localhost",
+      "port": 8000,
+      "database": "sqlite:///dev.db",
+      "features": [
+        "debug",
+        "hot_reload"
+      ]
+    },
+    "staging": {
+      "host": "staging.example.com",
+      "port": 8000,
+      "database": "postgresql://staging:password@localhost/comic_metaphor",
+      "features": [
+        "monitoring",
+        "logging"
+      ]
+    },
+    "production": {
+      "host": "api.comicmetaphor.com",
+      "port": 443,
+      "database": "postgresql://prod:password@localhost/comic_metaphor",
+      "features": [
+        "ssl",
+        "load_balancing",
+        "backups"
+      ]
+    }
+  },
+  "monitoring": {
+    "enabled": true,
+    "metrics": [
+      "cpu",
+      "memory",
+      "response_time",
+      "error_rate"
+    ],
+    "alert_thresholds": {
+      "cpu": 80,
+      "memory": 85,
+      "response_time": 1000,
+      "error_rate": 5
+    }
+  },
+  "scaling": {
+    "min_instances": 1,
+    "max_instances": 5,
+    "cpu_threshold": 70,
+    "memory_threshold": 75
+  }
+}

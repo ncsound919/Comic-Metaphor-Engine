@@ -1,0 +1,18 @@
+{
+  "name": "comic_metaphor_filesystem",
+  "type": "filesystem",
+  "root_path": "C:\\Users\\User\\Downloads\\Uplift\\02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic",
+  "allowed_operations": [
+    "read",
+    "write",
+    "list",
+    "search"
+  ],
+  "watch_patterns": [
+    "**/*.py",
+    "**/*.json",
+    "**/*.md"
+  ],
+  "cache_enabled": true,
+  "cache_size": 1000
+}

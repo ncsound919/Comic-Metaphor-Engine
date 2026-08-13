@@ -1,0 +1,56 @@
+[
+  {
+    "filename": "avengers_cosmic_complete.txt",
+    "path": "comic_books\\avengers_cosmic_complete.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 21297,
+    "file_hash": "32ca318a3d9e69430177ace2d1fa2b0c3e3513e6a4c41604a1caa28f5bc710c2",
+    "timestamp": "2026-01-18T13:43:37.454453"
+  },
+  {
+    "filename": "character_deep_dives_complete.txt",
+    "path": "comic_books\\character_deep_dives_complete.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 25775,
+    "file_hash": "9aa09d4561d3cbac33fbd9790ccf214a4189431bab5591b88731c1910f223bee",
+    "timestamp": "2026-01-18T13:43:40.120306"
+  },
+  {
+    "filename": "claremont_xmen_complete.txt",
+    "path": "comic_books\\claremont_xmen_complete.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 50090,
+    "file_hash": "3add2ab82d45f739a8e7067bc055de6266a2e9902907a563dd2ed5fc06a77a6e",
+    "timestamp": "2026-01-18T13:43:42.270499"
+  },
+  {
+    "filename": "cosmic_entities_complete.txt",
+    "path": "comic_books\\cosmic_entities_complete.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 53651,
+    "file_hash": "b0f9b9e30251fe47f5fdc6cbd384f078ff4ea3f9708f47bb37399ce2dcb5be85",
+    "timestamp": "2026-01-18T13:43:44.467662"
+  },
+  {
+    "filename": "sample_comic.txt",
+    "path": "comic_books\\sample_comic.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 4705,
+    "file_hash": "a5a0025ebaca011b4046a66a714e422040e573eaad9ea95abd2bb33de2ca0877",
+    "timestamp": "2026-01-18T13:43:47.672160"
+  },
+  {
+    "filename": "xmen_modern_era_complete.txt",
+    "path": "comic_books\\xmen_modern_era_complete.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 51056,
+    "file_hash": "842099ef99081b546817553419d3271e4075bac4de11eb8f44a758cda2d4bbf4",
+    "timestamp": "2026-01-18T13:43:49.221226"
+  }
+]

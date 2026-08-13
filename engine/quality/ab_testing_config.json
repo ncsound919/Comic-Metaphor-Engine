@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "default_sample_size": 100,
+  "significance_level": 0.05,
+  "power": 0.8,
+  "test_types": {
+    "protocol_generation": {
+      "metrics": [
+        "quality_score",
+        "generation_time",
+        "user_satisfaction"
+      ],
+      "min_sample_size": 50,
+      "max_duration": 86400
+    },
+    "content_format": {
+      "metrics": [
+        "engagement",
+        "completion_rate",
+        "share_rate"
+      ],
+      "min_sample_size": 100,
+      "max_duration": 172800
+    },
+    "ui_variations": {
+      "metrics": [
+        "click_through_rate",
+        "time_on_page",
+        "conversion_rate"
+      ],
+      "min_sample_size": 200,
+      "max_duration": 259200
+    }
+  }
+}

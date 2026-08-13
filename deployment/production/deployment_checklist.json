@@ -1,0 +1,31 @@
+{
+  "pre_deployment": [
+    "Run all tests",
+    "Check code coverage (target: 80%)",
+    "Validate configurations",
+    "Review security scan results",
+    "Backup current deployment"
+  ],
+  "deployment": [
+    "Build Docker image",
+    "Push to container registry",
+    "Update Kubernetes manifests",
+    "Apply deployment (rolling update)",
+    "Verify health checks",
+    "Monitor metrics during rollout"
+  ],
+  "post_deployment": [
+    "Run smoke tests",
+    "Verify API endpoints",
+    "Check monitoring dashboards",
+    "Test backup systems",
+    "Update documentation"
+  ],
+  "rollback_procedure": [
+    "Identify failed deployment",
+    "Scale down new deployment",
+    "Scale up previous deployment",
+    "Verify rollback success",
+    "Investigate failure cause"
+  ]
+}

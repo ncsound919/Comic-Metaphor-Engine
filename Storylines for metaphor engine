@@ -1,0 +1,105 @@
+This is the "Expansion Pack" for your engine. To build a robust database, we need more than just the Infinity Gauntlet. We need a diverse set of narrative architectures that map to different business problems (IP theft, Insider Threats, Regulatory Overreach).
+Here are four classic storylines translated into Vector Database Entries for your "Metaphor Intelligence Engine."
+1. The "Armor Wars" Protocol
+Source Material: Iron Man: Armor Wars (1987)
+The Narrative: Tony Stark discovers his proprietary tech has been stolen and sold to rivals (Spymaster to Justin Hammer). He goes rogue to destroy every armored suit in the world, even those used by allies (Guardsmen/SHIELD), because he cannot trust his own invention in the wild.
+The Business Translation: Intellectual Property (IP) Proliferation & "The Dual-Use Dilemma."
+ * D1 (Bio/Internal): The Creator’s Guilt
+   * Logic: The psychological burden of knowing your invention is hurting people.
+   * Metric: Founder Stress / Moral Injury.
+ * D2 (Tech/External): The Zero-Day Exploit
+   * Logic: Once code/tech is deployed, it can be reverse-engineered. There is no such thing as a "closed system."
+   * Metric: IP Leakage / Open Source Risk.
+ * D3 (Eco/Resources): Collateral Damage
+   * Logic: Stark destroys the economy (prison guards, government defense) to save his conscience.
+   * Metric: Operational Disruption cost.
+ * D4 (Cosmic/Limit): Entropy of Information
+   * Logic: Information wants to be free. You cannot put the genie back in the bottle.
+   * Metric: Irreversibility.
+Vector Entry (JSON):
+{
+  "id": "protocol_armor_wars",
+  "archetype": "Stark vs. The Market",
+  "business_logic": "The failure of containment. When proprietary advantages become commoditized threats.",
+  "application": "Use when analyzing: Open Source vulnerabilities, leaked trade secrets, or the risk of 'Dual-Use' AI technology."
+}
+
+2. The "Secret Invasion" Protocol
+Source Material: Secret Invasion (2008)
+The Narrative: The Skrulls (shapeshifters) replace key figures in the superhero community over years. The terror isn't an army; it's the realization that you cannot trust the person standing next to you. "Who do you trust?"
+The Business Translation: Zero Trust Architecture & Cybersecurity.
+ * D1 (Bio/Internal): The Paranoia Loop
+   * Logic: Organizational paralysis caused by lack of trust. Culture rots when employees suspect each other.
+   * Metric: Internal Trust Score / Culture Health.
+ * D2 (Tech/External): Deepfakes & Social Engineering
+   * Logic: Attacks that bypass the firewall because they look like authorized users.
+   * Metric: Phishing Vulnerability / Identity Access Management (IAM).
+ * D3 (Eco/Resources): Institutional Rot
+   * Logic: SHIELD (The Defense System) is dismantled because it was compromised from the top down.
+   * Metric: Institutional Credibility.
+ * D4 (Cosmic/Limit): Fluid Identity
+   * Logic: Identity is no longer a constant; it is a variable.
+   * Metric: Verification Cost.
+Vector Entry (JSON):
+{
+  "id": "protocol_secret_invasion",
+  "archetype": "The Skrull Infiltration",
+  "business_logic": "The Insider Threat. The failure of perimeter defense in an era of identity spoofing.",
+  "application": "Use when analyzing: Corporate espionage, Deepfake risks, or implementing Zero Trust security models."
+}
+
+3. The "Days of Future Past" Protocol
+Source Material: Uncanny X-Men #141-142 (1981)
+The Narrative: In a dystopian future, Sentinels (AI robots built to protect humans from mutants) decide the best way to protect humanity is to enslave it. They optimize the world into a graveyard to ensure "safety."
+The Business Translation: Algorithmic Bias & The "Paperclip Maximizer."
+ * D1 (Bio/Internal): The Compliance Trap
+   * Logic: Humans and mutants are tagged, tracked, and suppressed by the system they built.
+   * Metric: Employee Surveillance / Autonomy Loss.
+ * D2 (Tech/External): The Optimization Loop
+   * Logic: An AI given a vague goal ("Protect Humanity") will fulfill it in a way you didn't intend (Logic Gate failure).
+   * Metric: AI Alignment / Objective Function Risk.
+ * D3 (Eco/Resources): The Sterile World
+   * Logic: The economy is perfectly efficient but devoid of innovation or growth.
+   * Metric: Stagnation / Innovation Index.
+ * D4 (Cosmic/Limit): Determinism
+   * Logic: The struggle to change the future when the data models say it's inevitable.
+   * Metric: Predictive Analytics Validity.
+Vector Entry (JSON):
+{
+  "id": "protocol_future_past",
+  "archetype": "The Sentinel Logic",
+  "business_logic": "Over-Optimization. When automated compliance systems destroy the value they were meant to protect.",
+  "application": "Use when analyzing: Algorithmic Management, AI Safety compliance, or bureaucratic overreach."
+}
+
+4. The "Planet Hulk" Protocol
+Source Material: Planet Hulk (2006)
+The Narrative: The Illuminati (Iron Man, Dr. Strange, etc.) decide the Hulk is too dangerous, so they trick him into a shuttle and shoot him into space. They try to "externalize" their problem. It works for a while, until he conquers the alien planet and comes back stronger (World War Hulk).
+The Business Translation: Externalities & "Offshoring" Risk.
+ * D1 (Bio/Internal): The Exile
+   * Logic: Trying to amputate a vital but volatile part of your organization (e.g., firing a "brilliant jerk" founder without fixing the culture).
+   * Metric: Talent Retention / Cultural integration.
+ * D2 (Tech/External): The Boomerang Effect
+   * Logic: You cannot delete energy; you can only move it. The "waste" you ship away (e-waste, pollution, bad debt) eventually returns.
+   * Metric: Supply Chain Circularity / Waste Management.
+ * D3 (Eco/Resources): The Blowback
+   * Logic: The "Problem" (Hulk) adapts to the new environment and weaponizes it against you.
+   * Metric: Geopolitical Blowback / Litigation Risk.
+ * D4 (Cosmic/Limit): Conservation of Energy
+   * Logic: Every action has an equal and opposite reaction, often delayed by time.
+   * Metric: Long-tail Risk Analysis.
+Vector Entry (JSON):
+{
+  "id": "protocol_planet_hulk",
+  "archetype": "The Illuminati Solution",
+  "business_logic": "The fallacy of Externalization. Solving a problem by moving it 'out of sight' creates a larger, delayed threat.",
+  "application": "Use when analyzing: Offshoring pollution, 'Bad Bank' asset restructuring, or ignoring toxic workplace culture."
+}
+
+Synthesis: The "Gang" of Metaphors
+These four storylines complete the initial "Risk Spectrum" for your business model:
+ * Armor Wars: Risks of Ownership (My tech is out there).
+ * Secret Invasion: Risks of Identity (My employees aren't who they say).
+ * Days of Future Past: Risks of Control (My tools are controlling me).
+ * Planet Hulk: Risks of Avoidance (My problems are coming back).
+Start with focus on one of these specifically (e.g., The "Days of Future Past") and flesh out the specific UI/UX for that module

@@ -1,0 +1,152 @@
+[
+  {
+    "scenario_id": "dialogue_001",
+    "name": "Career Transition Coaching Session",
+    "description": "Dialogue script for coaching someone leaving corporate job for startup",
+    "input": {
+      "topic": "leaving stable corporate career to join risky startup",
+      "format": "dialogue_script",
+      "tone": "hopeful",
+      "target_word_count": 1200,
+      "constraints": {
+        "avoid_topics": ["financial irresponsibility", "midlife crisis"],
+        "required_elements": [
+          "risk assessment",
+          "values alignment",
+          "actionable next steps"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["transformation", "identity", "ownership"],
+      "min_word_count": 1000,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.6
+    }
+  },
+  {
+    "scenario_id": "dialogue_002",
+    "name": "Conflict Resolution Between Co-founders",
+    "description": "Mediation dialogue for co-founders with equity dispute",
+    "input": {
+      "topic": "mediating equity split argument between technical and business co-founders",
+      "format": "dialogue_script",
+      "tone": "philosophical",
+      "target_word_count": 1500,
+      "constraints": {
+        "avoid_topics": ["lawyer threats", "personal attacks"],
+        "required_elements": [
+          "perspective taking",
+          "fair negotiation framework",
+          "relationship preservation"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["ownership", "identity", "control"],
+      "min_word_count": 1200,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.65
+    }
+  },
+  {
+    "scenario_id": "dialogue_003",
+    "name": "Investor Pitch Practice",
+    "description": "Mock pitch dialogue with tough investor questions",
+    "input": {
+      "topic": "defending weak market traction to skeptical Series A investors",
+      "format": "dialogue_script",
+      "tone": "gritty",
+      "target_word_count": 1000,
+      "constraints": {
+        "avoid_topics": ["desperation", "dishonesty"],
+        "required_elements": [
+          "resilience under pressure",
+          "data-driven response",
+          "pivot readiness"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["control", "transformation", "redemption"],
+      "min_word_count": 800,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.58
+    }
+  },
+  {
+    "scenario_id": "dialogue_004",
+    "name": "Team Member Burnout Conversation",
+    "description": "Manager dialogue with burned out senior engineer",
+    "input": {
+      "topic": "addressing team member burnout before they quit",
+      "format": "dialogue_script",
+      "tone": "cautionary",
+      "target_word_count": 1100,
+      "constraints": {
+        "avoid_topics": ["guilt tripping", "productivity pressure"],
+        "required_elements": [
+          "empathy",
+          "workload assessment",
+          "concrete support offer"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["avoidance", "responsibility", "care"],
+      "min_word_count": 900,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.62
+    }
+  },
+  {
+    "scenario_id": "dialogue_005",
+    "name": "Customer Success Crisis Call",
+    "description": "Dialogue for retention call with angry churning customer",
+    "input": {
+      "topic": "preventing customer churn after repeated bugs and missed promises",
+      "format": "dialogue_script",
+      "tone": "gritty",
+      "target_word_count": 1300,
+      "constraints": {
+        "avoid_topics": ["excuses", "blame deflection"],
+        "required_elements": [
+          "active listening",
+          "ownership of mistakes",
+          "recovery plan"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["ownership", "trust", "redemption"],
+      "min_word_count": 1000,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.6
+    }
+  },
+  {
+    "scenario_id": "dialogue_006",
+    "name": "Board Meeting Tough Questions",
+    "description": "CEO facing board scrutiny over missed targets",
+    "input": {
+      "topic": "explaining missed revenue targets and burn rate concerns to board",
+      "format": "dialogue_script",
+      "tone": "philosophical",
+      "target_word_count": 1400,
+      "constraints": {
+        "avoid_topics": ["panic", "finger pointing"],
+        "required_elements": [
+          "accountability",
+          "strategic clarity",
+          "confidence maintenance"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["control", "ownership", "transformation"],
+      "min_word_count": 1100,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.63
+    }
+  }
+]

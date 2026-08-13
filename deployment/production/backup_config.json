@@ -1,0 +1,26 @@
+{
+  "schedule": "0 2 * * *",
+  "retention_days": 30,
+  "backup_targets": {
+    "database": {
+      "enabled": true,
+      "type": "postgresql",
+      "schedule": "0 3 * * *"
+    },
+    "knowledge_base": {
+      "enabled": true,
+      "type": "json",
+      "schedule": "0 4 * * *"
+    },
+    "embeddings": {
+      "enabled": true,
+      "type": "numpy",
+      "schedule": "0 5 * * *"
+    }
+  },
+  "storage": {
+    "type": "s3",
+    "bucket": "comic-metaphor-backups",
+    "region": "us-east-1"
+  }
+}

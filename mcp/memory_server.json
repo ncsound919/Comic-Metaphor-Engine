@@ -1,0 +1,9 @@
+{
+  "name": "comic_metaphor_memory",
+  "type": "memory",
+  "storage_backend": "sqlite",
+  "database_path": "C:\\Users\\User\\Downloads\\Uplift\\02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\mcp\\memory.db",
+  "max_context_size": 10000,
+  "retention_days": 30,
+  "compression_enabled": true
+}

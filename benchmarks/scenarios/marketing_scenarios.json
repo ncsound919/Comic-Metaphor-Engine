@@ -1,0 +1,123 @@
+[
+  {
+    "scenario_id": "marketing_001",
+    "name": "Product Launch Email Campaign",
+    "description": "Marketing email for a new productivity tool launch",
+    "input": {
+      "topic": "launching a productivity app that fights procrastination",
+      "format": "marketing_email",
+      "tone": "hopeful",
+      "target_word_count": 800,
+      "constraints": {
+        "avoid_topics": ["medical conditions", "therapy"],
+        "required_elements": [
+          "clear call-to-action",
+          "social proof hint",
+          "urgency"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["control", "transformation", "identity"],
+      "min_word_count": 600,
+      "must_contain_beats": 3,
+      "trueness_threshold": 0.55
+    }
+  },
+  {
+    "scenario_id": "marketing_002",
+    "name": "Founder Story Newsletter",
+    "description": "Newsletter sharing founder's journey through pivot",
+    "input": {
+      "topic": "surviving a startup pivot after losing key customer",
+      "format": "marketing_email",
+      "tone": "gritty",
+      "target_word_count": 1200,
+      "constraints": {
+        "avoid_topics": ["bankruptcy", "suicide"],
+        "required_elements": [
+          "vulnerability",
+          "lesson learned",
+          "forward momentum"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["avoidance", "ownership", "redemption"],
+      "min_word_count": 1000,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.6
+    }
+  },
+  {
+    "scenario_id": "marketing_003",
+    "name": "B2B Partnership Pitch",
+    "description": "Email pitching strategic partnership to another company",
+    "input": {
+      "topic": "proposing a data sharing partnership between competing platforms",
+      "format": "marketing_email",
+      "tone": "philosophical",
+      "target_word_count": 1000,
+      "constraints": {
+        "avoid_topics": ["legal threats", "hostility"],
+        "required_elements": ["mutual benefit", "trust building", "next steps"]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["identity", "trust", "transformation"],
+      "min_word_count": 800,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.58
+    }
+  },
+  {
+    "scenario_id": "marketing_004",
+    "name": "Crisis Communication Email",
+    "description": "Damage control email after service outage",
+    "input": {
+      "topic": "apologizing for week-long service outage that lost customer data",
+      "format": "marketing_email",
+      "tone": "cautionary",
+      "target_word_count": 900,
+      "constraints": {
+        "avoid_topics": ["blame shifting", "minimizing"],
+        "required_elements": [
+          "accountability",
+          "concrete action plan",
+          "rebuilding trust"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["ownership", "responsibility", "redemption"],
+      "min_word_count": 700,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.65
+    }
+  },
+  {
+    "scenario_id": "marketing_005",
+    "name": "Feature Announcement Blog Post",
+    "description": "Marketing content announcing major new AI feature",
+    "input": {
+      "topic": "announcing AI automation that might replace some user workflows",
+      "format": "blog_post",
+      "tone": "hopeful",
+      "target_word_count": 1500,
+      "constraints": {
+        "avoid_topics": ["job loss", "replacement anxiety"],
+        "required_elements": [
+          "empowerment narrative",
+          "use cases",
+          "gradual adoption path"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["transformation", "control", "evolution"],
+      "min_word_count": 1200,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.6
+    }
+  }
+]

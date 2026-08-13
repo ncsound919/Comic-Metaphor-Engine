@@ -1,0 +1,35 @@
+{
+  "prometheus": {
+    "enabled": true,
+    "scrape_interval": "30s",
+    "metrics_path": "/metrics",
+    "port": 8000
+  },
+  "grafana": {
+    "enabled": true,
+    "dashboard": "comic-metaphor-dashboard.json",
+    "datasource": "prometheus"
+  },
+  "alerts": {
+    "cpu_usage": {
+      "threshold": 80,
+      "duration": "5m",
+      "severity": "warning"
+    },
+    "memory_usage": {
+      "threshold": 85,
+      "duration": "5m",
+      "severity": "warning"
+    },
+    "error_rate": {
+      "threshold": 5,
+      "duration": "5m",
+      "severity": "critical"
+    },
+    "response_time": {
+      "threshold": 1000,
+      "duration": "5m",
+      "severity": "warning"
+    }
+  }
+}

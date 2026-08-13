@@ -1,0 +1,173 @@
+[
+  {
+    "scenario_id": "podcast_001",
+    "name": "Startup Burnout Episode",
+    "description": "Solo podcast episode about founder burnout",
+    "input": {
+      "topic": "dealing with startup founder burnout after product launch failure",
+      "format": "podcast_monologue",
+      "tone": "hopeful",
+      "target_word_count": 1500,
+      "constraints": {
+        "avoid_topics": ["depression medication"],
+        "required_elements": ["actionable advice", "personal story feel"]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["ownership", "transformation", "redemption"],
+      "min_word_count": 1200,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.6
+    }
+  },
+  {
+    "scenario_id": "podcast_002",
+    "name": "Identity Crisis in Tech Leadership",
+    "description": "Episode about technical founders struggling with CEO role",
+    "input": {
+      "topic": "technical founder struggling with transition to full-time CEO role",
+      "format": "podcast_monologue",
+      "tone": "philosophical",
+      "target_word_count": 1800,
+      "constraints": {
+        "avoid_topics": ["imposter syndrome pathology"],
+        "required_elements": [
+          "identity exploration",
+          "practical delegation tips",
+          "self-compassion"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["identity", "transformation", "control"],
+      "min_word_count": 1400,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.62
+    }
+  },
+  {
+    "scenario_id": "podcast_003",
+    "name": "Scaling Culture Wars",
+    "description": "Episode on maintaining culture during rapid growth",
+    "input": {
+      "topic": "preserving startup culture while scaling from 20 to 200 employees",
+      "format": "podcast_monologue",
+      "tone": "cautionary",
+      "target_word_count": 1600,
+      "constraints": {
+        "avoid_topics": ["nostalgia trap", "resistance to change"],
+        "required_elements": [
+          "concrete systems",
+          "warning signs",
+          "evolution mindset"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["control", "identity", "evolution"],
+      "min_word_count": 1300,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.58
+    }
+  },
+  {
+    "scenario_id": "podcast_004",
+    "name": "When Competitors Become Partners",
+    "description": "Episode about strategic partnerships with former rivals",
+    "input": {
+      "topic": "navigating partnership with direct competitor after market consolidation",
+      "format": "podcast_monologue",
+      "tone": "gritty",
+      "target_word_count": 1400,
+      "constraints": {
+        "avoid_topics": ["paranoia", "conspiracy theories"],
+        "required_elements": [
+          "trust building",
+          "boundary setting",
+          "mutual benefit"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["identity", "trust", "transformation"],
+      "min_word_count": 1100,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.6
+    }
+  },
+  {
+    "scenario_id": "podcast_005",
+    "name": "The Pivot Decision",
+    "description": "Episode about knowing when to pivot vs persevere",
+    "input": {
+      "topic": "deciding whether to pivot business model after two years of slow growth",
+      "format": "podcast_monologue",
+      "tone": "hopeful",
+      "target_word_count": 1700,
+      "constraints": {
+        "avoid_topics": ["sunk cost fallacy shaming"],
+        "required_elements": [
+          "decision framework",
+          "signal vs noise",
+          "team alignment"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["control", "transformation", "ownership"],
+      "min_word_count": 1400,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.63
+    }
+  },
+  {
+    "scenario_id": "podcast_006",
+    "name": "Raising Money vs Staying Bootstrapped",
+    "description": "Episode exploring venture funding decision",
+    "input": {
+      "topic": "weighing venture capital versus staying bootstrapped with profitable business",
+      "format": "podcast_monologue",
+      "tone": "philosophical",
+      "target_word_count": 1500,
+      "constraints": {
+        "avoid_topics": ["anti-VC ideology", "get rich quick"],
+        "required_elements": [
+          "values alignment",
+          "growth trajectory analysis",
+          "optionality"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["control", "ownership", "identity"],
+      "min_word_count": 1200,
+      "must_contain_beats": 4,
+      "trueness_threshold": 0.6
+    }
+  },
+  {
+    "scenario_id": "podcast_007",
+    "name": "Firing Your Best Friend",
+    "description": "Episode about letting go of early team members",
+    "input": {
+      "topic": "firing co-founder who is no longer contributing as company scales",
+      "format": "podcast_monologue",
+      "tone": "gritty",
+      "target_word_count": 1600,
+      "constraints": {
+        "avoid_topics": ["betrayal language", "villainization"],
+        "required_elements": [
+          "compassion",
+          "business necessity",
+          "process clarity"
+        ]
+      }
+    },
+    "expected_outputs": {
+      "protocol_categories": ["ownership", "responsibility", "transformation"],
+      "min_word_count": 1300,
+      "must_contain_beats": 5,
+      "trueness_threshold": 0.65
+    }
+  }
+]

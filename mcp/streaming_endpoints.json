@@ -1,0 +1,41 @@
+[
+  {
+    "name": "protocol_stream",
+    "description": "Real-time protocol generation stream",
+    "endpoint": "/mcp/stream/protocols",
+    "format": "server-sent-events",
+    "events": [
+      "protocol_generated",
+      "protocol_updated",
+      "protocol_validated"
+    ],
+    "authentication": "bearer_token",
+    "rate_limit": "100/hour"
+  },
+  {
+    "name": "metaphor_stream",
+    "description": "Real-time metaphor mapping stream",
+    "endpoint": "/mcp/stream/metaphors",
+    "format": "server-sent-events",
+    "events": [
+      "query_received",
+      "mapping_generated",
+      "content_created"
+    ],
+    "authentication": "bearer_token",
+    "rate_limit": "200/hour"
+  },
+  {
+    "name": "system_stream",
+    "description": "System health and metrics stream",
+    "endpoint": "/mcp/stream/system",
+    "format": "server-sent-events",
+    "events": [
+      "health_check",
+      "metric_update",
+      "error_occurred"
+    ],
+    "authentication": "api_key",
+    "rate_limit": "60/minute"
+  }
+]

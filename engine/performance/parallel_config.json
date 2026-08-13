@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "max_workers": 4,
+  "batch_size": 10,
+  "timeout": 300,
+  "use_process_pool": true,
+  "operations": {
+    "protocol_generation": {
+      "parallelizable": true,
+      "batch_size": 5,
+      "timeout": 60
+    },
+    "embedding_computation": {
+      "parallelizable": true,
+      "batch_size": 20,
+      "timeout": 120
+    },
+    "content_generation": {
+      "parallelizable": true,
+      "batch_size": 3,
+      "timeout": 90
+    }
+  }
+}

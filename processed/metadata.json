@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "last_updated": "2026-01-18T13:32:44.621549",
+  "stats": {
+    "universes": 1,
+    "characters": 0,
+    "arcs": 0,
+    "protocols": 6,
+    "tropes": 0
+  },
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_dim": 384
+}

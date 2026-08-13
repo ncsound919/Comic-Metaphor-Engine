@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+ui-v2/node_modules/
+ui-v2/dist/
+
+# Logs / scratch / backups
+*.log
+output/
+backups/
+*_backup/
+
+# Large source-media / scratch assets
+X-Men*/
+Exotic Detection/
+Life Tracer/
+Live Impact Tracker/
+*.m4a
+*.png
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

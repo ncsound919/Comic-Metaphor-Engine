@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_at": "2026-01-14T06:32:04.360742",
+    "total_protocols": 0,
+    "dimensions_count": 4,
+    "cosmic_tiers": [
+      "street",
+      "planetary",
+      "cosmic",
+      "universal",
+      "multiversal"
+    ]
+  },
+  "protocols": [],
+  "characters": {},
+  "storylines": {},
+  "business_domains": {},
+  "cosmic_entities": {}
+}

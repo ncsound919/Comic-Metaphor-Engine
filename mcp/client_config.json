@@ -1,0 +1,19 @@
+{
+  "name": "comic_metaphor_mcp_client",
+  "version": "1.0",
+  "servers": [
+    "filesystem_server",
+    "memory_server",
+    "thinking_server"
+  ],
+  "connection": {
+    "timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 5
+  },
+  "caching": {
+    "enabled": true,
+    "ttl": 300,
+    "max_size": 1000
+  }
+}
