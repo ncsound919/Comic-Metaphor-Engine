@@ -47,3 +47,6 @@ supabase>=2.5.0
 stripe>=9.0.0
 python-multipart>=0.0.9
 a2wsgi>=1.10.0
+
+# Internal fleet tool: MCP server for agent access (mcp/server.py)
+mcp>=1.0.0
