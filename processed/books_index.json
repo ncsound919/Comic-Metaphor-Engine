@@ -1,56 +1,155 @@
 [
   {
     "filename": "avengers_cosmic_complete.txt",
-    "path": "comic_books\\avengers_cosmic_complete.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\comic_books\\avengers_cosmic_complete.txt",
     "source_type": "txt",
     "page_count": 0,
     "text_chars": 21297,
     "file_hash": "32ca318a3d9e69430177ace2d1fa2b0c3e3513e6a4c41604a1caa28f5bc710c2",
-    "timestamp": "2026-01-18T13:43:37.454453"
+    "timestamp": "2026-08-17T05:49:35.356377"
   },
   {
     "filename": "character_deep_dives_complete.txt",
-    "path": "comic_books\\character_deep_dives_complete.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\comic_books\\character_deep_dives_complete.txt",
     "source_type": "txt",
     "page_count": 0,
     "text_chars": 25775,
     "file_hash": "9aa09d4561d3cbac33fbd9790ccf214a4189431bab5591b88731c1910f223bee",
-    "timestamp": "2026-01-18T13:43:40.120306"
+    "timestamp": "2026-08-17T05:49:35.356377"
   },
   {
     "filename": "claremont_xmen_complete.txt",
-    "path": "comic_books\\claremont_xmen_complete.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\comic_books\\claremont_xmen_complete.txt",
     "source_type": "txt",
     "page_count": 0,
     "text_chars": 50090,
     "file_hash": "3add2ab82d45f739a8e7067bc055de6266a2e9902907a563dd2ed5fc06a77a6e",
-    "timestamp": "2026-01-18T13:43:42.270499"
+    "timestamp": "2026-08-17T05:49:35.438838"
   },
   {
     "filename": "cosmic_entities_complete.txt",
-    "path": "comic_books\\cosmic_entities_complete.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\comic_books\\cosmic_entities_complete.txt",
     "source_type": "txt",
     "page_count": 0,
     "text_chars": 53651,
     "file_hash": "b0f9b9e30251fe47f5fdc6cbd384f078ff4ea3f9708f47bb37399ce2dcb5be85",
-    "timestamp": "2026-01-18T13:43:44.467662"
+    "timestamp": "2026-08-17T05:49:35.466544"
   },
   {
     "filename": "sample_comic.txt",
-    "path": "comic_books\\sample_comic.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\comic_books\\sample_comic.txt",
     "source_type": "txt",
     "page_count": 0,
     "text_chars": 4705,
     "file_hash": "a5a0025ebaca011b4046a66a714e422040e573eaad9ea95abd2bb33de2ca0877",
-    "timestamp": "2026-01-18T13:43:47.672160"
+    "timestamp": "2026-08-17T05:49:35.539979"
   },
   {
     "filename": "xmen_modern_era_complete.txt",
-    "path": "comic_books\\xmen_modern_era_complete.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\comic_books\\xmen_modern_era_complete.txt",
     "source_type": "txt",
     "page_count": 0,
     "text_chars": 51056,
     "file_hash": "842099ef99081b546817553419d3271e4075bac4de11eb8f44a758cda2d4bbf4",
-    "timestamp": "2026-01-18T13:43:49.221226"
+    "timestamp": "2026-08-17T05:49:35.556053"
+  },
+  {
+    "filename": "books_biotech.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_biotech.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 97462,
+    "file_hash": "be64fceebdba67c7ac5b94c21505fefcfa0799c9857db3c50259ef98a0c30575",
+    "timestamp": "2026-08-17T05:50:18.313478"
+  },
+  {
+    "filename": "books_coding.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_coding.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 309839,
+    "file_hash": "2d2592d106fdc447dbcd7fd27e64f920137a4629ff33a101cfde1675eb6cc9f1",
+    "timestamp": "2026-08-17T05:50:18.400157"
+  },
+  {
+    "filename": "books_economics.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_economics.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 88453,
+    "file_hash": "860b71164790daf9b6abfb512f0883fd9821724031556ea8d6efd65cc83d6a81",
+    "timestamp": "2026-08-17T05:50:18.427409"
+  },
+  {
+    "filename": "books_entrepreneurship.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_entrepreneurship.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 36998,
+    "file_hash": "a808ed5218a4769c69c2f15beea3f65bf04a2b080e33e915692f3241acaaa730",
+    "timestamp": "2026-08-17T05:50:18.500066"
+  },
+  {
+    "filename": "books_finance.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_finance.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 93887,
+    "file_hash": "019fe599e516522af3efc0022b9c910ede9ab9697cca6aecd52f604895febbd5",
+    "timestamp": "2026-08-17T05:50:18.554440"
+  },
+  {
+    "filename": "books_leadership.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_leadership.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 40896,
+    "file_hash": "f70be9a16e6f0146323f0fbbc9ab3ef99b3840412ffebaf7676533bec0e953ef",
+    "timestamp": "2026-08-17T05:50:18.602046"
+  },
+  {
+    "filename": "books_marketing.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_marketing.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 34215,
+    "file_hash": "7069e6312f219199614239f4ee2d0e9cd70aa0c5ae4386f6d51818b32c899d44",
+    "timestamp": "2026-08-17T05:50:18.652602"
+  },
+  {
+    "filename": "books_operations.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_operations.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 81172,
+    "file_hash": "b3eafa6c73e57cfff55f268dba8acd80ea18ef028cca0a6204655f6719e2cd31",
+    "timestamp": "2026-08-17T05:50:18.703552"
+  },
+  {
+    "filename": "books_psychology.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_psychology.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 249657,
+    "file_hash": "815dec26e9f5241a9e2351285ad0ac3a797f9d56f2dd6bbe9c4050a5a0712343",
+    "timestamp": "2026-08-17T05:50:18.791279"
+  },
+  {
+    "filename": "books_sales.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_sales.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 2608,
+    "file_hash": "7ba9e09562dd5afb26d4137f13f4b3ade537cf973e5a1036a1126e2e99dba603",
+    "timestamp": "2026-08-17T05:50:18.826000"
+  },
+  {
+    "filename": "books_strategy.txt",
+    "path": "02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic\\business_books\\books_strategy.txt",
+    "source_type": "txt",
+    "page_count": 0,
+    "text_chars": 38316,
+    "file_hash": "5f0d49a3c2e5be44eeb1c9011620e474a834e82465eebfb1013ff12f3f517e6a",
+    "timestamp": "2026-08-17T05:50:18.883898"
   }
 ]

@@ -9,3 +9,13 @@ ui-v2
 benchmarks
 output
 Test Results
+
+# Large local source-media / scratch assets
+X-Men*/
+Exotic Detection/
+Life Tracer/
+Live Impact Tracker/
+enhanced_output/
+*.png
+*.m4a
+*.log

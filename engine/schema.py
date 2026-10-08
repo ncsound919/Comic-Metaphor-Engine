@@ -107,6 +107,67 @@ class ProtocolType(Enum):
     CUSTOM = "custom"
 
 
+class StrategyType(Enum):
+    """Competitive strategy archetypes (Porter + modern strategy canon)."""
+
+    COST_LEADERSHIP = "cost_leadership"
+    DIFFERENTIATION = "differentiation"
+    FOCUS = "focus"
+    BLUE_OCEAN = "blue_ocean"
+    PLATFORM = "platform"
+    NETWORK_EFFECT = "network_effect"
+    VERTICAL_INTEGRATION = "vertical_integration"
+    HORIZONTAL_EXPANSION = "horizontal_expansion"
+    SUBSCRIPTION_RECURRING = "subscription_recurring"
+    ECOSYSTEM = "ecosystem"
+    ADVERSARIAL = "adversarial"
+    SURVIVAL_CONSERVATION = "survival_conservation"
+    TRANSFORMATIONAL = "transformational"
+    DISTRIBUTION_PLAY = "distribution_play"
+    FRANCHISE_SCALING = "franchise_scaling"
+
+
+class MoatType(Enum):
+    """Defensibility / economic moat classifications."""
+
+    NETWORK_EFFECTS = "network_effects"
+    SWITCHING_COSTS = "switching_costs"
+    BRAND = "brand"
+    PROPRIETARY_TECH = "proprietary_tech"
+    SCALE_ECONOMIES = "scale_economies"
+    REGULATORY = "regulatory"
+    DISTRIBUTION = "distribution"
+    DATA_MOAT = "data_moat"
+    TALENT = "talent"
+    NONE_NA = "none_na"
+
+
+class ValueChainStage(Enum):
+    """Where the strategy creates value in the value chain."""
+
+    R_D = "r_and_d"
+    INBOUND_LOGISTICS = "inbound_logistics"
+    OPERATIONS = "operations"
+    OUTBOUND_LOGISTICS = "outbound_logistics"
+    MARKETING_SALES = "marketing_sales"
+    SERVICE = "service"
+    PLATFORM_INFRA = "platform_infrastructure"
+    ECOSYSTEM_ORCHESTRATION = "ecosystem_orchestration"
+
+
+class BusinessModelLever(Enum):
+    """The primary lever a strategy pulls (unit economics drivers)."""
+
+    VOLUME = "volume"
+    PRICE = "price"
+    MARGIN = "margin"
+    RETENTION = "retention"
+    ACQUISITION = "acquisition"
+    FREQUENCY = "frequency"
+    EXPANSION = "expansion"
+    COMPOUNDING = "compounding"
+
+
 # =============================================================================
 # CORE DATA MODELS
 # =============================================================================
@@ -188,6 +249,67 @@ class BusinessVector:
             risk_level=data.get("risk_level", 0.5),
             opportunity_level=data.get("opportunity_level", 0.5),
         )
+
+
+@dataclass
+class BusinessStrategy:
+    """
+    Strategic analysis layer for a protocol.
+
+    Captures how a book/storyline's core logic maps onto competitive strategy:
+    which generic strategy it embodies, the defensibility (moat), where value is
+    created in the value chain, the primary unit-economics lever, the segment it
+    serves, and the strategic risks it warns about. The metaphor engine uses this
+    to reason about a business topic structurally (not just narratively).
+    """
+
+    strategy_type: StrategyType = StrategyType.DIFFERENTIATION
+    moat: MoatType = MoatType.NONE_NA
+    value_chain_stage: ValueChainStage = ValueChainStage.OPERATIONS
+    business_model_lever: BusinessModelLever = BusinessModelLever.MARGIN
+    target_segment: str = ""
+    strategic_risk: str = ""
+    key_principle: str = ""  # The one-line transferable business principle
+    strategy_tags: List[str] = field(default_factory=list)
+    confidence: float = 0.5
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "strategy_type": self.strategy_type.value,
+            "moat": self.moat.value,
+            "value_chain_stage": self.value_chain_stage.value,
+            "business_model_lever": self.business_model_lever.value,
+            "target_segment": self.target_segment,
+            "strategic_risk": self.strategic_risk,
+            "key_principle": self.key_principle,
+            "strategy_tags": self.strategy_tags,
+            "confidence": self.confidence,
+        }
+
+    @classmethod
+    def from_dict(cls, data: Optional[Dict[str, Any]]) -> Optional["BusinessStrategy"]:
+        if not data:
+            return None
+        return cls(
+            strategy_type=_enum_safe(StrategyType, data.get("strategy_type"), StrategyType.DIFFERENTIATION),
+            moat=_enum_safe(MoatType, data.get("moat"), MoatType.NONE_NA),
+            value_chain_stage=_enum_safe(ValueChainStage, data.get("value_chain_stage"), ValueChainStage.OPERATIONS),
+            business_model_lever=_enum_safe(BusinessModelLever, data.get("business_model_lever"), BusinessModelLever.MARGIN),
+            target_segment=data.get("target_segment", ""),
+            strategic_risk=data.get("strategic_risk", ""),
+            key_principle=data.get("key_principle", ""),
+            strategy_tags=data.get("strategy_tags", []),
+            confidence=float(data.get("confidence", 0.5)),
+        )
+
+
+def _enum_safe(enum_cls, value, default):
+    if value is None:
+        return default
+    try:
+        return enum_cls(value)
+    except (ValueError, KeyError):
+        return default
 
 
 @dataclass
@@ -366,6 +488,9 @@ class Protocol:
     tone_compatibility: List[ToneType] = field(default_factory=list)
     format_compatibility: List[FormatType] = field(default_factory=list)
 
+    # Strategic analysis layer (how this protocol embodies competitive strategy)
+    strategy: Optional["BusinessStrategy"] = None
+
     # Embeddings for semantic search (populated by index module)
     embedding: Optional[List[float]] = None
 
@@ -384,11 +509,12 @@ class Protocol:
             "themes": self.themes,
             "tone_compatibility": [t.value for t in self.tone_compatibility],
             "format_compatibility": [f.value for f in self.format_compatibility],
+            "strategy": self.strategy.to_dict() if self.strategy else None,
         }
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "Protocol":
-        def _enum_safe(enum_cls, value, default):
+        def _enum_safe_local(enum_cls, value, default):
             if value is None:
                 return default
             try:
@@ -398,7 +524,7 @@ class Protocol:
 
         return cls(
             id=data["id"],
-            protocol_type=_enum_safe(ProtocolType, data.get("protocol_type"), ProtocolType.CUSTOM),
+            protocol_type=_enum_safe_local(ProtocolType, data.get("protocol_type"), ProtocolType.CUSTOM),
             archetype=data.get("archetype", ""),
             business_logic=data.get("business_logic", ""),
             application=data.get("application", ""),
@@ -407,18 +533,19 @@ class Protocol:
             dimensions=[Dimension.from_dict(d) for d in data.get("dimensions", [])],
             vector_entry=data.get("vector_entry", {}),
             risk_categories=[
-                _enum_safe(RiskCategory, r, RiskCategory.TRANSFORMATION)
+                _enum_safe_local(RiskCategory, r, RiskCategory.TRANSFORMATION)
                 for r in data.get("risk_categories", [])
             ],
             themes=data.get("themes", []),
             tone_compatibility=[
-                _enum_safe(ToneType, t, ToneType.PHILOSOPHICAL)
+                _enum_safe_local(ToneType, t, ToneType.PHILOSOPHICAL)
                 for t in data.get("tone_compatibility", [])
             ],
             format_compatibility=[
-                _enum_safe(FormatType, f, FormatType.PODCAST_MONOLOGUE)
+                _enum_safe_local(FormatType, f, FormatType.PODCAST_MONOLOGUE)
                 for f in data.get("format_compatibility", [])
             ],
+            strategy=BusinessStrategy.from_dict(data.get("strategy")),
         )
 
     def compute_cache_key(self) -> str:
@@ -552,6 +679,12 @@ class MetaphorMapping:
     pcs_score: float = 0.0
     overall_fit: float = 0.0
 
+    # Strategy layer — how this mapping reasons about the business topic
+    strategy_fit: float = 0.0  # 0-1, how well the protocol's strategy addresses the topic
+    matched_strategy_type: str = ""  # StrategyType value that best addresses the topic
+    matched_moat: str = ""  # MoatType value
+    strategy_guidance: str = ""  # Human-readable strategic guidance for the topic
+
     # TAP integration
     tap_weights: Dict[str, float] = field(default_factory=dict)
     tap_score: float = 0.0
@@ -579,6 +712,10 @@ class MetaphorMapping:
             "flow_score": self.flow_score,
             "pcs_score": self.pcs_score,
             "overall_fit": self.overall_fit,
+            "strategy_fit": self.strategy_fit,
+            "matched_strategy_type": self.matched_strategy_type,
+            "matched_moat": self.matched_moat,
+            "strategy_guidance": self.strategy_guidance,
             "tap_weights": self.tap_weights,
             "tap_score": self.tap_score,
             "created_at": self.created_at.isoformat(),
@@ -605,6 +742,10 @@ class MetaphorMapping:
             flow_score=data.get("flow_score", 0.0),
             pcs_score=data.get("pcs_score", 0.0),
             overall_fit=data.get("overall_fit", 0.0),
+            strategy_fit=data.get("strategy_fit", 0.0),
+            matched_strategy_type=data.get("matched_strategy_type", ""),
+            matched_moat=data.get("matched_moat", ""),
+            strategy_guidance=data.get("strategy_guidance", ""),
             tap_weights=data.get("tap_weights", {}),
             tap_score=data.get("tap_score", 0.0),
             created_at=datetime.fromisoformat(data["created_at"])

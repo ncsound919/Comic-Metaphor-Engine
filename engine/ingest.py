@@ -73,19 +73,24 @@ except Exception:
 # Import schema from sibling module
 from schema import (
     Arc,
+    BusinessStrategy,
     BusinessVector,
+    BusinessModelLever,
     Character,
     Dimension,
     DimensionType,
     FormatType,
     KnowledgeBase,
+    MoatType,
     Protocol,
     ProtocolType,
     RiskCategory,
+    StrategyType,
     ToneType,
     Trope,
     Universe,
     UniverseType,
+    ValueChainStage,
 )
 from sentence_transformers import SentenceTransformer
 
@@ -225,6 +230,195 @@ class DataIngestionPipeline:
 
                         # Aggregate protocols
                         protocols.extend(result["protocols"])
+
+        return protocols
+
+    def parse_marvel_seed_json(self, seed_path: str) -> List[Protocol]:
+        """
+        Parse the business-Marvel protocol seed JSON used by the Overlay Global
+        Lens outlet (scripts/seeds/business-marvel-protocols.json).
+
+        Each seed entry is converted into a Protocol whose ``id`` matches the
+        seed's bare ``protocol_id`` (e.g. ``armor_wars``) so the outlet's
+        ``attachSeed`` lookup finds the curated lesson/narrative when the engine
+        selects that protocol.
+        """
+        protocols: List[Protocol] = []
+        seed_file = Path(seed_path)
+        if not seed_file.exists():
+            print(f"Warning: Marvel seed file {seed_path} not found.")
+            return protocols
+
+        try:
+            with open(seed_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"Warning: Could not parse seed file {seed_path}: {e}")
+            return protocols
+
+        dim_types = [
+            DimensionType.D1_BIO,
+            DimensionType.D2_TECH,
+            DimensionType.D3_ECO,
+            DimensionType.D4_COSMIC,
+        ]
+        # Domain → risk category heuristic for the seed arcs
+        domain_risk = {
+            "leadership": RiskCategory.TRANSFORMATION,
+            "strategy": RiskCategory.CONTROL,
+            "operations": RiskCategory.OWNERSHIP,
+            "culture": RiskCategory.IDENTITY,
+            "innovation": RiskCategory.TRANSFORMATION,
+            "governance": RiskCategory.CONTROL,
+            "risk": RiskCategory.AVOIDANCE,
+            "talent": RiskCategory.SACRIFICE,
+        }
+        # Domain → BusinessStrategy heuristics so the seed arcs compete on the
+        # strategy layer too (strategy_fit scoring) rather than staying neutral.
+        domain_strategy = {
+            "strategy": StrategyType.DIFFERENTIATION,
+            "innovation": StrategyType.TRANSFORMATIONAL,
+            "operations": StrategyType.VERTICAL_INTEGRATION,
+            "governance": StrategyType.SURVIVAL_CONSERVATION,
+            "risk": StrategyType.ADVERSARIAL,
+            "leadership": StrategyType.FOCUS,
+            "culture": StrategyType.ECOSYSTEM,
+            "talent": StrategyType.FOCUS,
+        }
+        domain_moat = {
+            "strategy": MoatType.BRAND,
+            "innovation": MoatType.PROPRIETARY_TECH,
+            "operations": MoatType.SCALE_ECONOMIES,
+            "governance": MoatType.REGULATORY,
+            "risk": MoatType.SWITCHING_COSTS,
+            "leadership": MoatType.BRAND,
+            "culture": MoatType.NETWORK_EFFECTS,
+            "talent": MoatType.SWITCHING_COSTS,
+        }
+        domain_lever = {
+            "strategy": BusinessModelLever.MARGIN,
+            "innovation": BusinessModelLever.EXPANSION,
+            "operations": BusinessModelLever.RETENTION,
+            "governance": BusinessModelLever.COMPOUNDING,
+            "risk": BusinessModelLever.ACQUISITION,
+            "leadership": BusinessModelLever.RETENTION,
+            "culture": BusinessModelLever.COMPOUNDING,
+            "talent": BusinessModelLever.RETENTION,
+        }
+        domain_vc = {
+            "strategy": ValueChainStage.MARKETING_SALES,
+            "innovation": ValueChainStage.R_D,
+            "operations": ValueChainStage.OPERATIONS,
+            "governance": ValueChainStage.OPERATIONS,
+            "risk": ValueChainStage.INBOUND_LOGISTICS,
+            "leadership": ValueChainStage.MARKETING_SALES,
+            "culture": ValueChainStage.OPERATIONS,
+            "talent": ValueChainStage.SERVICE,
+        }
+
+        for i, entry in enumerate(data.get("protocols", [])):
+            pid = entry.get("protocol_id", "")
+            if not pid:
+                continue
+            name = entry.get("name", pid.replace("_", " ").title())
+            core_tension = entry.get("core_tension", "")
+            lesson = entry.get("lesson", "")
+            narrative = entry.get("narrative", "")
+            domains = entry.get("domains", [])
+            beats = entry.get("beat_structure", [])
+            mappings = entry.get("mappings", [])
+
+            # Build 1-4 dimensions from beat structure (or a single catch-all)
+            dimensions = []
+            for j, beat in enumerate(beats[:4]):
+                dimensions.append(
+                    Dimension(
+                        id=dim_types[j],
+                        title=beat,
+                        science_concept="Strategic Conflict",
+                        character_anchor=f"{name} Arc",
+                        analysis=beat,
+                        lesson=lesson,
+                        metric=f"Beat {j + 1}: {beat}",
+                    )
+                )
+            if not dimensions:
+                dimensions.append(
+                    Dimension(
+                        id=DimensionType.D1_BIO,
+                        title="Core Conflict",
+                        science_concept="Strategic Conflict",
+                        character_anchor=f"{name} Arc",
+                        analysis=core_tension,
+                        lesson=lesson,
+                        metric="Core tension",
+                    )
+                )
+
+            risk_categories = []
+            for d in domains:
+                rc = domain_risk.get(d.lower())
+                if rc and rc not in risk_categories:
+                    risk_categories.append(rc)
+            if not risk_categories:
+                risk_categories = [RiskCategory.TRANSFORMATION]
+
+            # Derive a BusinessStrategy from the seed's domains so the arc
+            # competes on the strategy layer (strategy_fit) instead of neutral.
+            stype = None
+            moat = None
+            lever = None
+            vc = None
+            for d in domains:
+                dl = d.lower()
+                stype = stype or domain_strategy.get(dl)
+                moat = moat or domain_moat.get(dl)
+                lever = lever or domain_lever.get(dl)
+                vc = vc or domain_vc.get(dl)
+            strategy = None
+            if stype:
+                strategy = BusinessStrategy(
+                    strategy_type=stype,
+                    moat=moat or MoatType.NONE_NA,
+                    value_chain_stage=vc or ValueChainStage.OPERATIONS,
+                    business_model_lever=lever or BusinessModelLever.MARGIN,
+                    target_segment=" / ".join(domains),
+                    strategic_risk=core_tension,
+                    key_principle=lesson[:300] if lesson else core_tension[:300],
+                    strategy_tags=domains,
+                    confidence=0.6,
+                )
+
+            protocol = Protocol(
+                id=pid,
+                protocol_type=ProtocolType.CUSTOM,
+                archetype=f"{name} Pattern",
+                business_logic=core_tension,
+                application="Business-Marvel Seed: " + " / ".join(domains),
+                narrative=narrative,
+                business_translation=lesson,
+                dimensions=dimensions,
+                vector_entry={
+                    "archetype": f"{name} Pattern",
+                    "business_logic": core_tension,
+                    "application": "Business-Marvel Seed",
+                    "domains": domains,
+                },
+                risk_categories=risk_categories,
+                themes=domains,
+                tone_compatibility=[
+                    ToneType.HOPEFUL,
+                    ToneType.CAUTIONARY,
+                    ToneType.INSPIRATIONAL,
+                ],
+                format_compatibility=[
+                    FormatType.BLOG_POST,
+                    FormatType.PODCAST_MONOLOGUE,
+                    FormatType.MARKETING_EMAIL,
+                ],
+                strategy=strategy,
+            )
+            protocols.append(protocol)
 
         return protocols
 
@@ -411,6 +605,14 @@ class DataIngestionPipeline:
             r"Vector Entry \(JSON\):\s*```?\s*({.+?})\s*```?", content, re.DOTALL
         )
 
+        # Parse the Strategy layer (compiled business books emit a * Strategy: block).
+        strategy = None
+        strategy_match = re.search(
+            r"\* Strategy:\s*\n(.+?)(?=\n\s*Vector Entry|\Z)", content, re.DOTALL
+        )
+        if strategy_match:
+            strategy = self._parse_strategy_block(strategy_match.group(1))
+
         # Parse dimensions D1-D4
         dimensions = []
         for dim_num in range(1, 5):
@@ -489,12 +691,48 @@ class DataIngestionPipeline:
                 FormatType.MARKETING_EMAIL,
                 FormatType.BLOG_POST,
             ],
+            strategy=strategy,
         )
 
         return protocol
 
+    def _parse_strategy_block(self, block: str) -> Optional[BusinessStrategy]:
+        """Parse a * Strategy: block emitted by the business-book compiler."""
+        if not block or not block.strip():
+            return None
+
+        def _kv(key: str) -> str:
+            m = re.search(rf"\*\s*{re.escape(key)}:\s*(.+)", block)
+            return m.group(1).strip() if m else ""
+
+        def _enum_opt(enum_cls, raw, default):
+            if not raw:
+                return default
+            try:
+                return enum_cls(raw.strip().lower())
+            except (ValueError, KeyError):
+                return default
+
+        stype = _enum_opt(StrategyType, _kv("Strategy Type"), StrategyType.DIFFERENTIATION)
+        moat = _enum_opt(MoatType, _kv("Moat"), MoatType.NONE_NA)
+        vc = _enum_opt(ValueChainStage, _kv("Value Chain Stage"), ValueChainStage.OPERATIONS)
+        lever = _enum_opt(BusinessModelLever, _kv("Business Model Lever"), BusinessModelLever.MARGIN)
+        tags_raw = _kv("Strategy Tags")
+        tags = [t.strip() for t in tags_raw.split(",") if t.strip()] if tags_raw else []
+
+        return BusinessStrategy(
+            strategy_type=stype,
+            moat=moat,
+            value_chain_stage=vc,
+            business_model_lever=lever,
+            target_segment=_kv("Target Segment"),
+            strategic_risk=_kv("Strategic Risk"),
+            key_principle=_kv("Key Principle"),
+            strategy_tags=tags,
+            confidence=0.7,
+        )
+
     def _extract_science_concept(self, dim_type: str) -> str:
-        """Map dimension type to science concept."""
         mapping = {
             "Bio/Internal": "Evolutionary Mismatch",
             "Tech/External": "The Alignment Problem",
@@ -606,6 +844,23 @@ class DataIngestionPipeline:
                 if protocol.application
                 else "Philosophy Book"
             )
+            kb.protocols[protocol.id] = protocol
+
+        # Parse curated business books compiled from the Overlay365 book library
+        business_dir = self.raw_dir / "business_books"
+        business_protocols = self.parse_comic_books(str(business_dir))
+        for protocol in business_protocols:
+            protocol.application = (
+                f"Business Book: {protocol.application.replace('Comic Book: ', '')}"
+                if protocol.application
+                else "Business Book"
+            )
+            kb.protocols[protocol.id] = protocol
+
+        # Parse the business-Marvel seed JSON (shared with the Global Lens outlet)
+        seed_path = self.raw_dir / ".." / ".." / ".." / ".." / "Overlay-Global-Lens" / "scripts" / "seeds" / "business-marvel-protocols.json"
+        seed_protocols = self.parse_marvel_seed_json(str(seed_path))
+        for protocol in seed_protocols:
             kb.protocols[protocol.id] = protocol
 
         all_protocols = list(kb.protocols.values())

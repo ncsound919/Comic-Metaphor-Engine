@@ -36,6 +36,7 @@ class ProtocolCandidate:
     theme_alignment: float
     risk_alignment: float
     blended_score: float
+    strategy_alignment: float = 0.5
 
 
 class MetaphorEngine:
@@ -199,15 +200,17 @@ class MetaphorEngine:
             protocol.risk_categories,
             constraints.get("preferred_risk_categories"),
         )
+        strategy_alignment = self._strategy_alignment(topic, protocol)
 
         # Allow external override of scoring weights via constraints["scoring_weights"]
         # Merge with defaults and normalize to sum to 1.0
         default_weights = {
-            "similarity": 0.55,
-            "tone": 0.15,
-            "format": 0.15,
+            "similarity": 0.50,
+            "tone": 0.13,
+            "format": 0.13,
             "theme": 0.10,
-            "risk": 0.05,
+            "risk": 0.04,
+            "strategy": 0.10,
         }
         incoming = constraints.get("scoring_weights", {})
         if not isinstance(incoming, dict):
@@ -226,7 +229,14 @@ class MetaphorEngine:
             + format_fit * weights["format"]
             + theme_alignment * weights["theme"]
             + risk_alignment * weights["risk"]
+            + strategy_alignment * weights["strategy"]
         )
+
+        # Curated business-Marvel seed arcs (loaded from the Global Lens seed
+        # JSON) get a small boost so the outlet's hand-picked storylines win
+        # close retrieval calls instead of losing to generic book protocols.
+        if getattr(protocol, "application", "").startswith("Business-Marvel Seed"):
+            blended_score = min(1.0, blended_score + 0.08)
 
         return ProtocolCandidate(
             protocol=protocol,
@@ -236,6 +246,7 @@ class MetaphorEngine:
             theme_alignment=theme_alignment,
             risk_alignment=risk_alignment,
             blended_score=blended_score,
+            strategy_alignment=strategy_alignment,
         )
 
     # ------------------------------------------------------------------ #
@@ -250,6 +261,11 @@ class MetaphorEngine:
         similarity: float,
         constraints: Dict[str, Any],
     ) -> MetaphorMapping:
+        strategy_fit = self._strategy_alignment(topic, protocol)
+        strategy_guidance = self._strategy_guidance(topic, protocol)
+        matched_strategy_type = self._infer_matched_strategy_type(topic, protocol)
+        matched_moat = self._infer_matched_moat(protocol)
+
         mapping = MetaphorMapping(
             id=self._generate_mapping_id(topic, protocol.id),
             topic=topic,
@@ -263,6 +279,10 @@ class MetaphorEngine:
             narrative_pattern=self._infer_narrative_pattern(protocol),
             beat_structure=self._build_beat_structure(protocol, constraints),
             generation_source="metaphor_engine_v2",
+            strategy_fit=round(strategy_fit, 3),
+            matched_strategy_type=matched_strategy_type,
+            matched_moat=matched_moat,
+            strategy_guidance=strategy_guidance,
         )
 
         mapping.tap_weights = {
@@ -274,6 +294,7 @@ class MetaphorEngine:
                 self._compatibility_score(target_format, protocol.format_compatibility),
                 3,
             ),
+            "strategy_fit": round(strategy_fit, 3),
         }
         return mapping
 
@@ -434,6 +455,118 @@ class MetaphorEngine:
             in preferred
         )
         return min(1.0, 0.3 + 0.35 * matches)
+
+    # ------------------------------------------------------------------ #
+    # Strategy reasoning (BusinessStrategy layer)
+    # ------------------------------------------------------------------ #
+    _STRATEGY_KEYWORDS = {
+        "network_effect": ("network", "platform", "community", "ecosystem", "marketplace", "two-sided"),
+        "platform": ("platform", "marketplace", "ecosystem", "aggregator", "intermediary"),
+        "differentiation": ("unique", "premium", "niche", "innovation", "novel", "bespoke", "specialty"),
+        "cost_leadership": ("cheap", "low-cost", "affordable", "efficient", "scale", "lean", "commodity"),
+        "focus": ("focus", "niche", "segment", "specialty", "vertical", "specific audience"),
+        "blue_ocean": ("new market", "untapped", "uncontested", "create", "invent"),
+        "transformational": ("transform", "category-defining", "paradigm", "revolutionary"),
+        "vertical_integration": ("supply chain", "integration", "in-house", "end-to-end", "control"),
+        "distribution_play": ("distribution", "channel", "reach", "shelf", "go-to-market"),
+    }
+    _MOAT_KEYWORDS = {
+        "proprietary_tech": ("patent", "proprietary", "ip", "research", "r&d", "algorithm"),
+        "scale_economies": ("scale", "volume", "margin", "unit cost"),
+        "switching_costs": ("lock-in", "switching cost", "sticky", "retention", "integration"),
+        "data_moat": ("data", "dataset", "telemetry", "flywheel", "model"),
+        "brand": ("brand", "reputation", "premium", "trust"),
+        "talent": ("talent", "team", "hiring", "culture"),
+    }
+
+    def _strategy_to_dict(self, strat) -> Optional[Dict[str, Any]]:
+        """Normalize a BusinessStrategy (dataclass or dict) to a plain dict."""
+        if not strat:
+            return None
+        if isinstance(strat, dict):
+            return strat
+        # Dataclass instance → build dict, unwrapping enums via .value
+        def _v(v):
+            return v.value if hasattr(v, "value") else v
+        return {
+            "strategy_type": _v(getattr(strat, "strategy_type", None)),
+            "moat": _v(getattr(strat, "moat", None)),
+            "value_chain_stage": _v(getattr(strat, "value_chain_stage", None)),
+            "business_model_lever": _v(getattr(strat, "business_model_lever", None)),
+            "target_segment": getattr(strat, "target_segment", ""),
+            "strategic_risk": getattr(strat, "strategic_risk", ""),
+            "key_principle": getattr(strat, "key_principle", ""),
+            "strategy_tags": getattr(strat, "strategy_tags", []),
+            "confidence": getattr(strat, "confidence", 0.5),
+        }
+
+    def _strategy_alignment(self, topic: str, protocol: Protocol) -> float:
+        """Score how well the protocol's BusinessStrategy matches the topic.
+
+        Combines: (a) topic-strategy_type keyword overlap, (b) topic-moat keyword
+        overlap, (c) presence of a concrete key_principle. Returns 0.0-1.0.
+        """
+        strat = self._strategy_to_dict(getattr(protocol, "strategy", None))
+        if not strat:
+            return 0.5
+
+        topic_lower = topic.lower()
+        score = 0.5  # neutral baseline
+
+        stype = strat.get("strategy_type")
+        if stype in self._STRATEGY_KEYWORDS:
+            if any(kw in topic_lower for kw in self._STRATEGY_KEYWORDS[stype]):
+                score += 0.2
+
+        moat = strat.get("moat")
+        if moat in self._MOAT_KEYWORDS:
+            if any(kw in topic_lower for kw in self._MOAT_KEYWORDS[moat]):
+                score += 0.15
+
+        if strat.get("key_principle"):
+            score += 0.05
+
+        return min(1.0, score)
+
+    def _strategy_guidance(self, topic: str, protocol: Protocol) -> str:
+        """Return one-line guidance tying the protocol's strategy to the topic."""
+        strat = self._strategy_to_dict(getattr(protocol, "strategy", None))
+        if not strat:
+            return ""
+
+        stype = strat.get("strategy_type")
+        moat = strat.get("moat")
+        principle = strat.get("key_principle") or ""
+        vc = strat.get("value_chain_stage")
+        lever = strat.get("business_model_lever")
+        risk = strat.get("strategic_risk")
+
+        parts = []
+        if stype and stype != "differentiation":
+            parts.append(f"frame '{topic}' as a {stype.replace('_', ' ')} play")
+        if moat and moat != "none_na":
+            parts.append(f"defend via {moat.replace('_', ' ')}")
+        if vc:
+            parts.append(f"focus on the {vc.replace('_', ' ')} stage")
+        if lever:
+            parts.append(f"pull the {lever.replace('_', ' ')} lever")
+        if risk:
+            parts.append(f"watch the risk: {risk}")
+        if not parts and principle:
+            parts.append(principle[:140])
+        return "; ".join(parts) if parts else ""
+
+    def _infer_matched_strategy_type(self, topic: str, protocol: Protocol):
+        strat = self._strategy_to_dict(getattr(protocol, "strategy", None))
+        if not strat:
+            return None
+        return strat.get("strategy_type")
+
+    def _infer_matched_moat(self, protocol: Protocol):
+        strat = self._strategy_to_dict(getattr(protocol, "strategy", None))
+        if not strat:
+            return None
+        return strat.get("moat")
 
 
 if __name__ == "__main__":

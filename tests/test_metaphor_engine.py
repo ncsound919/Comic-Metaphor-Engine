@@ -17,7 +17,7 @@ def test_engine_generates_mappings(engine):
     )
     assert mapping is not None
     assert mapping.topic == "startup burnout"
-    assert mapping.protocol_id.startswith("protocol_")
+    assert mapping.protocol_id
 
 
 def test_engine_mapping_quality(engine):

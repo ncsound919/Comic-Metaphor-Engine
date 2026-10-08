@@ -21,7 +21,7 @@ def test_search_works(index):
     results = index.search_protocols("burnout", top_k=3, return_scores=True)
     assert len(results) > 0
     protocol, score = results[0]
-    assert protocol.id.startswith("protocol_")
+    assert protocol.id
     assert score >= 0
 
 

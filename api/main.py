@@ -9,7 +9,8 @@ Endpoints:
     GET  /api/protocols          List all protocols (with filters)
     GET  /api/protocols/{id}     Single protocol detail
     POST /api/search             Semantic protocol search
-    POST /api/map                Generate a metaphor mapping
+    POST /api/search/web         Deterministic web search for relevant storylines
+    POST /api/map                Generate a metaphor mapping (+ cross-references)
     POST /api/explain            Plain-language explanation of a mapping
     POST /api/lesson             Compact learning lesson for a topic
     POST /api/narrative          Full generated narrative (podcast/marketing/etc.)
@@ -40,6 +41,11 @@ from engine.schema import (  # noqa: E402
     FormatType,
     GenerationContext,
     ToneType,
+)
+from engine.web_story_search import (  # noqa: E402
+    web_search_stories,
+    cross_reference_story,
+    story_crossref_to_dict,
 )
 
 app = FastAPI(
@@ -98,6 +104,11 @@ class NarrativeRequest(BaseModel):
     tone: str = "hopeful"
     word_count_target: int = Field(600, ge=100, le=5000)
     top_k: int = Field(5, ge=1, le=25)
+
+
+class WebSearchRequest(BaseModel):
+    query: str = Field(..., min_length=2, description="Topic to find relevant comic storylines for")
+    limit: int = Field(8, ge=1, le=25)
 
 
 def _enum_value(enum_cls, value: str, default):
@@ -186,6 +197,29 @@ def search(req: SearchRequest):
     }
 
 
+@app.post("/api/search/web")
+def web_story_search(req: WebSearchRequest):
+    """Deterministic web search for relevant comic storylines.
+
+    Keyless MediaWiki / Marvel Fandom lookups; fail-soft (empty list on error).
+    """
+    hits = web_search_stories(req.query, limit=req.limit)
+    return {
+        "query": req.query,
+        "count": len(hits),
+        "stories": [
+            {
+                "title": h.title,
+                "url": h.url,
+                "source": h.source,
+                "description": h.description,
+                "relevance": round(h.relevance, 2),
+            }
+            for h in hits
+        ],
+    }
+
+
 @app.post("/api/map")
 def generate_mapping(req: MapRequest):
     engine = get_engine()
@@ -201,7 +235,38 @@ def generate_mapping(req: MapRequest):
         )
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
-    return mapping.to_dict()
+
+    payload = mapping.to_dict()
+    # Enrich with the selected protocol's business lesson + story narrative so the
+    # Global Lens outlet can render them without a separate seed lookup.
+    protocol = get_index().get_protocol_by_id(mapping.protocol_id)
+    if protocol:
+        payload["lesson"] = protocol.business_translation or ""
+        payload["narrative"] = protocol.narrative or ""
+        if protocol.strategy:
+            payload["strategy"] = protocol.strategy.to_dict()
+
+    # Cross-reference the mapped story: nearest index neighbours + web-discovered
+    # relevant storylines. Deterministic + fail-soft.
+    try:
+        ref = cross_reference_story(
+            topic=req.topic,
+            primary_title=payload.get("narrative", "") or mapping.protocol_id or "",
+            protocol_id=mapping.protocol_id,
+            index=get_index(),
+            top_k=req.top_k,
+            web_limit=5,
+        )
+        payload["cross_references"] = story_crossref_to_dict(ref)
+    except Exception:
+        payload["cross_references"] = {
+            "primary": mapping.protocol_id or "",
+            "primary_protocol_id": mapping.protocol_id,
+            "related_index": [],
+            "related_web": [],
+        }
+
+    return payload
 
 
 @app.post("/api/explain")
