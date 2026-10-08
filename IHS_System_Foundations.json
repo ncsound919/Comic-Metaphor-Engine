@@ -1,0 +1,7 @@
+{
+  "Unified_Flow": "Defines high-level steps from intake \u2192 processing \u2192 deliverable.",
+  "MathSpec": "Equations, probability models, cutoffs.",
+  "Technical_Readout": "Plain-language + field-specific readouts.",
+  "System_Flow": "Security, audit logging, hashing, timestamping.",
+  "Highest_Probability_Framework": "Cross-sector weighted probability layers, TAP integration."
+}

@@ -1,0 +1,44 @@
+{
+  "name": "content_generation",
+  "description": "Generate podcast, marketing, and dialogue content",
+  "version": "1.0",
+  "created_by": "cheetah_supreme_marathon",
+  "created_at": "2026-02-04T21:57:23.446930",
+  "steps": [
+    {
+      "name": "parse_query",
+      "timeout": 10
+    },
+    {
+      "name": "search_protocols",
+      "timeout": 15
+    },
+    {
+      "name": "map_metaphors",
+      "timeout": 20
+    },
+    {
+      "name": "generate_content",
+      "timeout": 30
+    },
+    {
+      "name": "score_output",
+      "timeout": 15
+    },
+    {
+      "name": "format_output",
+      "timeout": 10
+    }
+  ],
+  "triggers": [
+    "api_call",
+    "cli_command",
+    "webhook"
+  ],
+  "output_formats": [
+    "markdown",
+    "json",
+    "html",
+    "pdf"
+  ]
+}

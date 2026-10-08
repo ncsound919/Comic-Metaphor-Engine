@@ -1,0 +1,8 @@
+Probability Factor,Weight,Score (0-100),Weighted Score
+Math Rigor,0.3,,
+Science Rigor,0.3,,
+Finance Validity,0.2,,
+Business Applicability,0.1,,
+Philosophy Consistency,0.05,,
+Security Integrity,0.05,,
+TOTAL,,,=SUM(D2:D7)

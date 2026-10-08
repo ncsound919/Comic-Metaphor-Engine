@@ -1,0 +1,50 @@
+Expansion Pack: sales books compiled from the Overlay365 book library.
+1. The "Bai Y. Flexible Pipelines and Power Cables" Protocol
+
+Source Material: Bai Y. Flexible Pipelines and Power Cables
+
+The Narrative:
+Source text (TOC + opening pages):
+Flexible Pipelines and Power Cables
+
+The Business Translation:
+Sales domain protocol compiled from the Overlay365 book library. Win the channel and you win the market — distribution compounds.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the sales practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the sales practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the sales practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the sales practice
+
+* Strategy:
+  * Strategy Type: distribution_play
+  * Moat: distribution
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: volume
+  * Target Segment: sales teams, founders, B2B reps
+  * Strategic Risk: Pipeline collapse when relationship leverage is not systematized
+  * Key Principle: Win the channel and you win the market — distribution compounds.
+  * Strategy Tags: sales, pipeline, conversion, revenue, distribution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_bai_y_flexible_pipelines_and_power_cables",
+  "archetype": "Bai Y. Flexible Pipelines and Power Cables Pattern",
+  "domain": "sales",
+  "source": "Bai Y. Flexible Pipelines and Power Cables 2024.pdf",
+  "business_logic": "Win the channel and you win the market — distribution compounds.",
+  "application": "Business Book: Bai Y. Flexible Pipelines and Power Cables",
+  "strategy": {"strategy_type": "distribution_play", "moat": "distribution", "value_chain_stage": "marketing_sales", "business_model_lever": "volume", "target_segment": "sales teams, founders, B2B reps", "strategic_risk": "Pipeline collapse when relationship leverage is not systematized", "key_principle": "Win the channel and you win the market \u2014 distribution compounds.", "strategy_tags": ["sales", "pipeline", "conversion", "revenue", "distribution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

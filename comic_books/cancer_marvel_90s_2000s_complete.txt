@@ -1,0 +1,475 @@
+# CANCER RESEARCH METAPHORS - MARVEL 90s/2000s COMIC PROTOCOLS
+
+## ONCOLOGY PARALLELS FROM MARVEL'S TOP ARCS (1990-2009)
+
+Curated Marvel story arcs mapped to cancer research concepts: clonal
+heterogeneity, tumor invasion, targeted population decimation, subverted immune
+defense, metastasis, recurrence, and unchecked driver mutations.
+
+---
+
+## 1. AGE OF APOCALYPSE - UNCHECKED DRIVER MUTATION
+
+### 1.1 The Worst-Case Timeline
+
+**Source Material**: X-Men: Age of Apocalypse (1995) - Jim Starlin, when Legion
+accidentally kills Xavier in the past, Apocalypse conquers the world - an entire
+reality warped by a single unopposed force.
+
+**The Narrative**: A single catastrophic event - Legion's accidental killing of
+Xavier - removes the one force that could have checked Apocalypse. Without that
+check, Apocalypse's conquest is absolute: the world becomes a totalitarian
+dystopia where mutation is engineered toward his ends, and the heroes who could
+have stopped him are scattered, hunted, or dead. The tragedy is not that
+Apocalypse is unstoppable, but that the one mechanism of control was lost in a
+single moment, and everything else cascaded from there.
+
+**The Business Translation**: Age of Apocalypse models what happens when a driver
+mutation goes unchecked because the tumor-suppressor mechanism that should have
+controlled it is lost. It captures how a single loss-of-function event (the
+killing of Xavier / the loss of a tumor suppressor) removes the brake on an
+otherwise-proliferative force (Apocalypse / the oncogene), leading to unchecked
+progression. The parallel to oncology: tumor-suppressor loss (p53, Rb, PTEN) is
+the single event that removes the check on uncontrolled growth, and the disease
+trajectory is the "worst-case timeline" that follows.
+
+**Dimensions**:
+* D1 (Bio/Internal): Tumor-Suppressor Loss
+  * Logic: The loss of a single checkpoint (Xavier / p53, Rb, PTEN) removes the brake on uncontrolled proliferation.
+  * Metric: Tumor-suppressor loss-of-heterozygosity; p53 mutation status; cell-cycle checkpoint integrity.
+
+* D2 (Tech/External): Unopposed Proliferative Force
+  * Logic: With the brake gone, the proliferative force (Apocalypse / the oncogene) proceeds unopposed.
+  * Metric: Oncogene amplification; proliferation index (Ki-67); growth fraction.
+
+* D3 (Eco/Resources): Systemic Takeover
+  * Logic: The unchecked force restructures the whole system to serve its ends - resources are re-routed to fuel conquest.
+  * Metric: Metabolic remodeling; angiogenic switch; systemic tissue takeover.
+
+* D4 (Cosmic/Limit): Irreversible Trajectory
+  * Logic: Once the critical brake is lost, the trajectory becomes the worst-case timeline - a dystopia / advanced cancer.
+  * Metric: Time-to-metastasis; stage at diagnosis; irreversible progression.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_age_of_apocalypse",
+  "archetype": "Unchecked Driver / Tumor-Suppressor Loss",
+  "source_material": "X-Men: Age of Apocalypse (1995)",
+  "narrative_summary": "The loss of a single check on an unopposed force cascades into a totalitarian worst-case reality - everything follows from the one lost brake.",
+  "business_logic": "Tumor-suppressor loss removes the brake on an oncogenic force, leading to unchecked progression. A single loss-of-function event cascades into advanced disease.",
+  "application": "Oncology - tumor suppressor loss, driver mutation, loss of heterozygosity, cancer progression, p53/Rb/PTEN",
+  "key_characters": ["Legion", "Apocalypse", "Xavier"],
+  "related_protocols": ["protocol_xmen_cancer_genes", "protocol_hulk_gamma_poisoning"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 2. CLONE SAGA - CLONAL HETEROGENEITY
+
+### 2.1 Which Clone Is the Real One?
+
+**Source Material**: Spider-Man: The Clone Saga (1994-1996) - a sprawling story
+where Peter Parker and Ben Reilly (the Scarlet Spider) each claim to be the real
+Spider-Man, and no one - including them - can be certain which is the original.
+
+**The Narrative**: Peter Parker faces a crisis of identity: a clone, Ben Reilly,
+appears claiming to be the true original. Both have the same memories, the same
+powers, the same sense of self. The heroes must determine which is the "real"
+Spider-Man, but the more they investigate, the more the distinction blurs. The
+clones are not impostors - they are near-identical copies, each viable, each with
+its own claim, and the question of "original vs. copy" may be impossible to
+resolve cleanly.
+
+**The Business Translation**: The Clone Saga models clonal heterogeneity in
+cancer - a tumor is not a single uniform mass but a population of subclones, each
+with slightly different mutations, each claiming to be "the disease." It captures
+how the question "which clone drives the cancer?" is central to treatment, how
+clonal diversity enables resistance (some clones survive any single therapy), and
+how the "original vs. copy" distinction (which subclone is the tumor-initiating
+cell) may be unanswerable yet clinically crucial. The parallel to oncology:
+intratumoral heterogeneity and cancer stem cells.
+
+**Dimensions**:
+* D1 (Bio/Internal): Clonal Population Diversity
+  * Logic: A tumor is a population of genetically distinct subclones, not a uniform mass.
+  * Metric: Clonal heterogeneity index; subclone count; variant allele frequency spread.
+
+* D2 (Tech/External): Tumor-Initiating Cell Question
+  * Logic: Determining which subclone is the 'original' driver (cancer stem cell) is clinically crucial but hard.
+  * Metric: Cancer stem-cell marker expression; clone phylogeny; trunk vs. branch mutations.
+
+* D3 (Eco/Resources): Competitive Clonal Fitness
+  * Logic: Subclones compete for resources; the fittest expand, others persist or shrink - a clonal ecosystem.
+  * Metric: Clonal fitness; clonal dominance shift under therapy.
+
+* D4 (Cosmic/Limit): Identity Ambiguity
+  * Logic: 'Original vs. copy' may be unresolvable; the disease is a shifting population, not a fixed entity.
+  * Metric: Temporal clonal evolution; resistance-associated subclone emergence.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_clone_saga",
+  "archetype": "Clonal Heterogeneity / Which Clone Drives It",
+  "source_material": "Spider-Man: The Clone Saga (1994-1996)",
+  "narrative_summary": "A population of near-identical clones each claim to be the real disease - determining which subclone drives it is central and hard.",
+  "business_logic": "Tumors are heterogeneous populations of subclones, not uniform masses. Clonal diversity enables resistance and makes the driver subclone hard to identify.",
+  "application": "Oncology - intratumoral heterogeneity, clonal evolution, cancer stem cells, subclone phylogeny, resistance",
+  "key_characters": ["Peter Parker", "Ben Reilly", "Scarlet Spider"],
+  "related_protocols": ["protocol_infinity_gauntlet", "protocol_deadpool_regeneration"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 3. ONSLAUGHT - THE SHADOW WITHIN
+
+### 3.1 The Dark Side of the Host
+
+**Source Material**: Onslaught Saga (1996) - the psychic manifestation of
+Xavier's dark side (born from Xavier mind-wiping Magneto) becomes a being that
+attacks the entire Marvel Universe - a threat that came from within the hero
+himself.
+
+**The Narrative**: Xavier's attempt to suppress Magneto's mind - a well-intentioned
+act - plants a seed. That seed grows into Onslaught, the psychic embodiment of
+Xavier's own repressed darkness. The most powerful threat the Marvel Universe has
+ever faced is not an external invader but a projection of the hero's own shadow,
+born from an intervention that created the very thing it sought to prevent. The
+defenders cannot fight it as an enemy because it is, in part, themselves.
+
+**The Business Translation**: Onslaught models how a tumor can arise from the
+host's own cellular program - the "shadow within" - often seeded by an intervention
+or a cell that was meant to be healthy. It captures how treatment-related effects
+(the mind-wipe / therapy) can create the very disease they sought to prevent
+(therapy-induced malignancy, mutagenesis), and how a tumor is fundamentally the
+host's own biology gone wrong, not an invader. The parallel to oncology:
+therapy-induced secondary cancers, the shadow of a cell's own genome, and the
+recognition that the "enemy" is the patient's own cells.
+
+**Dimensions**:
+* D1 (Bio/Internal): Self-Derived Threat
+  * Logic: The tumor is the host's own cellular program gone wrong - the shadow within, not an external invader.
+  * Metric: Somatic mutation burden; normal-cell origin; tumor-normal relatedness.
+
+* D2 (Tech/External): Intervention-Seeded Disease
+  * Logic: A well-intentioned intervention (therapy, radiation, mutagen) can seed the very disease it aimed to prevent.
+  * Metric: Therapy-induced secondary malignancy; treatment-related mutation signature.
+
+* D3 (Eco/Resources): Suppressed Forces Re-emerging
+  * Logic: Suppressed regulatory forces (Xavier's mind-wipe / tumor suppression) re-emerge as uncontrolled pathology.
+  * Metric: Suppressed pathway reactivation; escape from tumor suppression.
+
+* D4 (Cosmic/Limit): The Enemy Is Us
+  * Logic: Fighting the disease as an 'enemy' fails because it is part of the host - demanding self-referential therapeutic logic.
+  * Metric: Self-recognition failure; autoimmunity-like dynamics; identity collapse.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_onslaught",
+  "archetype": "Shadow Within / Self-Derived Threat",
+  "source_material": "Onslaught Saga (1996)",
+  "narrative_summary": "A well-intentioned suppression plants a seed that grows into the host's own shadow - the most powerful threat is part of the self.",
+  "business_logic": "Tumors arise from the host's own cellular program; interventions can seed the very disease they aimed to prevent (therapy-induced malignancy).",
+  "application": "Oncology - therapy-induced secondary cancer, mutagenesis, self-derived tumor, tumor suppression escape, DNA repair",
+  "key_characters": ["Xavier", "Onslaught", "Magneto"],
+  "related_protocols": ["protocol_hulk_gamma_poisoning", "protocol_deadpool_regeneration"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 4. PHALANX COVENANT - TUMOR INVASION
+
+### 4.1 The Assimilating Wave
+
+**Source Material**: X-Men: The Phalanx Covenant (1994) - the techno-organic
+Phalanx assimilate mutantkind, converting living tissue into their own alien
+program, spreading through the mutant population like an infection.
+
+**The Narrative**: The Phalanx are a techno-organic species that do not conquer
+by force of arms but by assimilation - they convert living cells into their own
+organic circuitry, one mutant at a time. Each assimilated being becomes part of
+the Phalanx, its will subsumed, its biology repurposed. The threat spreads not by
+invading from outside but by converting the host's own tissue from within, and the
+infected look and act normal until they are fully consumed.
+
+**The Business Translation**: The Phalanx Covenant models tumor invasion and the
+hijacking of normal tissue. It captures how a tumor does not merely grow outward
+but converts and recruits surrounding tissue (stroma, vasculature, immune cells)
+into supporting and even becoming part of the cancer - the "assimilation" of the
+microenvironment. The parallel to oncology: invasion, epithelial-mesenchymal
+transition, and how cancer subverts and recruits normal cells into the malignant
+program.
+
+**Dimensions**:
+* D1 (Bio/Internal): Cellular Assimilation
+  * Logic: Cancer recruits and converts normal cells (stroma, immune) into the malignant program rather than only growing outward.
+  * Metric: Cancer-associated fibroblast / tumor-associated macrophage abundance; EMT score.
+
+* D2 (Tech/External): Invasive Conversion
+  * Logic: The tumor invades and converts surrounding tissue from within, appearing normal until fully consumed.
+  * Metric: Invasion depth; perineural/vascular invasion; stromal remodeling.
+
+* D3 (Eco/Resources): Recruitment Economy
+  * Logic: The tumor co-opts surrounding resources (vasculature, nutrients, immune cells) to fuel its expansion.
+  * Metric: Angiogenic recruitment; immune suppression; nutrient co-option.
+
+* D4 (Cosmic/Limit): Subsumed Identity
+  * Logic: Infected tissue loses its normal identity and becomes part of the malignant whole - normal cells 'become' the tumor.
+  * Metric: Normal-cell conversion rate; tumor-stroma fusion; boundary erosion.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_phalanx_covenant",
+  "archetype": "Assimilating Invasion / Stromal Conversion",
+  "source_material": "X-Men: The Phalanx Covenant (1994)",
+  "narrative_summary": "A threat that spreads by converting the host's own tissue into itself - the infected look normal until fully consumed.",
+  "business_logic": "Tumors invade and convert surrounding tissue into the malignant program, subverting stroma and immune cells rather than only growing outward.",
+  "application": "Oncology - tumor invasion, epithelial-mesenchymal transition, stroma, tumor microenvironment, angiogenesis",
+  "key_characters": ["Phalanx", "Generation X"],
+  "related_protocols": ["protocol_venom_symbiote", "protocol_skrull_infiltration"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 5. HOUSE OF M - TARGETED POPULATION DECIMATION
+
+### 5.1 No More Mutants
+
+**Source Material**: House of M (2005) - the Scarlet Witch rewrites reality into a
+mutant-ruled world, then, on a whim, utters 'No more mutants' - instantly
+decimating the mutant population from millions to fewer than 200.
+
+**The Narrative**: The Scarlet Witch's power rewrites reality itself. In her
+recreated world, mutants are the dominant species. But when she is finally made to
+confront the destruction she has caused, her response is not to fix the world but
+to end it differently: with three words, 'No more mutants,' she erases the mutant
+genome from nearly every being who carries it. A targeted act of mass decimation
+that selectively removes an entire population in a single event.
+
+**The Business Translation**: House of M models targeted population decimation -
+the selective eradication of a specific cell population. It captures how a
+precision intervention can selectively eliminate a defined population (the
+mutants / a cancer cell population) while sparing others, and the profound,
+irreversible consequence of such a targeted act. The parallel to oncology:
+targeted therapy and immunotherapies that selectively decimate a tumor cell
+population, and the double-edged nature of a treatment so effective it is
+catastrophic in its completeness (or its off-target reach).
+
+**Dimensions**:
+* D1 (Bio/Internal): Selective Population Targeting
+  * Logic: A precision mechanism selectively eradicates a defined cell population (mutants / tumor cells) by a shared marker.
+  * Metric: Targeted-cell depletion rate; selectivity index; on-target specificity.
+
+* D2 (Tech/External): Single-Act Intervention
+  * Logic: One intervention (three words / a single targeted dose) achieves population-scale decimation.
+  * Metric: Time-to-complete-response; single-agent efficacy; depth of response.
+
+* D3 (Eco/Resources): Population-Scale Consequence
+  * Logic: The act has population-scale, ecosystem-level consequences - removing the population reshapes the whole system.
+  * Metric: Off-target ecosystem disruption; bystander effect; population collapse.
+
+* D4 (Cosmic/Limit): Irreversibility
+  * Logic: The decimation is irreversible - 'no more' means the population cannot return, a hard limit on reversion.
+  * Metric: Permanent loss of the population; minimal-residual-disease-negative; recurrence risk.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_house_of_m",
+  "archetype": "Targeted Decimation / Selective Population Eradication",
+  "source_material": "House of M (2005)",
+  "narrative_summary": "Three words selectively erase an entire population in a single act - targeted, total, and irreversible.",
+  "business_logic": "Precision interventions can selectively decimate a defined tumor cell population while sparing others - targeted, complete, and irreversible when it works.",
+  "application": "Oncology - targeted therapy, immunotherapy, selective depletion, molecularly-targeted agents, MRD-negative remission",
+  "key_characters": ["Scarlet Witch", "Wanda Maximoff", "Magneto"],
+  "related_protocols": ["protocol_phoenix_force", "protocol_skrull_infiltration"],
+  "cosmic_tier": "cosmic"
+}
+```
+
+---
+
+## 6. WINTER SOLDIER - SUBVERTED IMMUNE DEFENSE
+
+### 6.1 The Trusted Asset Turned Against the Host
+
+**Source Material**: Captain America / The Winter Soldier (2005-) - Ed Brubaker.
+Bucky Barnes, Cap's most trusted ally presumed dead, returns as the Winter
+Soldier - a brainwashed, reprogrammed weapon used to fight against everything he
+once defended.
+
+**The Narrative**: Bucky Barnes was Captain America's closest friend and ally - a
+defender of the very ideals Cap fought for. But captured, brainwashed, and
+reprogrammed by his enemies, Bucky becomes the Winter Soldier: a perfect weapon
+turned against the side he once served. He is unrecognizable as a defender; his
+skills, loyalty, and strength are all subverted to attack the very people and
+causes he once protected. The tragedy is that the enemy is not an external force
+but the body's own most trusted defender, repurposed.
+
+**The Business Translation**: The Winter Soldier models subverted immune defense -
+when the body's own immune cells, which should fight the tumor, are reprogrammed
+into supporting it. It captures how tumors hijack and reprogram the immune system
+(regulatory T cells, tumor-associated macrophages, myeloid-derived suppressor
+cells) from defenders into co-conspirators, and how checkpoint mechanisms turn
+'attack' signals into 'stand down' orders. The parallel to oncology: immune
+evasion through subversion - the immune system is not just evaded but actively
+converted into a tumor-supporting force.
+
+**Dimensions**:
+* D1 (Bio/Internal): Immune Reprogramming
+  * Logic: The tumor reprograms the body's own immune defenders (the most trusted assets) into supporting the cancer.
+  * Metric: Treg / TAM / MDSC infiltration; immune-suppressive cytokine profile.
+
+* D2 (Tech/External): Checkpoint Subversion
+  * Logic: Checkpoint mechanisms turn 'attack' orders into 'stand down' - the defender is ordered to not defend.
+  * Metric: PD-L1/PD-1 expression; checkpoint ligand density; exhausted T-cell fraction.
+
+* D3 (Eco/Resources): Defense to Co-Conspiracy
+  * Logic: The reprogrammed defender now feeds and protects the tumor rather than eliminating it.
+  * Metric: Immune-mediated tumor support; angiogenic/immune co-option.
+
+* D4 (Cosmic/Limit): Broken Trust
+  * Logic: The host can no longer trust its own defenses - a profound breakdown of self-surveillance.
+  * Metric: Immune surveillance failure; escape from immunoediting; recurrence under immune checkpoint therapy.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_winter_soldier",
+  "archetype": "Subverted Immune Defense / Checkpoint Reprogramming",
+  "source_material": "Captain America / The Winter Soldier (2005-)",
+  "narrative_summary": "The body's most trusted defender is brainwashed and reprogrammed into a weapon that attacks the host it once protected.",
+  "business_logic": "Tumors hijack and reprogram the immune system - turning defenders (Tregs, TAMs, MDSCs) into co-conspirators via checkpoint subversion.",
+  "application": "Oncology - immune evasion, checkpoint inhibition, tumor-associated macrophages, MDSCs, regulatory T cells, immunosuppression",
+  "key_characters": ["Bucky Barnes", "Winter Soldier", "Captain America"],
+  "related_protocols": ["protocol_skrull_infiltration", "protocol_venom_symbiote"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 7. ANNIHILATION - METASTATIC SPREAD
+
+### 7.1 The Wave of Destruction
+
+**Source Material**: Annihilation (2006-2007) - Keith Giffen. Annihilus unleashes
+the Annihilation Wave, a vast, relentless armada from the Negative Zone that
+sweeps across the cosmos, consuming entire star systems in its path.
+
+**The Narrative**: From the Negative Zone comes the Annihilation Wave - a
+relentless, overwhelming armada that does not conquer so much as consume, sweeping
+across the universe and eradicating everything in its path. Nova, the Silver
+Surfer, and a desperate coalition must stand against a force that spreads
+continuously, each conquered system spawning further advance. The Wave is not a
+single battle but a cascade - once it gains momentum, it is nearly unstoppable,
+seeding new fronts faster than they can be contained.
+
+**The Business Translation**: Annihilation models metastatic spread. It captures
+how a tumor, once it escapes its primary site, spreads through the body as a
+relentless wave - seeding new colonies at distant sites faster than they can be
+contained, each metastasis spawning further spread. The parallel to oncology:
+metastasis is the cascade that converts a treatable primary into a systemic,
+life-threatening disease; once the Wave has momentum, containment becomes
+dramatically harder and earlier intervention is the only real leverage.
+
+**Dimensions**:
+* D1 (Bio/Internal): Dissemination Cascade
+  * Logic: Cells escape the primary tumor and seed new colonies (metastases) at distant sites - a cascade.
+  * Metric: Circulating tumor cells; disseminated tumor cells; metastatic site count.
+
+* D2 (Tech/External): Exponential Spread
+  * Logic: Each new front spawns further advance - the Wave grows faster than it can be contained.
+  * Metric: Metastatic doubling; spread velocity; time-to-new-metastasis.
+
+* D3 (Eco/Resources): Seeding Fertile Ground
+  * Logic: The Wave seeds wherever it finds fertile ground (the pre-metastatic niche) - resource-abundant sites.
+  * Metric: Organ-specific metastasis pattern; niche preparation; colonization efficiency.
+
+* D4 (Cosmic/Limit): Momentum and Containment
+  * Logic: Once the Wave has momentum, containment is dramatically harder - early intervention is the only leverage.
+  * Metric: Stage at detection; curative vs. palliative intent; survival by metastatic burden.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_annihilation",
+  "archetype": "Metastatic Wave / Dissemination Cascade",
+  "source_material": "Annihilation (2006-2007)",
+  "narrative_summary": "A relentless wave that sweeps across everything, seeding new fronts faster than they can be contained - momentum makes it nearly unstoppable.",
+  "business_logic": "Metastasis is a cascade - once tumor cells escape the primary and seed distant colonies, spread accelerates and containment becomes dramatically harder.",
+  "application": "Oncology - metastasis, circulating tumor cells, disseminated disease, pre-metastatic niche, stage at detection",
+  "key_characters": ["Nova", "Silver Surfer", "Annihilus"],
+  "related_protocols": ["protocol_infinity_gauntlet", "protocol_phalanx_covenant"],
+  "cosmic_tier": "cosmic"
+}
+```
+
+---
+
+## 8. KANG DYNASTY - RECURRENCE AND ADAPTIVE ADVERSARY
+
+### 8.1 The Adversary Who Never Stays Defeated
+
+**Source Material**: Avengers: The Kang Dynasty (2001-2002) - Kurt Busiek. Kang
+the Conqueror attacks the Avengers across time, a recurring adversary who learns
+from every defeat and returns stronger, in a new era, with a new plan.
+
+**The Narrative**: Kang the Conqueror is not a foe the Avengers can defeat once
+and be done with - he is a time-traveling adversary who attacks from multiple
+eras, learns from each encounter, and returns in a new form with a new strategy
+every time he is beaten. Each victory over Kang is temporary; the enemy adapts,
+recurs, and reappears with the accumulated knowledge of every prior battle. The
+war is not a single confrontation but an endless series of returns, each harder
+to counter than the last.
+
+**The Business Translation**: The Kang Dynasty models cancer recurrence and the
+adaptive adversary. It captures how a tumor that appears eliminated can recur -
+a clone that survives therapy, adapts, and returns in a more resistant form,
+armed with the knowledge of how it was beaten. The parallel to oncology: minimal
+residual disease, relapse, and the reality that an 'eliminated' cancer can return
+as a more treatment-resistant version, requiring ever-adaptive strategies rather
+than a single decisive victory.
+
+**Dimensions**:
+* D1 (Bio/Internal): Minimal Residual Disease
+  * Logic: A surviving clone persists after apparent elimination - the ember that will reignite.
+  * Metric: MRD detection; circulating tumor DNA; residual clone burden.
+
+* D2 (Tech/External): Adaptive Resistance
+  * Logic: The recurring adversary learns from each defeat and returns more resistant - it adapts to prior therapy.
+  * Metric: Acquired-resistance mutation load; relapse-free interval; time-to-recurrence.
+
+* D3 (Eco/Resources): Endless Returns
+  * Logic: Each recurrence is harder to counter than the last, consuming ever-more resources.
+  * Metric: Lines of therapy required; cumulative treatment burden; declining response per line.
+
+* D4 (Cosmic/Limit): Temporal Strategy
+  * Logic: Beating the adversary requires thinking across time - sequential, adaptive, and evolving strategy, not one battle.
+  * Metric: Sequential-therapy success; maintenance strategy durability; long-term control.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_kang_dynasty",
+  "archetype": "Recurring Adaptive Adversary / Minimal Residual Disease",
+  "source_material": "Avengers: The Kang Dynasty (2001-2002)",
+  "narrative_summary": "An adversary that never stays defeated - it learns from every defeat and returns in a more resistant form, across time.",
+  "business_logic": "Cancer recurs from minimal residual disease as an adaptive, more-resistant clone - requiring sequential, evolving strategy rather than one decisive victory.",
+  "application": "Oncology - minimal residual disease, relapse, acquired resistance, circulating tumor DNA, sequential therapy",
+  "key_characters": ["Kang the Conqueror", "Avengers"],
+  "related_protocols": ["protocol_dormammu_bargain", "protocol_clone_saga"],
+  "cosmic_tier": "cosmic"
+}
+```

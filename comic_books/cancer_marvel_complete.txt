@@ -1,0 +1,368 @@
+# CANCER RESEARCH METAPHORS - MARVEL COMIC PROTOCOLS
+
+## ONCOLOGY PARALLELS FROM MARVEL STORYLINES
+
+Curated Marvel storylines mapped to cancer research concepts. Each protocol
+translates a real comic narrative into a reusable oncology metaphor: immune
+evasion, tumor evolution, acquired resistance, metastasis, treatment scheduling,
+therapeutic toxicity, and combination strategy.
+
+---
+
+## 1. HULK'S GAMMA POISONING - INTRINSIC TUMOR TRANSFORMATION
+
+### 1.1 The Patient's Own Cells, Run Amok
+
+**Source Material**: The Incredible Hulk (Marvel)
+
+**The Narrative**:
+Bruce Banner is a scientist whose own body becomes the battlefield. Gamma radiation doesn't attack him from outside - it rewrites his cells, unleashing an uncontrolled proliferation of strength and rage that his normal physiology cannot contain. Every attempt to suppress the Hulk makes it stronger, because the Hulk is not an invader to be excised but an emergent property of Banner's own biology. The transformation is permanent, adaptive, and indistinguishable from the patient who carries it.
+
+**The Business Translation**: Tumor evolution as intrinsic, adaptive rewiring of the host rather than an external invader. A cell that once served the organism becomes its own uncontrolled program that resists suppression. The parallel to oncology: mutations driving uncontrolled proliferation arise from the patient's own genome, and therapies that purely suppress without understanding the adaptive rewiring risk selecting for more resistant variants - the more you fight the Hulk, the stronger he gets.
+
+**Dimensions**:
+* D1 (Bio/Internal): Genomic Transformation
+  * Logic: A driver mutation rewires cellular identity - normal cell becomes tumor cell through the same genome, not a foreign agent. Therapy must target the rewiring, not just the symptom.
+  * Metric: Driver-mutation allele fraction and clonal dominance over time.
+
+* D2 (Tech/External): Adaptive Resistance
+  * Logic: External suppression selects for adaptive escape - the "Hulk getting stronger" is acquired resistance to the therapeutic pressure.
+  * Metric: Time-to-progression under therapy; rise in resistance-allele frequency.
+
+* D3 (Eco/Resources): Metabolic Rewiring
+  * Logic: The transformed cell hijacks nutrient resources (glycolysis, angiogenesis) to fuel uncontrolled growth, like the Hulk consuming energy for rage.
+  * Metric: Metabolic reprogramming score; glycolytic flux; tumor vascular density.
+
+* D4 (Cosmic/Limit): Identity Collapse
+  * Logic: The boundary between healthy host and disease collapses - the tumor is the patient, making "us vs. them" oncology models incomplete.
+  * Metric: Tumor-normal genomic relatedness; clonal heterogeneity index.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_hulk_gamma_poisoning",
+  "archetype": "Intrinsic Transformation / Adaptive Resistance",
+  "source_material": "The Incredible Hulk (Marvel)",
+  "narrative_summary": "A scientist's own cells transform into an uncontrolled adaptive program that resists every attempt at suppression - the more you fight it, the stronger it gets.",
+  "business_logic": "Understanding disease as intrinsic rewiring of the host that adapts to suppression, rather than an external invader. Driver mutations arise from the patient's own genome and selective pressure breeds resistance.",
+  "application": "Oncology - tumor evolution, acquired resistance, metabolic reprogramming, clonal heterogeneity",
+  "key_characters": ["Bruce Banner", "Hulk"],
+  "related_protocols": ["protocol_venom_symbiote", "protocol_deadpool_regeneration"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 2. X-MEN'S CANCER GENES - LATENT ONCOGENIC POTENTIAL
+
+### 2.1 The Dormant Gene of Potential
+
+**Source Material**: X-Men (Marvel)
+
+**The Narrative**:
+Every mutant carries a dormant X-gene. For most it never activates; for others it erupts into power - sometimes a gift, sometimes a curse. The mutant must learn whether the gene is destiny or choice, and whether to use, hide, or fight its expression. Society fears what the gene might become, even when it never activates. The mutation is not evil in itself - it is potential, and the outcome depends on triggers, environment, and whether the carrier integrates or is suppressed.
+
+**The Business Translation**: Cancer predisposition and oncogene activation as latent potential requiring a trigger. Germline risk variants lie dormant until a somatic event activates them; the immune system and microenvironment decide whether a transformed cell is a threat; and fear of the "cancer gene" can stigmatize carriers regardless of actual risk. The parallel to oncology: tumor-suppressor loss and oncogene activation are about latency, triggers, and surveillance - not inevitability.
+
+**Dimensions**:
+* D1 (Bio/Internal): Latent Oncogenic Potential
+  * Logic: Germline risk variants and proto-oncogenes remain dormant until a somatic trigger (mutation, inflammation) activates them.
+  * Metric: Variant penetrance; time-to-activation; oncogenic trigger burden.
+
+* D2 (Tech/External): Surveillance & Immune Gatekeeping
+  * Logic: The immune system and microenvironment decide whether an activated gene becomes a tumor - "society's response to the mutant."
+  * Metric: Immune infiltration score; tumor-infiltrating lymphocyte density; immunoediting state.
+
+* D3 (Eco/Resources): Environmental Triggers
+  * Logic: Environmental exposure (toxins, radiation, infection) supplies the activation signal - the gene is potential, the environment is the trigger.
+  * Metric: Attributable risk by exposure; mutation signature correlation with carcinogen.
+
+* D4 (Cosmic/Limit): Stigma & Surveillance
+  * Logic: Fear of the "cancer gene" can drive over-surveillance, stigma, and preventive overreach independent of actual risk.
+  * Metric: Over-diagnosis rate; patient psychological burden; preventive-action appropriateness.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_xmen_cancer_genes",
+  "archetype": "Latent Oncogenic Potential / Trigger Activation",
+  "source_material": "X-Men (Marvel)",
+  "narrative_summary": "A dormant gene of potential is triggered by environment and judged by the body's immune 'society' - the outcome depends on trigger, context, and surveillance, not inevitability.",
+  "business_logic": "Cancer risk as latent genetic potential activated by triggers, moderated by immune surveillance and environmental context. Germline variants lie dormant until a somatic event.",
+  "application": "Oncology - germline risk, oncogene activation, immunoediting, cancer prevention, tumor microenvironment",
+  "key_characters": ["X-Men", "Mutants"],
+  "related_protocols": ["protocol_skrull_infiltration", "protocol_hulk_gamma_poisoning"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 3. VENOM SYMBIOTE - HOST-TUMOR CO-DEPENDENCY
+
+### 3.1 The Bonded, Inseparable System
+
+**Source Material**: Venom (Marvel)
+
+**The Narrative**:
+A host and a symbiote form a bond that makes them stronger together - but the symbiote also invades, suppresses the host's will, and cannot be cleanly removed without risk of death or damage to both. The longer they are bonded, the harder it is to tell where the host ends and the invader begins. Attempts to tear them apart often make things worse, because the two have become a single adapted system.
+
+**The Business Translation**: The tumor-microenvironment relationship and intratumoral heterogeneity. A tumor and its surrounding stroma co-evolve into a single adapted ecosystem where the boundary between "host tissue" and "tumor" blurs, and aggressive surgical or therapeutic extraction can fail because the tumor has co-opted and is sustained by the surrounding tissue. The parallel to oncology: the tumor is not an isolated mass but a bonded system with its microenvironment - targeting the bond, not just the mass, is the therapeutic lever.
+
+**Dimensions**:
+* D1 (Bio/Internal): Host-Tumor Co-evolution
+  * Logic: Tumor and stroma bond and co-evolve; each is altered by the relationship, blurring the boundary.
+  * Metric: Tumor-stroma interface score; cancer-associated fibroblast abundance.
+
+* D2 (Tech/External): Microenvironment Invasion
+  * Logic: The tumor invades and subverts surrounding tissue (vasculature, immune cells) into supporting it.
+  * Metric: Extracellular matrix remodeling; vascular co-option; immune suppression markers.
+
+* D3 (Eco/Resources): Symbiotic Resource Sharing
+  * Logic: Tumor and stroma share nutrients and signals in a bonded economy - neither is self-sufficient alone.
+  * Metric: Nutrient flux at tumor-stroma boundary; paracrine signaling density.
+
+* D4 (Cosmic/Limit): Indivisible Adaptation
+  * Logic: Host and tumor become a single system; clean separation is impossible, demanding a systems-level therapeutic approach.
+  * Metric: Co-dependency score; response to combination (not monotherapy) strategies.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_venom_symbiote",
+  "archetype": "Symbiote Bond / Host-Tumor Co-dependency",
+  "source_material": "Venom (Marvel)",
+  "narrative_summary": "An invader bonds with the host and they become a single adapted system that cannot be cleanly separated - tearing them apart makes things worse.",
+  "business_logic": "Tumor-microenvironment as a co-evolved, inseparable bonded system where targeting the bond matters more than the mass. Aggressive extraction fails when the tumor is sustained by surrounding tissue.",
+  "application": "Oncology - tumor microenvironment, stroma, combination therapy, intratumoral heterogeneity, resistance",
+  "key_characters": ["Venom", "Symbiote"],
+  "related_protocols": ["protocol_hulk_gamma_poisoning", "protocol_infinity_gauntlet"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 4. DORMAMMU'S BARGAIN - SUSTAINABLE STALEMATE
+
+### 4.1 The Eternal Loop of Control
+
+**Source Material**: Doctor Strange (Marvel)
+
+**The Narrative**:
+Doctor Strange cannot defeat Dormammu with force - the Dark Dimension lord is too powerful. Instead, Strange traps Dormammu in a repeating time loop, forcing the eternal being to relive the same moment of confrontation forever. Dormammu, who has infinite power but not infinite patience, eventually agrees to a bargain: he leaves Earth, trading his conquest for an end to the unbearable loop. Victory comes not from matching force with force, but from changing the structure of the conflict.
+
+**The Business Translation**: Defeating a dominant, resource-abundant adversary (like an aggressive tumor) not by out-powering it but by changing the structure of the conflict - a scheduling or fractionation strategy that makes the adversary's advantage unsustainable. The parallel to oncology: treatment scheduling (fractionated dosing, adaptive therapy, therapy-free holidays) can convert an unwinnable arms race against a fast-evolving tumor into a sustainable stalemate, trading cure-for-now for control-over-time.
+
+**Dimensions**:
+* D1 (Bio/Internal): Evolutionary Arms Race
+  * Logic: The tumor has more "power" (proliferative capacity) than any single therapy can match with force.
+  * Metric: Tumor growth rate; clonal fitness landscape.
+
+* D2 (Tech/External): Treatment Scheduling as Structure
+  * Logic: Changing the schedule (not the drug) alters the conflict structure - fractionation, adaptive dosing, therapy holidays.
+  * Metric: Time-to-resistance under adaptive vs. continuous dosing; progression-free survival.
+
+* D3 (Eco/Resources): Resource-Driven Stalemate
+  * Logic: A sustainable treatment strategy conserves patient resources and delays exhaustion vs. a costly arms race.
+  * Metric: Toxicity-adjusted survival; cumulative treatment burden; quality-adjusted life years.
+
+* D4 (Cosmic/Limit): Sustainable Control over Cure
+  * Logic: When cure is unreachable, the goal shifts to an indefinite sustainable stalemate - control-over-time.
+  * Metric: Chronic disease control duration; time to symptomatic progression.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_dormammu_bargain",
+  "archetype": "Eternal Loop / Sustainable Stalemate",
+  "source_material": "Doctor Strange (Marvel)",
+  "narrative_summary": "A weaker force defeats an all-powerful foe by trapping it in a sustainable loop, trading force for structure - control-over-time beats escalation.",
+  "business_logic": "Defeating a dominant adversary by changing the structure of the conflict (scheduling) rather than out-powering it. Adaptive therapy converts an unwinnable arms race into sustainable control.",
+  "application": "Oncology - adaptive therapy, fractionation, treatment scheduling, therapy holidays, resistance management",
+  "key_characters": ["Doctor Strange", "Dormammu"],
+  "related_protocols": ["protocol_infinity_gauntlet", "protocol_deadpool_regeneration"],
+  "cosmic_tier": "cosmic"
+}
+```
+
+---
+
+## 5. DEADPOOL'S REGENERATION - INSEPARABLE DISEASE
+
+### 5.1 The Cancer That Keeps Him Alive
+
+**Source Material**: Deadpool (Marvel)
+
+**The Narrative**:
+Wade Wilson was a mercenary dying of cancer. The experimental Weapon X treatment did not cure him - it mutated his cancer cells into an aggressive healing factor. Now his body regenerates from almost any wound, but the cancer is never gone; it is fused with his vitality. His immortality and his disease are the same thing. He lives only because his tumors sustain him, and any attempt to remove the "disease" would kill the "patient."
+
+**The Business Translation**: The therapeutic paradox where a tumor-associated pathway is essential to host survival. Some treatments target a pathway the patient depends on (like a mutated cancer-adjacent survival signal), where removing the disease removes the patient. The parallel to oncology: on-target-on-tumor toxicity, pathways that are both oncogenic and essential, and the reality that some patients live with chronic, controllable disease rather than full elimination - the cancer is not separable from the patient's continued existence.
+
+**Dimensions**:
+* D1 (Bio/Internal): Oncogenic-Essential Pathway
+  * Logic: A pathway is simultaneously tumor-driving and host-essential; targeting it kills both.
+  * Metric: On-target-on-tumor toxicity; therapeutic index; essentiality score.
+
+* D2 (Tech/External): Experimental Transformation
+  * Logic: The therapeutic intervention itself (the treatment) can transform the disease - creating the very immortality it sought.
+  * Metric: Therapy-induced secondary malignancy; treatment-related mutation burden.
+
+* D3 (Eco/Resources): Chronic Coexistence
+  * Logic: The patient lives WITH the disease, sustained by it - an economy of chronic coexistence rather than elimination.
+  * Metric: Chronic disease control; quality-adjusted survival; treatment-free interval.
+
+* D4 (Cosmic/Limit): Inseparable Vitality
+  * Logic: Removing the disease would remove the patient - a hard limit on curative intent.
+  * Metric: Survival without the targetable pathway; dependency on the oncogenic mechanism.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_deadpool_regeneration",
+  "archetype": "Immortal Healing Factor / Inseparable Disease",
+  "source_material": "Deadpool (Marvel)",
+  "narrative_summary": "A patient's disease was mutated into the very force that keeps him alive - they cannot be separated, and removing the disease removes the patient.",
+  "business_logic": "Understanding when a tumor pathway is also host-essential, forcing chronic coexistence over elimination. Some patients live with controllable disease rather than full cure.",
+  "application": "Oncology - on-target-on-tumor toxicity, essential pathways, chronic disease control, therapeutic index",
+  "key_characters": ["Deadpool", "Weapon X"],
+  "related_protocols": ["protocol_hulk_gamma_poisoning", "protocol_venom_symbiote"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 6. PHOENIX FORCE - POTENT BUT UNREGULATED THERAPY
+
+### 6.1 The Force That Can Cure or Destroy
+
+**Source Material**: The Phoenix Force (Marvel)
+
+**The Narrative**:
+The Phoenix is a cosmic entity of creation and destruction that chooses a host to manifest through. In Jean Grey, it grants incredible power - resurrection, healing, telekinesis - but the same force, when the host is overwhelmed, becomes the Dark Phoenix, annihilating worlds. The power is not evil; it is unchecked potential without regulation. The difference between savior and destroyer is whether the host can integrate the force or is consumed by it.
+
+**The Business Translation**: The double-edged nature of powerful therapies - immunotherapies, cell therapies, and targeted agents that can cure or kill depending on control and regulation. The same immune activation that eradicates a tumor can, unregulated, become a cytokine storm or autoimmunity that destroys the patient (the "Dark Phoenix" of on-target toxicity). The parallel to oncology: powerful immune- and cell-based therapies require regulatory control to avoid trading one destruction (the tumor) for another (the patient).
+
+**Dimensions**:
+* D1 (Bio/Internal): Potent Anti-tumor Force
+  * Logic: The therapy (immune activation, CAR-T, oncolytic) is a potent force of tumor destruction.
+  * Metric: Objective response rate; depth of response; tumor cell kill.
+
+* D2 (Tech/External): Unregulated Toxicity
+  * Logic: The same force, uncontrolled, becomes the Dark Phoenix - cytokine release syndrome, autoimmunity, neurotoxicity.
+  * Metric: CRS severity grade; immune-related adverse events; on-target-off-tumor toxicity.
+
+* D3 (Eco/Resources): Resource of Life and Death
+  * Logic: The force is a shared resource that heals or destroys depending on how it is channeled and dosed.
+  * Metric: Therapeutic window; dose-limiting toxicity; risk-benefit ratio.
+
+* D4 (Cosmic/Limit): Host Integration or Consumption
+  * Logic: Whether the patient integrates the powerful therapy or is consumed by it decides cure vs. catastrophe.
+  * Metric: Durable remission with tolerable toxicity; treatment-related mortality.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_phoenix_force",
+  "archetype": "Dual Cosmic Force / Potent Unregulated Therapy",
+  "source_material": "The Phoenix Force (Marvel)",
+  "narrative_summary": "A force of life and death that can resurrect worlds or destroy them, depending on whether the host controls it or is consumed - cure or catastrophe hinges on regulation.",
+  "business_logic": "Harnessing powerful immunotherapies and cell therapies that can cure or kill depending on regulation and host integration. Immune activation that cures can become CRS or autoimmunity.",
+  "application": "Oncology - immunotherapy, CAR-T, cytokine release syndrome, on-target toxicity, oncolytic therapy",
+  "key_characters": ["Jean Grey", "Phoenix", "Dark Phoenix"],
+  "related_protocols": ["protocol_infinity_gauntlet", "protocol_dormammu_bargain"],
+  "cosmic_tier": "cosmic"
+}
+```
+
+---
+
+## 7. SKRULL INFILTRATION - IMMUNE DISGUISE
+
+### 7.1 The Enemy Already Inside
+
+**Source Material**: Secret Invasion (Marvel)
+
+**The Narrative**:
+The Skrulls don't attack from without - they have spent years replacing humans, one by one, with perfect replicas. No one knows who is real. Allies cannot be trusted, institutions are compromised, and the only defense is relentless verification of everyone's identity. The war is not a battle against an external army but an internal security crisis where the enemy wears the face of the defender.
+
+**The Business Translation**: Cancer's ability to evade detection by disguising itself as normal tissue and subverting the body's own defenses. Tumors down-regulate antigens, recruit regulatory cells, and masquerade as self to escape immune surveillance - the enemy is already inside, indistinguishable from healthy tissue. The parallel to oncology: immune evasion, checkpoint activation, and tumor disguise demand verification (biomarkers, liquid biopsy, imaging) to expose the hidden threat that conventional "self-recognition" cannot catch.
+
+**Dimensions**:
+* D1 (Bio/Internal): Immune Disguise
+  * Logic: Tumor cells down-regulate MHC/antigens and express self-mimicry to avoid recognition as foreign.
+  * Metric: Antigen presentation loss; neoantigen burden; immune-evasion phenotype.
+
+* D2 (Tech/External): Detection & Verification
+  * Logic: Because the enemy is disguised, continuous verification (biomarkers, ctDNA, imaging) is the primary defense.
+  * Metric: Detection sensitivity/specificity; minimal-residual-disease detection rate.
+
+* D3 (Eco/Resources): Subverted Infrastructure
+  * Logic: The tumor subverts the body's own infrastructure (vasculature, immune cells) into supporting the disguise.
+  * Metric: Regulatory T-cell / MDSC infiltration; checkpoint ligand expression.
+
+* D4 (Cosmic/Limit): Trust Erosion
+  * Logic: The impossibility of trusting 'self' erodes the host's defensive assumption - constant surveillance becomes necessary.
+  * Metric: Recurrence detection lead time; surveillance intensity; false-positive burden.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_skrull_infiltration",
+  "archetype": "Internal Infiltration / Immune Disguise",
+  "source_material": "Secret Invasion (Marvel)",
+  "narrative_summary": "The enemy is already inside, wearing the face of trusted allies, indistinguishable from the healthy self - only relentless verification exposes it.",
+  "business_logic": "Countering a threat that disguises itself as the host and subverts internal defenses, requiring relentless verification. Tumors masquerade as self to escape immune surveillance.",
+  "application": "Oncology - immune evasion, biomarkers, liquid biopsy, minimal residual disease, tumor disguise, surveillance",
+  "key_characters": ["Skrulls", "Secret Invasion"],
+  "related_protocols": ["protocol_xmen_cancer_genes", "protocol_venom_symbiote"],
+  "cosmic_tier": "planetary"
+}
+```
+
+---
+
+## 8. INFINITY GAUNTLET - MULTI-MODAL COMBINATION
+
+### 8.1 Six Stones, One Coordinated System
+
+**Source Material**: Infinity Gauntlet (Marvel)
+
+**The Narrative**:
+No single Infinity Stone grants dominance - Power alone is blunt, Time alone is limited. It is only when all six are gathered and coordinated into the Gauntlet that Thanos achieves omnipotence. The heroes cannot win by matching one stone with one power; they must assemble a coordinated, multi-front strategy that addresses each stone simultaneously, because the Gauntlet is a system whose power emerges from the integration of its parts.
+
+**The Business Translation**: Combination and multi-omic oncology - the tumor is a coordinated system (genome, proteome, metabolome, immune, microenvironment, timing) that no single-target therapy can dismantle. It captures how pan-omic integration and combination therapy can outmaneuver a tumor that would dominate any monotherapy. The parallel to oncology: precision medicine as a coordinated multi-modal strategy (surgery, radiation, targeted, immune, endocrine, scheduling) where the whole approach exceeds any single modality.
+
+**Dimensions**:
+* D1 (Bio/Internal): Multi-omic Tumor System
+  * Logic: The tumor is a coordinated system across genome, transcriptome, proteome, metabolome, and immune context.
+  * Metric: Multi-omic feature integration; pathway-level dysregulation score.
+
+* D2 (Tech/External): Coordinated Combination Therapy
+  * Logic: No single modality wins; coordinated multi-modal combination is required to match the systemic threat.
+  * Metric: Response to combination vs. monotherapy; synergy score.
+
+* D3 (Eco/Resources): Integrated Resource Allocation
+  * Logic: Assembling and sequencing therapies is a resource-management problem across the care continuum.
+  * Metric: Treatment sequencing efficiency; cumulative toxicity; care-pathway integration.
+
+* D4 (Cosmic/Limit): Emergent Systemic Power
+  * Logic: The tumor's power emerges from integration of its parts - so must the therapeutic strategy.
+  * Metric: Pan-system control; multi-modality survival benefit.
+
+**Vector Entry**:
+```json
+{
+  "id": "protocol_infinity_gauntlet",
+  "archetype": "Coordinated Omnipotence / Multi-modal Combination",
+  "source_material": "Infinity Gauntlet (Marvel)",
+  "narrative_summary": "Six stones, coordinated as one, achieve a power no single part could - only a coordinated multi-front counter can stop them.",
+  "business_logic": "Assembling a coordinated multi-modal, multi-omic strategy to outmaneuver a systemic threat that defeats any single approach. The tumor is a system no monotherapy can dismantle.",
+  "application": "Oncology - combination therapy, multi-omic precision medicine, multimodal treatment, pan-system integration",
+  "key_characters": ["Thanos", "Infinity Stones"],
+  "related_protocols": ["protocol_phoenix_force", "protocol_dormammu_bargain"],
+  "cosmic_tier": "cosmic"
+}
+```

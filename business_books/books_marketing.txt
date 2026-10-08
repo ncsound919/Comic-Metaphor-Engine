@@ -1,0 +1,357 @@
+Expansion Pack: marketing books compiled from the Overlay365 book library.
+1. The "YouTube Marketing For Dummies" Protocol
+
+Source Material: YouTube Marketing For Dummies
+
+The Narrative:
+Source text (TOC + opening pages):
+YouTube
+™
+Marketing
+by Will Eagle
+YouTube Brand & Marketing Strategist
+
+The Business Translation:
+Marketing domain protocol compiled from the Overlay365 book library. Permission beats interruption; attention is earned, never bought.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the marketing practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the marketing practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the marketing practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the marketing practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: acquisition
+  * Target Segment: marketers, growth teams, brand managers
+  * Strategic Risk: Tactics without a durable brand erode margins
+  * Key Principle: Permission beats interruption; attention is earned, never bought.
+  * Strategy Tags: marketing, brand, growth, demand, positioning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_youtube_marketing_for_dummies",
+  "archetype": "YouTube Marketing For Dummies Pattern",
+  "domain": "marketing",
+  "source": "YouTube Marketing For Dummies.pdf",
+  "business_logic": "Permission beats interruption; attention is earned, never bought.",
+  "application": "Business Book: YouTube Marketing For Dummies",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "acquisition", "target_segment": "marketers, growth teams, brand managers", "strategic_risk": "Tactics without a durable brand erode margins", "key_principle": "Permission beats interruption; attention is earned, never bought.", "strategy_tags": ["marketing", "brand", "growth", "demand", "positioning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+2. The "Larsen F. Commodity Branding. A Qualitative Research Approach..." Protocol
+
+Source Material: Larsen F. Commodity Branding. A Qualitative Research Approach...
+
+The Narrative:
+Source text (TOC + opening pages):
+Commodity Branding
+A Qualitative Research
+Approach to
+Understanding Modern
+Energy Brands
+Fridrik Larsen
+
+Commodity Branding
+
+Fridrik Larsen
+Commodity Branding
+A Qualitative Research Approach
+to Understanding Modern Energy
+Brands
+
+The Business Translation:
+Marketing domain protocol compiled from the Overlay365 book library. Permission beats interruption; attention is earned, never bought.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the marketing practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the marketing practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the marketing practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the marketing practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: acquisition
+  * Target Segment: marketers, growth teams, brand managers
+  * Strategic Risk: Tactics without a durable brand erode margins
+  * Key Principle: Permission beats interruption; attention is earned, never bought.
+  * Strategy Tags: marketing, brand, growth, demand, positioning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_larsen_f_commodity_branding_a_qualitative_research_approach",
+  "archetype": "Larsen F. Commodity Branding. A Qualitative Research Approach... Pattern",
+  "domain": "marketing",
+  "source": "Larsen F. Commodity Branding. A Qualitative Research Approach...2023.pdf",
+  "business_logic": "Permission beats interruption; attention is earned, never bought.",
+  "application": "Business Book: Larsen F. Commodity Branding. A Qualitative Research Approach...",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "acquisition", "target_segment": "marketers, growth teams, brand managers", "strategic_risk": "Tactics without a durable brand erode margins", "key_principle": "Permission beats interruption; attention is earned, never bought.", "strategy_tags": ["marketing", "brand", "growth", "demand", "positioning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+3. The "Permission Marketing_ Turning Strangers Into Friends And Friends Into Customers by Seth Godin" Protocol
+
+Source Material: Permission Marketing_ Turning Strangers Into Friends And Friends Into Customers by Seth Godin
+
+The Narrative:
+Source text (TOC + opening pages):
+ALSO BY SETH GODIN The Information Please Business Almanac The Guerrilla Marketing Handbook (with Jay Levinson) eMarketing For a list of other books on direct marketing, and a free subscription to the sporadically published and electronic Permission Marketing newsletter, send a blank e-mail to: Seth@permission.com
+
+Permission Marketing™ Turning Strangers into Friends, and Friends into Customers SETH GODIN Vice-President, Direct Marketing, Yahoo! SIMON &amp; SCHUSTER
+
+SIMON &amp; SCHUSTER Rockefeller Center 1230 Avenue of the Americas New York, NY 10020 www.SimonandSchuster.com Visit us on the World Wide Web: Copyright © 1999 by Seth Godin All rights reserved, including the right of reproduction in whole or in part in any form. SIMON &amp; SCHUSTER and colophon are registered trademarks of Simon &amp; Schuster Inc. “Permission Marketing” is a registered trademark of Yahoo! Inc., used under license. ISBN 0-684-83633-5 ISBN: 978-0-684-83633-1 eISBN: 978-0-684-83633-1
+
+This book is dedicated to Jerry Shereshewsky, visionary, apostle to the uninformed, brave marketer. Yoyodyne wouldn’t have developed without him, and this book wouldn’t have been written without his insights and agita.
+
+CONTENTS Foreword by Don Peppers Introduction ONE The Marketing Crisis That Money Won’t Solve TWO Permission Marketing-The Way to Make Advertising Work Again THREE The Evolution of Mass Advertising FOUR Getting Started-Focus on Share of Customer, Not Market Share FIVE How Frequency Builds Trust and Permission Facilitates Frequency SIX The Five Levels of Permission SEVEN Working with Permission as a Commodity EIGHT Everything You Know About Marketing on the Web Is Wrong! NINE Permission Marketing in the Context of the Web TEN Case Studies ELEVEN How to Evaluate a Permission Marketing Program TWELVE The Permission FAQ Acknowledgments Index
+
+Foreword by Don Peppers coauthor, The One to One Future founder, marketing 1:1, inc. I predict that businesses all over the world will soon be familiar with most of the concepts outlined in this book. Sales and marketing people everywhere will soon be talking about the very commonsense principles of “Permission Marketing” and how best to put these principles to work for their own businesses. To prove the accuracy of my prediction, I’ll ask you to consider your own hectic life. The truth is, your whole problem comes down to a question of time and energy, doesn’t it? Technically, life is easier for you than it was for your parents, because so much of the drudge work is now done by machines. But for some reason you’re busier than ever, isn’t that right? And doesn’t it seem as though every day you get still busier? How can this be? Simple. Because there are so many more claims on your attention, that’s why. You’re already overloaded with an embarrassment of opportunities to absorb your time and expend your funds doing things, watching things, using things. But every day even more opportunities are presented to you. So now when you decide to spend an hour surfing the Web, the first thing researchers want to know is: Hey, where did that extra hour come from, anyway? It came out of your life, that’s where. You made a tough choice. Decided to use an irreplaceable hour of your life cruising the Net rather than watching one of the 115 channels on the tube, or answering one of the 25 e-mail messages stacked in your queue, or driving out for a snack at one of the 30 fast-food restaurants located within a few miles of your home, or sunning at the pool, or playing Scrabble with your teenage daughter. Face it: Your attention—the time you have available to “pay attention”—is an increas
+
+Introduction I wasted a lot of Harvard University’s endowment. More than $6 million, to be specific. And everyone around me applauded. In 1983 Spinnaker Software emerged as the best-funded software start-up in history. With more than $17 million in venture money (including about $6 million from the sages at Harvard), Spinnaker set out to invent an entire genre—educational computer games for kids. As one of a handful of brand managers at Spinnaker, my job (at the tender age of twenty-three) was to spend millions of dollars advertising our new products. Amazingly enough, this little start-up ranked among the two hundred largest advertisers in the country in 1984. Armed with millions of dollars of ad money, I ran ads in People and dozens of other magazines. We had constant discussions about how to make the move to television and, of course, f
+
+The Business Translation:
+Marketing domain protocol compiled from the Overlay365 book library. Permission beats interruption; attention is earned, never bought.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the marketing practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the marketing practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the marketing practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the marketing practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: acquisition
+  * Target Segment: marketers, growth teams, brand managers
+  * Strategic Risk: Tactics without a durable brand erode margins
+  * Key Principle: Permission beats interruption; attention is earned, never bought.
+  * Strategy Tags: marketing, brand, growth, demand, positioning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_permission_marketing_turning_strangers_into_friends_and_friends_into_customers_by_seth_god",
+  "archetype": "Permission Marketing_ Turning Strangers Into Friends And Friends Into Customers by Seth Godin Pattern",
+  "domain": "marketing",
+  "source": "Permission Marketing_ Turning Strangers Into Friends And Friends Into Customers by Seth Godin.epub",
+  "business_logic": "Permission beats interruption; attention is earned, never bought.",
+  "application": "Business Book: Permission Marketing_ Turning Strangers Into Friends And Friends Into Customers by Seth Godin",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "acquisition", "target_segment": "marketers, growth teams, brand managers", "strategic_risk": "Tactics without a durable brand erode margins", "key_principle": "Permission beats interruption; attention is earned, never bought.", "strategy_tags": ["marketing", "brand", "growth", "demand", "positioning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+4. The "The 1-Page Marketing Plan_ Get New Customers, Make More Money And Stand Out From The Crowd by Allan Dib" Protocol
+
+Source Material: The 1-Page Marketing Plan_ Get New Customers, Make More Money And Stand Out From The Crowd by Allan Dib
+
+The Narrative:
+Source text (TOC + opening pages):
+The 1-Page Marketing Plan Get New Customers, Make More Money, And Stand Out From The Crowd Allan Dib
+
+Copyright 2016 Successwise ALL RIGHTS RESERVED. This book contains material protected under International and Federal Copyright Laws and Treaties. Any unauthorized reprint or use of this material is prohibited. No part of this book may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording, or by any information storage and retrieval system without express written permission from the author/publisher. ISBN: 978-1-941142-98-1 successwise.com
+
+Table of Contents INTRODUCTION ACT I - The “Before” Phase Chapter 1 - Selecting Your Target Market Chapter 2 - Crafting Your Message Chapter 3 - Reaching Prospects With Advertising Media ACT II - The “During” Phase Chapter 4 - Capturing Leads Chapter 5 - Nurturing Leads Chapter 6 - Sales Conversion ACT III - The “After” Phase Chapter 7 - Delivering A World Class Experience Chapter 8 - Increasing Customer Lifetime Value Chapter 9 - Orchestrating And Stimulating Referrals CONCLUSION About The Author
+
+Acknowledgements “If I have seen further than others, it is by standing upon the shoulders of giants.” - Isaac Newton I wish I could tell you all ideas in this book were my inventions and that I’m some kind of marketing and business genius. The truth though is I’m a collector of elegant ideas. I rarely invent anything and when I do, it’s rarely worth writing about. An early business mentor of mine, Mal Emery would often say, “I’ve never had an original idea in my life—it’s just too bloody dangerous.” Yet he was and continues to be an extremely successful businessman and marketer. The secret of his success and subsequently mine, was to just model things that were known to reliably work rather than trying to reinvent the wheel. Reinventing the wheel requires you to be a genius and even then, it carries with it a high probability of failure. I’m no genius and I hate failing, so I prefer to just closely copy the things that made others successful—at least until I’ve got a very good handle on the basics. This tilts the odds in my favor and gives me a high probability of success. While I did create the system that has become The 1-Page Marketing Plan, many of the direct response marketing concepts that make it work are the invention and ideas of other great business leaders and marketers. Perhaps I flatter myself but the aphorism, “Good artists copy; great artists steal.” repeated by Steve Jobs and attributed to Pablo Picasso is certainly a philosophy I’ve held in mind when collecting these elegant ideas over the years and writing this book. Regardless of whether you consider me a “great artist” or a thief, I want you to benefit from the treasure trove of the proven business building ideas that follow. Certainly there’s a place for creativity and invention but in my opinion, 
+
+INTRODUCTION What’s This All About? If I had to summarize the essence of this book in one sentence it would be, “the fastest path to the money.” I’ve purposely put this as early as humanly possible in the book because I don’t want to waste your time. I know for a certainty that this opening sentence will be off putting to a large number of people and frankly I’d much prefer they read someone else’s business book full of ear-tickling clichés like “follow your passion,” “work hard,” “hire the right people,” blah blah blah. If that’s what you’re after, then search Amazon. There’ll be a gazillion business books there for you on all these airy fairy concepts and much more, mostly written by professional authors and researchers who’ve never actually built a high growth business. This book is blatantly and unashamedly about growing your business fast and reaping the rewards of that kind of success.
+
+Running Out Of Oxygen Really Sucks As Zig Ziglar famously said, “Money isn’t everything...but it ranks right up there with oxygen.” Yup, nothing—NOTHING—kills a business faster than a lack “oxygen” (aka money). Why am I so unashamedly focused on the money getting? There are a few good reasons. Firstly, there’s almost no business problem that can’t be solved with more money. Which is handy because almost every business I know of is full of problems. Money helps you solve the vast majority of things that make business a pain in the backside. Secondly, when you’ve taken care of yourself, you have a chance to help others. If you didn’t go into business to make money then y
+
+The Business Translation:
+Marketing domain protocol compiled from the Overlay365 book library. Permission beats interruption; attention is earned, never bought.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the marketing practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the marketing practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the marketing practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the marketing practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: acquisition
+  * Target Segment: marketers, growth teams, brand managers
+  * Strategic Risk: Tactics without a durable brand erode margins
+  * Key Principle: Permission beats interruption; attention is earned, never bought.
+  * Strategy Tags: marketing, brand, growth, demand, positioning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_1_page_marketing_plan_get_new_customers_make_more_money_and_stand_out_from_the_crowd_b",
+  "archetype": "The 1-Page Marketing Plan_ Get New Customers, Make More Money And Stand Out From The Crowd by Allan Dib Pattern",
+  "domain": "marketing",
+  "source": "The 1-Page Marketing Plan_ Get New Customers, Make More Money And Stand Out From The Crowd by Allan Dib.epub",
+  "business_logic": "Permission beats interruption; attention is earned, never bought.",
+  "application": "Business Book: The 1-Page Marketing Plan_ Get New Customers, Make More Money And Stand Out From The Crowd by Allan Dib",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "acquisition", "target_segment": "marketers, growth teams, brand managers", "strategic_risk": "Tactics without a durable brand erode margins", "key_principle": "Permission beats interruption; attention is earned, never bought.", "strategy_tags": ["marketing", "brand", "growth", "demand", "positioning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+5. The "The 22 Immutable Laws of Branding by Al Ries" Protocol
+
+Source Material: The 22 Immutable Laws of Branding by Al Ries
+
+The Narrative:
+Source text (TOC + opening pages):
+Dedicated to Mary Lou and Scott.
+
+Contents Introduction The 22 Immutable Laws of Branding 1 The Law of Expansion 2 The Law of Contraction 3 The Law of Publicity 4 The Law of Advertising 5 The Law of the Word 6 The Law of Credentials 7 The Law of Quality 8 The Law of the Category 9 The Law of the Name 10 The Law of Extensions 11 The Law of Fellowship 12 The Law of the Generic 13 The Law of the Company 14 The Law of Subbrands 15 The Law of Siblings 16 The Law of Shape 17 The Law of Color 18 The Law of Borders 19 The Law of Consistency 20 The Law of Change 21 The Law of Mortality 22 The Law of Singularity The 11 Immutable Laws of Internet Branding 1 The Law of Either/Or 2 The Law of Interactivity 3 The Law of the Common Name 4 The Law of the Proper Name 5 The Law of Singularity 6 The Law of Internet Advertising 7 The Law of Globalism 8 The Law of Time 9 The Law of Vanity 10 The Law of Divergence 11 The Law of Transformation About the Authors Also by Al Ries and Laura Ries Copyright About the Publisher
+
+Introduction What is branding? From a business point of view, branding in the marketplace is very similar to branding on the ranch. A branding program should be designed to differentiate your product from all the other cattle on the range. Even if all the other cattle on the range look pretty much alike. Successful branding programs are based on the concept of singularity. The objective is to create in the mind of the prospect the perception that there is no other product on the market quite like your product. Can a successful brand appeal to everybody? No. The same concept of singularity makes certain that no one brand can possibly have a universal appeal. Yet, broadening the base, widening the appeal, and extending the line are all popular trends in marketing. The same forces that try to increase a company’s market share are also the forces that undermine the power of the brand. It’s the difference between selling and branding. Could you sell a $100 Rolex watch? Sure, you could probably sell millions of them and in the process increase sales of Rolex watches. But what would happen in the long term to the Rolex brand? A cheap Rolex would ultimately kill the expensive Rolex brand. The same principles apply to almost every aspect of marketing. In the short term, conventional marketing strategies (expansion and line extension) can increase sales, but in the long run they usually undermine the power of the brand and decrease sales. Conventional marketing is based on selling when it should be based on branding. Marketing is not selling. Marketing is building a brand in the mind of the prospect. If you can build a powerful brand, you will have a powerful marketing program. If you can’t, then all the advertising, fancy packaging, sales promotion, Web designs, and public relat
+
+1 THE LAW OF EXPANSION
+
+The power of a brand is inversely proportional to its scope. Think Chevrolet. What immediately comes to mind? Having trouble? It’s understandable. Chevrolet is a large, small, cheap, expensive car . . . or truck. When you put your brand name on everything, that name loses its power. Chevrolet used to be the best-selling automobile brand in America. No longer. Today Ford is the leader. Think Ford. Same problem. Ford and Chevrolet, once very powerful brands, are burning out. Slowly heading for the scrap heap. Ford buyers talk about their Tauruses. Or their Broncos. Or their Explorers. Or their Escorts. Chevrolet buyers talk about their . . . Well, what do Chevy buyers talk about? Except for the Corvette, there are no strong brands in the rest of the Chevrolet car line. Hence, the brand-image problem. Chevrolet has ten separate car models. Ford has eight. That’s one reason Ford outsells Chevrolet. The power of a brand is inversely proportional to its scope. Why does Chevrolet market all those models? Because it wants to sell more cars. And in the short term, it does. But in the long term, the model expansion undermines the brand name in the mind of the consumer. Short term versus long term. Do you broaden the line in order to increase sales in the short term? Or do you keep a narrow line in order to build the brand in the mind and increase sales in the future? Do you build the brand today in order to move merchandise tomorrow? Or do you expand the brand today in order to move the goods today and see it decline tomorrow? The emphasis in most companies is on the short term. Line extension, megabranding, variable pricing, and a host of o
+
+The Business Translation:
+Marketing domain protocol compiled from the Overlay365 book library. Permission beats interruption; attention is earned, never bought.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the marketing practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the marketing practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the marketing practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the marketing practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: acquisition
+  * Target Segment: marketers, growth teams, brand managers
+  * Strategic Risk: Tactics without a durable brand erode margins
+  * Key Principle: Permission beats interruption; attention is earned, never bought.
+  * Strategy Tags: marketing, brand, growth, demand, positioning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_22_immutable_laws_of_branding_by_al_ries",
+  "archetype": "The 22 Immutable Laws of Branding by Al Ries Pattern",
+  "domain": "marketing",
+  "source": "The 22 Immutable Laws of Branding by Al Ries.epub",
+  "business_logic": "Permission beats interruption; attention is earned, never bought.",
+  "application": "Business Book: The 22 Immutable Laws of Branding by Al Ries",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "acquisition", "target_segment": "marketers, growth teams, brand managers", "strategic_risk": "Tactics without a durable brand erode margins", "key_principle": "Permission beats interruption; attention is earned, never bought.", "strategy_tags": ["marketing", "brand", "growth", "demand", "positioning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+6. The "The 22 Immutable Laws of Marketing_ Violate Them at Your Own Risk! by Jack Trout" Protocol
+
+Source Material: The 22 Immutable Laws of Marketing_ Violate Them at Your Own Risk! by Jack Trout
+
+The Narrative:
+Source text (TOC + opening pages):
+The 22 Immutable Laws of Marketing Violate Them at Your Own Risk Al Ries and Jack Trout
+
+Dedication Dedicated to the elimination of myths and misconceptions from the marketing process
+
+Contents Dedication Introduction 1. The Law of Leadership 2. The Law of the Category 3. The Law of the Mind 4. The Law of Perception 5. The Law of Focus 6. The Law of Exclusivity 7. The Law of the Ladder 8. The Law of Duality 9. The Law of the Opposite 10. The Law of Division 11. The Law of Perspective 12. The Law of Line Extension 13. The Law of Sacrifice 14. The Law of Attributes 15. The Law of Candor 16. The Law of Singularity 17. The Law of Unpredictability 18. The Law of Success 19. The Law of Failure 20. The Law of Hype 21. The Law of Acceleration 22. The Law of Resources Warning About the Author Credits Copyright About the Publisher
+
+Introduction Billions of dollars have been wasted on marketing programs that couldn’t possibly work, no matter how clever or brilliant. Or how big the budgets. Many managers assume that a well-designed, well-executed, well-financed marketing program will work. It’s not necessarily so. And you don’t have to look further than IBM, General Motors, and Sears, Roebuck to find examples. The tools and techniques used at Sears, Roebuck might have been right, sometimes even spectacular. And the managers who ran the GM programs might have been the best and the brightest. Certainly the best and the brightest people traditionally have been attracted to the biggest and the best companies, like GM and IBM. But the programs themselves were based on assumptions that were flawed. John Kenneth Galbraith, when asked what he believed was America’s perception of the country’s giant corporations, said that we feared corporate power. Today, we fear corporate incompetence! All companies are in trouble. Especially big companies. General Motors is a good example. Over the past decade the company paid a terrible price for destroying the identity of its brands. (It priced them alike as well as made them look alike.) Ten share points evaporated, which translates into about $10 billion a year in sales. GM’S problem wasn’t a competitive problem, although competition did increase. It wasn’t a quality problem either, although GM obviously wasn’t delivering top-notch quality. It was very definitely a marketing problem. When a company makes a mistake today, footprints quickly show up on its back as competition runs off with its business. To get the business back, the company has to wait for others to make mistakes and then figure out how to exploit the situation. So how do you avoid making mistakes in th
+
+1 The Law of Leadership It’s better to be first than it is to be better. Many people believe that the basic issue in marketing is convincing prospects that you have a better product or service. Not true. If you have a small market share and you have to do battle with larger, better-financed competitors, then your marketing strategy was probably faulty in the first place. You violated the first law of marketing. The basic issue in marketing is creating a category you can be first in. It’s the law of leadership: It’s better to be first than it is to be better. It’s much easier to get into the mind first than to try to convince someone you have a better product than the one that did get there first. You can demonstrate the law of leadership by asking yourself two questions: 1) What’s the name of the first person to fly the Atlantic Ocean solo? Charles Lindbergh, right? 2) What’s the name of the second person to fly the Atlantic Ocean solo? Not so easy to answer, is it? The second person to fly the Atlantic Ocean solo was Bert Hinkler. Bert was a better pilot than Charlie—he flew faster, he consumed less fuel. Yet who has ever heard of Bert Hinkler? (He left home and Mrs. Hinkler hasn’t heard from him since.) In spite of the evident superiority of the Lindbergh approach, most companies go the Bert Hinkler route. They wait until a market develops. Then they jump in with a better product, often with their corporate name attached. In today’s competitive environment, a me-too product with a line extension name has little hope of becoming a big, profitable brand (chapter 12: The Law of Line Extension). The leading brand in any category is almost always the first brand into the prospect’s mind. Hertz in rent-a-cars. IBM in computers. Coca-Cola in cola. After World War II, Heineke
+
+2 The Law of the Category If you can’t be first in a category,
+
+The Business Translation:
+Marketing domain protocol compiled from the Overlay365 book library. Permission beats interruption; attention is earned, never bought.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the marketing practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the marketing practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the marketing practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the marketing practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: acquisition
+  * Target Segment: marketers, growth teams, brand managers
+  * Strategic Risk: Tactics without a durable brand erode margins
+  * Key Principle: Permission beats interruption; attention is earned, never bought.
+  * Strategy Tags: marketing, brand, growth, demand, positioning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_22_immutable_laws_of_marketing_violate_them_at_your_own_risk_by_jack_trout",
+  "archetype": "The 22 Immutable Laws of Marketing_ Violate Them at Your Own Risk! by Jack Trout Pattern",
+  "domain": "marketing",
+  "source": "The 22 Immutable Laws of Marketing_ Violate Them at Your Own Risk! by Jack Trout.epub",
+  "business_logic": "Permission beats interruption; attention is earned, never bought.",
+  "application": "Business Book: The 22 Immutable Laws of Marketing_ Violate Them at Your Own Risk! by Jack Trout",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "acquisition", "target_segment": "marketers, growth teams, brand managers", "strategic_risk": "Tactics without a durable brand erode margins", "key_principle": "Permission beats interruption; attention is earned, never bought.", "strategy_tags": ["marketing", "brand", "growth", "demand", "positioning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

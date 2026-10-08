@@ -1,0 +1,1577 @@
+Expansion Pack: biotech books compiled from the Overlay365 book library.
+1. The "Biology Essentials" Protocol
+
+Source Material: Biology Essentials
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13; &#13; &#13;
+
+&#13; &#13; &#13; &#13;
+&#13; Biology Essentials For Dummies ® &#13; Published by: John Wiley &amp; Sons, Inc., 111 River Street, Hoboken, NJ 07030-5774, www.wiley.com &#13; Copyright © 2019 by John Wiley &amp; Sons, Inc., Hoboken, New Jersey &#13; Published simultaneously in Canada &#13; No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, scanning or otherwise, except as permitted under Sections 107 or 108 of the 1976 United States Copyright Act, without the prior written permission of the Publisher. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley &amp; Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at http://www.wiley.com/go/permissions . &#13; Trademarks: Wiley, For Dummies, the Dummies Man logo, Dummies.com, Making Everything Easier, and related trade dress are trademarks or registered trademarks of John Wiley &amp; Sons, Inc. and may not be used without written permission. John Wiley &amp; Sons, Inc. is not associated with any product or vendor mentioned in this book. &#13; LIMIT OF LIABILITY/DISCLAIMER OF WARRANTY: THE PUBLISHER AND THE AUTHOR MAKE NO REPRESENTATIONS OR WARRANTIES WITH RESPECT TO THE ACCURACY OR COMPLETENESS OF THE CONTENTS OF THIS WORK AND SPECIFICALLY DISCLAIM ALL WARRANTIES, INCLUDING WITHOUT LIMITATION WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE. NO WARRANTY MAY BE CREATED OR EXTENDED BY SALES OR PROMOTIONAL MATERIALS. THE ADVICE AND STRATEGIES CONTAINED HEREIN MAY NOT BE SUITABLE FOR EVERY SITUATION. THIS WORK IS SOLD WITH THE UNDERSTANDING THAT THE PUBLISHER IS NOT ENGAGED IN RENDERING LEGAL, ACCOUNTING, OR OTHER PROFESSIO
+
+Biology Essentials For Dummies® &#13; To view this book's Cheat Sheet, simply go to www.dummies.com and search for “Biology Essentials For Dummies Cheat Sheet” in the Search box. &#13; &#13; Table of Contents &#13; &#13; &#13; Cover &#13; &#13; &#13; Introduction &#13; &#13; &#13; About This Book &#13; &#13; &#13; Conventions Used in This Book &#13; &#13; &#13; Foolish Assumptions &#13; &#13; &#13; Icons Used in This Book &#13; &#13; &#13; Beyond the Book &#13; &#13; &#13; Where to Go from Here &#13; &#13; &#13; &#13; &#13; Chapter 1: Exploring the Living World &#13; &#13; &#13; Living Things: Why Biologists Study Them, What Defines Them &#13; &#13; &#13; Meet Your Neighbors: Looking at Life on Earth &#13; &#13; &#13; Classifying Living Things &#13; &#13; &#13; Organizing Life into Smaller and Smaller Groups: Taxonomy &#13; &#13; &#13; Biodiversity: Our Differences Make Us Stronger &#13; &#13; &#13; Making Sense of the World through Observations &#13; &#13; &#13; &#13; &#13; Chapter 2: The Chemistry of Life &#13; &#13; &#13; Exploring Why Matter Matters &#13; &#13; &#13; The Differences among Atoms, Elements, and Isotopes &#13; &#13; &#13; Molecules, Compounds, and Bonds &#13; &#13; &#13; Acids and Bases &#13; &#13; &#13; Carbon-Based Molecules: The Basis for All Life &#13; &#13; &#13; &#13; &#13; Chapter 3: The Living Cell &#13; &#13; &#13; An Overview of Cells &#13; &#13; &#13; Peeking at Prokaryotic Cells &#13; &#13; &#13; Examining the Structure of Eukaryotic Cells &#13; &#13; &#13; Cells and the Organelles &#13; &#13; &#13; Presenting Enzymes, the Jump-Starters &#13; &#13; &#13; &#13; &#13; Chapter 4: Energy and Organisms &#13; &#13; &#13; What’s Energy Got to Do with It? &#13; &#13; &#13; Building Cells through Photosynthesis &#13; &#13; &#13; Cellular Respiration
+
+Introduction &#13; Life is all around you, from invisible microbes and green plants to the other animals with whom you share the Earth. What’s more, these other living things aren’t just around you — they’re intimately interconnected with your life. Plants make your food and provide you with oxygen, microbes break down dead matter and recycle materials that all living things need, and insects pollinate the plants you rely on for food. Ultimately, all living beings rely on other living beings for their survival. &#13; What makes biology so great is that it allows you to explore the interconnectedness of the world’s organisms and really understand that living beings are works of art and machines rolled into one. Organisms can be as delicate as a mountain wildflower or as awe-inspiring as a majestic lion. And regardless of whether they’re plants, animals, or microbes,
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_biology_essentials",
+  "archetype": "Biology Essentials Pattern",
+  "domain": "biotech",
+  "source": "Biology Essentials .epub",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Biology Essentials",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+2. The "Harper J. Large Language Models (LLMs) for Healthcare. A Practical Guide..." Protocol
+
+Source Material: Harper J. Large Language Models (LLMs) for Healthcare. A Practical Guide...
+
+The Narrative:
+Source text (TOC + opening pages):
+Large Language Models
+(LLMs) for Healthcare
+In today’s rapidly evolving healthcare environment, one technology stands at the
+forefront of innovation: large language models (LLMs). Far more than a fleeting
+hype, LLMs represent a foundational shift in how healthcare professionals
+interact with and derive value from data. From simplifying clinical note-writing
+to supporting patient engagement and enhancing administrative processes, LLMs
+have the power to transform nearly every corner of the healthcare ecosystem. In
+Large Language Models (LLMs) for Healthcare, Jeremy Harper shines a spotlight
+on this transformative potential. With clarity and practicality, he explores how
+these advanced artificial intelligence (AI) tools can reshape clinical workflows,
+optimize administrative tasks, and ultimately create a more responsive, patient-
+centered model of care. Over the course of this book, you will discover new
+opportunities—learn how LLMs can reduce manual documentation burdens,
+provide intelligent summaries of complex patient histories, and offer real-
+time translations of clinical jargon; understand the fundamentals—grasp what
+LLMs are, how they work, and why they can handle vast amounts of clinical
+text more effectively than previous AI tools; examine key use cases—from
+automated billing support and smart note generation to patient triage and ethical
+telehealth consultations; address risks and realities—gain insight into challenges
+such as “hallucinations,” inherent bias, and the critical importance of patient
+privacy; plan for implementation—explore strategies for prompt engineering,
+fine-tuning, and rigorous evaluation of LLM solutions; and envision the
+future – glimpse how LLMs might revolutionize healthcare through enhanced
+back-office operations and cutting-edge clinica
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_harper_j_large_language_models_llms_for_healthcare_a_practical_guide",
+  "archetype": "Harper J. Large Language Models (LLMs) for Healthcare. A Practical Guide... Pattern",
+  "domain": "biotech",
+  "source": "Harper J. Large Language Models (LLMs) for Healthcare. A Practical Guide...2025.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Harper J. Large Language Models (LLMs) for Healthcare. A Practical Guide...",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+3. The "Lilhore U.Multimodal Data Fusion for Bioinformatics Artificial Intelligence" Protocol
+
+Source Material: Lilhore U.Multimodal Data Fusion for Bioinformatics Artificial Intelligence
+
+The Narrative:
+Source text (TOC + opening pages):
+[timeout or extract failure: Lilhore U.Multimodal Data Fusion for Bioinformatics Artificial Intelligence 2025.pdf]
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_lilhore_u_multimodal_data_fusion_for_bioinformatics_artificial_intelligence",
+  "archetype": "Lilhore U.Multimodal Data Fusion for Bioinformatics Artificial Intelligence Pattern",
+  "domain": "biotech",
+  "source": "Lilhore U.Multimodal Data Fusion for Bioinformatics Artificial Intelligence 2025.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Lilhore U.Multimodal Data Fusion for Bioinformatics Artificial Intelligence",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+4. The "Sharma M. Bioinformatics and Beyond. AI Applications in Healthcare" Protocol
+
+Source Material: Sharma M. Bioinformatics and Beyond. AI Applications in Healthcare
+
+The Narrative:
+Source text (TOC + opening pages):
+i
+Bioinformatics and Beyond
+This book is a comprehensive exploration of the dynamic interplay between bio-
+informatics and artificial intelligence (AI) within the healthcare landscape. This book
+introduces readers to the foundational principles of bioinformatics and AI, eluci-
+dating their integration and collaborative potential.
+Bioinformatics and Beyond: AI Applications in Healthcare explores the trans-
+formative impact of data-d riven insights, showcasing the applications of machine
+learning in diagnostics, personalized medicine, and genomic advancements. The book
+unveils the pivotal role AI plays in accelerating pharmaceutical research. Moreover,
+it addresses the practical implementation of AI in clinical decision support systems,
+while also critically examining challenges and ethical considerations associated with
+these technologies. Finally, the book looks toward the future, envisioning emerging
+trends and technologies that promise to reshape the future of healthcare. Aimed at
+professionals, researchers, and students across diverse disciplines, this book serves
+as an invaluable guide to understanding and navigating the evolving landscape of AI
+applications in healthcare.
+This book is tailored to meet the needs of scientists, researchers, practitioners,
+professionals, and educators actively engaged in the realms of bioinformatics, artifi-
+cial intelligence, and healthcare. It will be an indispensable resource for those seeking
+advanced strategies to address challenges and harness opportunities in the rapidly
+evolving fields of medical and biomedical research.
+
+ii
+Artificial Intelligence for Sustainable Engineering and Management
+Sachi Nandan Mohanty
+School of Computer Science & Engineering (SCOPE),
+VIT- AP University,
+Amaravati, Andhra Pradesh, India
+Deepak Gupta
+Artificial intelligence is shaping the future of humanity across nearly every industry.
+It is already the main driver of emerging technologies like big data, robotics and IoT,
+and it will continue to act as a technological innovator for the foreseeable future.
+Artificial intelligence is the simulation of human intelligence processes by machines,
+especially computer systems. Specific applications of AI include expert systems,
+natural language processing, speech recognition and machine vision. The future of
+business intelligence combined with AI will see the analysis of huge quantities of
+contextual data in real- time to meet customer needs.
+Green Metaverse for Greener Economies
+Edited by Sukanta Kumar Baral, Richa Goel, Tilottama Singh, and Rakesh Kumar
+Healthcare Analytics and Advanced Computational Intelligence
+Edited by Sushruta Mishra, Meshal Alharbi, Hrudaya Kumar Tripathy,
+Biswajit Sahoo, and Ahmed Alkhayyat
+AI in Agriculture for Sustainable and Economic Management
+Edited by Sirisha Potluri, Suneeta Satpathy, Santi Swarup Basa, and Antonio Zuorro
+Deep Learning in Biomedical Signal and Medical Imaging
+Edited by Ngangbam Herojit Singh, Utku Kose, and Sarada Prasad Gochhayat
+Sustainable Development Using Private AI: Security Models and Applications
+Edited by Uma Maheswari V and Rajanikanth Aluvalu
+Sustainable Farming through Machine Learning Enhancing Productivity and
+Efficiency
+Suneeta Satpathy, Bijay Paikaray, Ming Yang, and Arun Balakrishnan
+Bioinformatics and Beyond: AI Applications in Healthcare
+Edited by Moolchand Sharma, Deepak Kumar Sharma, Deevyankar Agarw
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_sharma_m_bioinformatics_and_beyond_ai_applications_in_healthcare",
+  "archetype": "Sharma M. Bioinformatics and Beyond. AI Applications in Healthcare Pattern",
+  "domain": "biotech",
+  "source": "Sharma M. Bioinformatics and Beyond. AI Applications in Healthcare 2025.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Sharma M. Bioinformatics and Beyond. AI Applications in Healthcare",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+5. The "Shili L. Bioinformatics Methods. From Omics to Next Generation Sequencing" Protocol
+
+Source Material: Shili L. Bioinformatics Methods. From Omics to Next Generation Sequencing
+
+The Narrative:
+Source text (TOC + opening pages):
+Bioinformatics Methods
+The past three decades have witnessed an explosion of what is now referred to as high-
+dimensional “omics” data. Bioinformatics Methods: From Omics to Next Generation
+Sequencing describes the statistical methods and analytic frameworks that are best
+equipped to interpret these complex data and how they apply to health-related research.
+Covering the technologies that generate data, subtleties of various data types, and statisti-
+cal underpinnings of methods, this book identifies a suite of potential analytic tools and
+highlights commonalities among statistical methods that have been developed.
+An ideal reference for biostatisticians and data analysts that work in collaboration with
+scientists and clinical investigators looking to ensure the rigorous application of available
+methodologies.
+Key Features:
+• Survey of a variety of omics data types and their unique features
+• Summary of statistical underpinnings for widely used omics data analysis methods
+• Description of software resources for performing omics data analyses
+Shili Lin, PhD is a Professor in the Department of Statistics and a faculty member in the
+Translational Data Analytics Institute at the Ohio State University. Her research interests
+are in statistical methodologies for high-dimensional and big data, with a focus on their
+applications in biomedical research, statistical genetics and genomics, and integration of
+multiple omics data.
+Denise Scholtens, PhD is a Professor and Chief of the Division of Biostatistics in the
+Department of Preventive Medicine at Northwestern University Feinberg School of Medi-
+cine. She is interested in the design and conduct of large-scale multi-center prospective
+health research studies, and in the integration of high-dimensional omics data analyses
+into th
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_shili_l_bioinformatics_methods_from_omics_to_next_generation_sequencing",
+  "archetype": "Shili L. Bioinformatics Methods. From Omics to Next Generation Sequencing Pattern",
+  "domain": "biotech",
+  "source": "Shili L. Bioinformatics Methods. From Omics to Next Generation Sequencing 2022.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Shili L. Bioinformatics Methods. From Omics to Next Generation Sequencing",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+6. The "Basak S. Big Data Analytics in Chemoinformatics and Bioinformatics..." Protocol
+
+Source Material: Basak S. Big Data Analytics in Chemoinformatics and Bioinformatics...
+
+The Narrative:
+Source text (TOC + opening pages):
+Big Data Analytics in
+Chemoinformatics and
+Bioinformatics
+
+Big Data Analytics in
+Chemoinformatics and
+Bioinformatics
+With Applications to Computer-Aided
+Drug Design, Cancer Biology, Emerging
+Pathogens and Computational
+Toxicology
+Edited by
+Subhash C. Basak
+Department of Chemistry and Biochemistry,
+University of Minnesota, Duluth, MN,
+United States
+Marjan Vracˇko
+Theory Department, Kemijski insˇtitut/National
+Institute of Chemistry, Ljubljana, Slovenia
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_basak_s_big_data_analytics_in_chemoinformatics_and_bioinformatics",
+  "archetype": "Basak S. Big Data Analytics in Chemoinformatics and Bioinformatics... Pattern",
+  "domain": "biotech",
+  "source": "Basak S. Big Data Analytics in Chemoinformatics and Bioinformatics...2023.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Basak S. Big Data Analytics in Chemoinformatics and Bioinformatics...",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+7. The "Bioinformatics and Functional Genomics (3rd Ed)(gnv64)" Protocol
+
+Source Material: Bioinformatics and Functional Genomics (3rd Ed)(gnv64)
+
+The Narrative:
+Source text (TOC + opening pages):
+BIOINFORMATICS AND
+FUNCTIONAL GENOMICS
+third edition
+Jonathan Pevsner
+
+BioinforMAtics And
+functionAl GenoMics
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_bioinformatics_and_functional_genomics_3rd_ed_gnv64",
+  "archetype": "Bioinformatics and Functional Genomics (3rd Ed)(gnv64) Pattern",
+  "domain": "biotech",
+  "source": "Bioinformatics and Functional Genomics (3rd Ed)(gnv64).pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Bioinformatics and Functional Genomics (3rd Ed)(gnv64)",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+8. The "Bioinformatics Data Skills ()" Protocol
+
+Source Material: Bioinformatics Data Skills ()
+
+The Narrative:
+Source text (TOC + opening pages):
+Bioinformatics Data Skills Vince Buffalo
+
+Bioinformatics Data Skills by Vince Buffalo Copyright © 2015 Vince Buffalo. All rights reserved. Printed in the United States of America. Published by O’Reilly Media, Inc. , 1005 Gravenstein Highway North, Sebastopol, CA 95472. O’Reilly books may be purchased for educational, business, or sales promotional use. Online editions are also available for most titles ( http://safaribooksonline.com ). For more information, contact our corporate/institutional sales department: 800-998-9938 or corporate@oreilly.com . Editors: Courtney Nash and Amy Jollymore Production Editor: Nicole Shelby Copyeditor: Jasmine Kwityn Proofreader: Kim Cofer Indexer: Ellen Troutman Interior Designer: David Futato Cover Designer: Ellie Volckhausen Illustrator: Rebecca Demarest June 2015: First Edition Revision History for the First Edition 2015-06-30: First Release See http://oreilly.com/catalog/errata.csp?isbn=9781449367374 for release details. The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. Bioinformatics Data Skills , the cover image, and related trade dress are trademarks of O’Reilly Media, Inc. While the publisher and the author have used good faith efforts to ensure that the information and instructions contained in this work are accurate, the publisher and the author disclaim all responsibility for errors or omissions, including without limitation responsibility for damages resulting from the use of or reliance on this work. Use of the information and instructions contained in this work is at your own risk. If any code samples or other technology this work contains or describes is subject to open source licenses or the intellectual property rights of others, it is your responsibility to ensure that your use thereof complies with such licenses and/or rights. 978-1-449-36737
+
+Dedication To my (rather large) family for their continued support: Mom, Dad, Anne, Lisa, Lauren, Violet, and Dalilah; the Buffalos, the Kihns, and the Lambs. And my earliest mentors for inspiring me to be who I am today: Randy Siverson and Duncan Temple Lang.
+
+Preface This book is the answer to a question I asked myself two years ago: “What book
+would I want to read first when getting started in bioinformatics?” When I
+began working in this field, I had programming experience in Python and R but
+little else. I had hunted around for a terrific introductory text on
+bioinformatics, and while I found some good books, most were not targeted to
+the daily work I did as a bioinformatician. A few of the texts I found
+approached bioinformatics from a theoretical and algorithmic perspective,
+covering topics like Smith-Waterman alignment, phylogeny reconstruction, motif
+finding, and the like. Although they were fascinating to read (and I do recommend that you explore this material), I had no need to implement bioinformatics
+algorithms from scratch in my daily bioinformatics work — numerous terrific,
+highly optimized, well-tested implementations of these algorithms already
+existed. Other bioinformatics texts took a more practical approach, guiding
+readers unfamiliar with computing through each step of tasks like running an
+aligner or downloading sequences from a database. While these were more
+applicable to my work, much of those books’ material was outdated. As you might guess, I couldn’t find that best “first” bioinformatics book. Bioinformatics Data Skills is my version of the book I was seeking. This book
+is targeted toward readers who are unsure how to bridge the giant gap between
+knowing a scripting language and practicing bioinformatics to answer scientific
+questions in a robust and reproducible way. To bridge this gap, one must learn
+data skills — an approach that uses a core set of tools to manipulate and
+explore any data you’ll encounter during a bioinformatics project. Data skills are the best way to learn bioinformatics becaus
+
+Part I. Ideology: Data Skills for Robust and Reproducible Bioinformatics
+
+Chapter 1. How to Learn Bioinformatics Right now, in labs across the world, machines are sequencing the genomes of the
+life on earth. Even with rapidly decreasing costs and huge technological
+advancements in genome sequencing, we’re only seeing a glimpse of the
+biological information contained in every cell, tissue, organism, and
+ecosystem. However, the smidgen of total biological information we’re gathering
+amounts to mountains of data biologists need to work with. At no other point in
+human history has our abil
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_bioinformatics_data_skills",
+  "archetype": "Bioinformatics Data Skills () Pattern",
+  "domain": "biotech",
+  "source": "Bioinformatics Data Skills (2015).epub",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Bioinformatics Data Skills ()",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+9. The "A facile lyophilisation-based sample preparation approach for the determination of selected wastewater-borne antiretroviral drugs and metabolites by SFC-MSMS by Tlou Mosekiemang & Sithandile Ngxangxa & Matlhogonolo" Protocol
+
+Source Material: A facile lyophilisation-based sample preparation approach for the determination of selected wastewater-borne antiretroviral drugs and metabolites by SFC-MSMS by Tlou Mosekiemang & Sithandile Ngxangxa & Matlhogonolo
+
+The Narrative:
+Source text (TOC + opening pages):
+[Shorttitle+AuthorName-P&Htitle]17(2024)105924
+ContentslistsavailableatScienceDirect
+Arabian Journal of Chemistry
+journalhomepage:www.ksu.edu.sa
+A facile lyophilisation-based sample preparation approach for the
+determination of selected wastewater-borne antiretroviral drugs and
+metabolites by SFC-MS/MS
+Tlou Mosekiemanga,*, Sithandile Ngxangxab, Matlhogonolo Kelepilea
+aDepartmentofEnvironmentalScience,UniversityofBotswanaPrivateBagUB00704,Gaborone,Botswana
+bDepartmentofChemicalSciences,UniversityofJohannesburg,P.O.Box524,AucklandPark2006,Johannesburg,SouthAfrica
+A R T I C L E I N F O A B S T R A C T
+Keywords: Thepresenceofpharmaceuticalsinaquaticecosystemsisatthecentre-stageofresearchaftertherealizationthat
+Antiretroviraldrugs wastewatertreatmentprocessesaregenerallyineffectiveintheremovaloftheseentitiesinwastewatergiventhe
+Lyophilization highlikelihoodofeffluentreuseafterdisposal.Inaddition,thecontinuedeffortstoscoutfornewandemerging
+Metabolites
+aquaticcontaminantshasuntilrecentlyelicitedproliferationofnumerousanalyticalmethodsforthedetermi-
+SFC-MS/MS,Wastewater
+nationofvarious(un)knowncontaminants,sinceemphasisisnowplacedinthedevelopmentofenvironmentally
+benignapproaches.Herein,weproposeanddiscussanovelandrelativelyeco-friendlyanalyticalmethodbased
+onlyophilizationforsamplepreparationandSFC-MS/MSforthedeterminationofeight(8)antiretroviraldrugs
+(ARVDs)andthree(3)metabolitesinwastewatersamples.Thismethodprovedusefulintheimprovementforthe
+recoveriesoflamivudine(3TC)andemtricitabine(FTC)byupto99%comparedtoaslowas23%withsolid
+phaseextraction(SPE)method.Indeed,previousliteraturereportshasreportedpoorrecoveriesforthepolar
+ARVDs,especiallyonreversedphase(RP)SPE.Incontrast,lyophilizationpromotedmatrixeffectsasevidenced
+byionsuppressionofupto50%experiencedonlateelutingcompounds.
+
+T.Mosekiemangetal. ArabianJournalofChemistry17(2024)105924
+exposuretoARVDs-impactedwaterthusfar,butsignificanttoxicolog- and a ribose sugar in their molecular structures (Fig. 1) and are pre-
+icaleffectshavebeenreportedonotherlivingspecies(Cidetal.,2021). dominantly polar (Andrade et al., 2011; Mosekiemang et al., 2021).
+For instance, the interactive- and/or combined toxic effects of Consequently,poorandirreproduciblerecoveriesduetonon-retention
+wastewater-borneARVDssuchasefavirenz,lamivudine,tenofoviretc., onRP-SPEhavebeenreportedforemtricitabine,lamivudinetenofovir
+hasbeendemonstratedonphytoplankton(Kitamuraetal.,2023).Un- etc. (Andrade et al., 2011; Brewer and Lunte, 2015; Mosekiemang,
+doubtedly,theserepresentacategoryofemergingandenvironmentally 2021). Notwithstanding this, poor recoveries and ion source-induced
+persistent contaminants that necessitate monitoring especially in re- analytelossesareoftencircumventedbyincorporatinganappropriate
+gionsexperiencinghighconsumptionpercapitaforthesedrugs(Abafe isotopically labelled internal standards (ILIS) at the early stages of
+etal.,2018;Mlunguzaetal.,2020;Mosekiemangetal.,2019;Muriuki sample preparation to circumvent the possibility of analyte losses.
+etal.,2020;Pengetal.,2014;Prasseetal.,2010;Woodetal.,2015). Againstthisbackground,itisclearthatamoreuniversalsampleprep-
+Regular environmental monitoring for the presence of ARVDs and aration techniqueis required especially whenthe aim isto developa
+their metabolites in aquatic environment require extremely accurate methodtargetingcompoundswithdiversephysico-chemicalproperties
+and highly reliableanalyticalmethods. Atypical analyticaltechnique (i.e.,multiclassARVDs)(Mosekiemangetal.,2019;Woodetal.,2015).
+usedforthispurposeistheliquidchromatography-tandemmassspec- Inthepresen
+
+T.Mosekiemangetal. ArabianJournalofChemistry17(2024)105924
+Fig.1. Typicalphysico-chemicalpropertiesandmolecularstructuresofinvestigatedcompounds.Thecompoundsaregroupedaccordingtopharmaceuticalclasses:
+(A)nucleosidereversetranscriptaseinhibitors(FTC,3TC,AZTG),(B)non-nucleosidereversetranscriptaseinhibitors(NVP,NVPM,EFV,EFVM)and(C)protease
+inhibitors(RTV,RTVM).Thehypotheticpolaritydiagram(i.e.,polarityscale)underscoresthediversityinthephysico-chemicalpropertiesofthetargetcompounds.
+BEH) were evaluated for their suitability in the separation of target confirmediftheratioofpeakintensities(q/QorQ/q)wasconstantover
+analytes(Fig.1).Allcolumns(100mm×3.0mm,1.7µmdp)weremade the calibration range and independent from matrix and vice-versa.
+ofsub-2µmfullyporoussilicaparticlesexceptfortheHSSC18SB(100 Similarly,theretentiontimeshifts(ΔtR)betweentheQ-andqionswas
+mm×3.0mm,1.8µmdp).Thebestresultswere
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_a_facile_lyophilisation_based_sample_preparation_approach_for_the_determination_of_selecte",
+  "archetype": "A facile lyophilisation-based sample preparation approach for the determination of selected wastewater-borne antiretroviral drugs and metabolites by SFC-MSMS by Tlou Mosekiemang & Sithandile Ngxangxa & Matlhogonolo Pattern",
+  "domain": "biotech",
+  "source": "A facile lyophilisation-based sample preparation approach for the determination of selected wastewater-borne antiretroviral drugs and metabolites by SFC-MSMS by Tlou Mosekiemang & Sithandile Ngxangxa & Matlhogonolo.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: A facile lyophilisation-based sample preparation approach for the determination of selected wastewater-borne antiretroviral drugs and metabolites by SFC-MSMS by Tlou Mosekiemang & Sithandile Ngxangxa & Matlhogonolo",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+10. The "Endoplasmic reticulum stress_ a novel mechanism and therapeutic target for cardiovascular diseases by Mei-qing Liu & Zhe Chen & Lin-xi Chen" Protocol
+
+Source Material: Endoplasmic reticulum stress_ a novel mechanism and therapeutic target for cardiovascular diseases by Mei-qing Liu & Zhe Chen & Lin-xi Chen
+
+The Narrative:
+Source text (TOC + opening pages):
+Acta Pharmacologica Sinica (2016) 37: 425–443 npg
+© 2016 CPS and SIMM All rights reserved 1671-4083/16
+www.nature.com/aps
+Review
+Endoplasmic reticulum stress: a novel mechanism
+and therapeutic target for cardiovascular diseases
+Mei-qing LIU#, Zhe CHEN#, Lin-xi CHEN*
+Institute of Pharmacy and Pharmacology, University of South China, Hengyang 421001, China
+Endoplasmic reticulum is a principal organelle responsible for folding, post-translational modifications and transport of secretory,
+luminal and membrane proteins, thus palys an important rale in maintaining cellular homeostasis. Endoplasmic reticulum stress
+(ERS) is a condition that is accelerated by accumulation of unfolded/misfolded proteins after endoplasmic reticulum environment
+disturbance, triggered by a variety of physiological and pathological factors, such as nutrient deprivation, altered glycosylation, calcium
+depletion, oxidative stress, DNA damage and energy disturbance, etc. ERS may initiate the unfolded protein response (UPR) to restore
+cellular homeostasis or lead to apoptosis. Numerous studies have clarified the link between ERS and cardiovascular diseases. This
+review focuses on ERS-associated molecular mechanisms that participate in physiological and pathophysiological processes of heart
+and blood vessels. In addition, a number of drugs that regulate ERS was introduced, which may be used to treat cardiovascular
+diseases. This review may open new avenues for studying the pathogenesis of cardiovascular diseases and discovering novel drugs
+targeting ERS.
+Keywords: endoplasmic reticulum stress; unfolded protein response; ischemic cardiomyopathy; atherosclerosis; hypertension; cardiac
+hypertrophy; heart failure
+Acta Pharmacologica Sinica (2016) 37: 425–443; doi: 10.1038/aps.2015.145; published online 1 Feb
+
+npg www.nature.com/aps
+Liu MQ et al
+426
+enzyme 1 (IRE1, also called ERN1) and activating transcription very important roles in the middle stages of ERS.
+factor 6 (ATF6)[13, 14]. In addition, glucose-regulated protein 78
+kDa (GRP78, also called Bip) also plays an essential role in the Endoplasmic reticulum stress promotes ER homeostasis
+UPR. via the UPR during the middle stages
+PERK is a member of the eukaryotic translation initiation The processes dealing with ERS are complex. Persistent stim-
+factor 2α (eIF2α) kinase subfamily, together with RNA-depen- ulus brings the UPR into focus; all the mentioned ERS sensor
+dent protein kinase (PKR), general control nondepressible proteins use a unique mechanism to activate transcription
+2 (GCN2) kinase and heme-regulated eIF2α kinase (HRI)[15]. factors and upregulate UPR target genes. Three pathways are
+PERK possesses a luminal domain similar to that of IRE1 and activated to rescue the damaged ER during the middle stages
+a cytoplasmic portion that manifests protein serine/threonine of ERS.
+kinase activity. Moreover, it has a PKR-like catalytic domain, First, the IRE1 pathway that is the conserved core of the
+which phosphorylates eIF2α[16]. eIF2 has three subunits: α, β, UPR is activated (Figure 1). IRE1 encodes a type 1 ER resident
+and γ. eIF2α is a translation initiation factor that functions transmembrane protein with a novel lumenal domain and a
+in the early steps of protein synthesis by forming a ternary cytoplasmic portion that contains a protein kinase domain[22, 23].
+complex with GTP and initiator tRNA. This complex binds to In response to unfolded proteins, IRE1 activates itself[24, 25].
+a 40S ribosomal subunit, followed by mRNA binding to con- Trans-autophosphorylated IRE1 activates its unusual effector
+stitute a 43S pre
+
+www.chinaphar.com npg
+Liu MQ et al
+427
+Figure 1. Signaling pathways of endoplasmic reticulum stress.
+Endoplasmic reticulum stress induces cell apoptosis in complex forms, leading to activation of pro-apoptotic JNK sig-
+the final stages naling[46]. Interaction of IRE1–TRAF2 after ERS has also been
+Although the UPR is primarily a pro-survival response, in reported to recruit pro-caspase 12, which has been proposed
+the event of prolonged or severe ERS that is not resolved, the to be an important mediator of ERS-induced apoptosis[47, 48].
+unfolded protein response switches to initiate apoptosis in Caspase 12 is the third protein that regulates the processes
+either a UPR-dependent or -independent manner[40]. ERS- of ERS-induced apoptosis[49]. Procaspase 12 localizes on the
+induced apoptosis, which participates in pathological pro- ER membrane alone or in complex with TRAF2; severe ERS
+ces
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_endoplasmic_reticulum_stress_a_novel_mechanism_and_therapeutic_target_for_cardiovascular_d",
+  "archetype": "Endoplasmic reticulum stress_ a novel mechanism and therapeutic target for cardiovascular diseases by Mei-qing Liu & Zhe Chen & Lin-xi Chen Pattern",
+  "domain": "biotech",
+  "source": "Endoplasmic reticulum stress_ a novel mechanism and therapeutic target for cardiovascular diseases by Mei-qing Liu & Zhe Chen & Lin-xi Chen.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Endoplasmic reticulum stress_ a novel mechanism and therapeutic target for cardiovascular diseases by Mei-qing Liu & Zhe Chen & Lin-xi Chen",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+11. The "Harrison’s Principles of Internal Medicine 22Ed" Protocol
+
+Source Material: Harrison’s Principles of Internal Medicine 22Ed
+
+The Narrative:
+Source text (TOC + opening pages):
+[timeout or extract failure: Harrison’s Principles of Internal Medicine 22Ed.pdf]
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_harrison_s_principles_of_internal_medicine_22ed",
+  "archetype": "Harrison’s Principles of Internal Medicine 22Ed Pattern",
+  "domain": "biotech",
+  "source": "Harrison’s Principles of Internal Medicine 22Ed.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Harrison’s Principles of Internal Medicine 22Ed",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+12. The "Spectroscopic, molecular docking, and ecotoxicology analyses of the monomer and dimers of 3-aminocyclohexa-2,6-diene-1-sulfonic acid â__ a theoretical approach by unknow" Protocol
+
+Source Material: Spectroscopic, molecular docking, and ecotoxicology analyses of the monomer and dimers of 3-aminocyclohexa-2,6-diene-1-sulfonic acid â__ a theoretical approach by unknow
+
+The Narrative:
+Source text (TOC + opening pages):
+J. Chem. Sci. (2022) 134:84 (cid:2) Indian Academy of Sciences
+https://doi.org/10.1007/s12039-022-02077-7
+Sadhan(a0123456789().,-volV)FT3](0123475869().,-volV)
+REGULAR ARTICLE
+Spectroscopic, molecular docking, and ecotoxicology analyses
+of the monomer and dimers of 3-aminocyclohexa-2,6-diene-1-
+sulfonic acid – a theoretical approach
+DEVARAJANRAMARAJANa,* ,JELENAÐOROVIC´ JOVANOVIC´b,ZORANMARKOVIC´b,
+DUSˇAN DIMIC´c and SHANMUGAM SUDHAa
+aDepartment of Physics, Kongu Engineering College, Perundurai, Erode, Tamil Nadu 638 060, India
+bDepartment of Science, Institute for Information Technologies, University of Kragujevac, Jovana Cvijic´a
+bb, 34000 Kragujevac, Serbia
+cFaculty of Physical Chemistry, University of Belgrade, Studentski trg 12-16, 11000 Belgrade, Serbia
+E-mail: rsan1987@gmail.com
+MSreceived 17February2022; revised 1April2022; accepted 15June 2022
+Abstract. 1,3-Cyclohexadienesareanimportantgroupofmoleculesfoundinnaturalcompoundsandtheir
+metabolites. In this contribution, optimization, spectral prediction, reactivity, and molecular docking studies
+of 3-aminocyclohexa-2,6-diene-1-sulfonic acid were performed. The structure was optimized based on the
+crystallographic structures of cis-(1S)-3-Fluoro-3,5-cyclohexadiene-1,2-diol and 1,10-(3,5-Cyclohexadiene-
+1,3-diyl)dibenzene. The most intense transitions in the predicted spectrum were observed at 195, 222, 235,
+and324 nm.Themolecularorbitalsincludedinthesetransitionswerepartiallylocalizedonpolargroups.The
+explicit solvent effect was investigated through optimization of structure with one water molecule. The
+strength of these interactions was assessed by the Natural Bond Orbital Theory and Quantum Theory of
+AtomsinMolecules.Threedifferentdimerstructureswerealsooptimizedtoobtaintheinteractionenergyfor
+various active posi
+
+84 Page 2 of 12 J. Chem. Sci. (2022) 134:84
+modulator, (S)-gabaculine, safranal, and a-ter- without any geometrical constraints, and the absence
+pinene.8,9 The light-driven ring-opening of 1,3-cyclo- of imaginary frequency was taken as proof that the
+hexadienes presents a novel way for optical memory, local minimum was found. The implicit solvent effect
+light-activated molecular machines, and photochromic was taken into account through the Conductor-like
+materials.10 PolarizableContinuumModel(CPCM).16Thespecific
+Aromatic sulfonic acids with hydroxyl and amino interactionswithwatermoleculeswereinvestigatedby
+groups are generally used as intermediates in the pro- the optimization of structures, including the explicit
+duction of synthetic dyes, optical brighteners, and flu- solvent molecules. The Time-Dependent Density
+orescent whitening agents.11 Substituted sulfonic acid Functional Theory (TD-DFT) was employed for the
+derivatives are utilized for skin disinfection, treatment calculation of the energies of vertical transitions.17,18
+of minor wounds, and refinement of drinking water in To quantify the second-order interactions between the
+case of amoebicidal and bactericidal crises. Aromatic filledorbitalofonesubsystemandthevacantorbitalof
+sulfonates are used to monitor the lipids merging and another bond, the natural bond orbital calculations
+also to manufacture deodorants, antiseptics, disinfec- were done using NBO 5.0 program,19 which measures
+tants, and medicines. It has antibacterial, anti-inflam- the intermolecular delocalization/hyperconjugation.
+matory, and analgesic activities.12 The energies of HOMO and LUMO orbitals (E
+HOMO
+The literature review reveals that there is no com- and E ) can be used to calculate the general
+LUMO
+plete quantum chemical investigation o
+
+J. Chem. Sci. (2022) 134:84 Page 3 of 12 84
+fo ¼ (cid:2) qA (cid:2)qA (cid:3) =2 ð7Þ cyclohexadienes were selected to verify the applica-
+A N(cid:2)1 Nþ1 bility of the chosen level of theory and to discuss the
+In the previous equations, fþ, f(cid:2), and fo are the electronic effect of various substituents on the geom-
+A A A
+CFFs for the nucleophilic, electrophilic, and radical etry and structural parameters of compounds. These
+attack for each atom, while qA, qA and qA are the two compounds are cis-(1S)-3-Fluoro-3,5-cyclohexa-
+N Nþ1 N(cid:2)1
+NBO charges on atom A of neutral, anionic, and diene-1,2-diol (2),6 and 1,10-(3,5-Cyclohexadiene-1,3-
+cationic species. A higher value of CFFs denotes an diyl)dibenzene (3).30 Two parameters were used for
+atom of higher reactivity towards reactive species. the evaluation of the optimization at the mentioned
+level of theory. The correlation coeff
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_spectroscopic_molecular_docking_and_ecotoxicology_analyses_of_the_monomer_and_dimers_of_3_",
+  "archetype": "Spectroscopic, molecular docking, and ecotoxicology analyses of the monomer and dimers of 3-aminocyclohexa-2,6-diene-1-sulfonic acid â__ a theoretical approach by unknow Pattern",
+  "domain": "biotech",
+  "source": "Spectroscopic, molecular docking, and ecotoxicology analyses of the monomer and dimers of 3-aminocyclohexa-2,6-diene-1-sulfonic acid â__ a theoretical approach by unknow.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Spectroscopic, molecular docking, and ecotoxicology analyses of the monomer and dimers of 3-aminocyclohexa-2,6-diene-1-sulfonic acid â__ a theoretical approach by unknow",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+13. The "Gupta G. Cellular Senescence and Brain Aging Mechanisms, Therapeutic Strat.." Protocol
+
+Source Material: Gupta G. Cellular Senescence and Brain Aging Mechanisms, Therapeutic Strat..
+
+The Narrative:
+Source text (TOC + opening pages):
+Cellular
+Senescence and
+Brain Aging
+Mechanisms, Therapeutic
+Strategies, and Implications
+for Neurodegenerative
+Diseases
+Gaurav Gupta
+Editor
+
+Cellular Senescence and Brain Aging
+
+Gaurav Gupta
+Editor
+Cellular Senescence
+and Brain Aging
+Mechanisms, Therapeutic Strategies,
+and Implications for Neurodegenerative
+Diseases
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_gupta_g_cellular_senescence_and_brain_aging_mechanisms_therapeutic_strat",
+  "archetype": "Gupta G. Cellular Senescence and Brain Aging Mechanisms, Therapeutic Strat.. Pattern",
+  "domain": "biotech",
+  "source": "Gupta G. Cellular Senescence and Brain Aging Mechanisms, Therapeutic Strat..2025.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Gupta G. Cellular Senescence and Brain Aging Mechanisms, Therapeutic Strat..",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+14. The "Nakato R. Computational Methods for 3D Genome Analysis" Protocol
+
+Source Material: Nakato R. Computational Methods for 3D Genome Analysis
+
+The Narrative:
+Source text (TOC + opening pages):
+Methods in
+Molecular Biology 2856
+Ryuichiro Nakato Editor
+Computational
+Methods
+for 3D Genome
+Analysis
+
+M M B
+ETHODS IN OLECULAR IO LO GY
+Series Editor
+John M. Walker
+School of Life and Medical Sciences
+University of Hertfordshire
+Hatfield, Hertfordshire, UK
+For further volumes:
+http://www.springer.com/series/7651
+
+For over 35 years, biological scientists have come to rely on the research protocols and
+methodologies in the critically acclaimed Methods in Molecular Biology series. The series was
+the first to introduce the step-by-step protocols approach that has become the standard in all
+biomedical protocol publishing. Each protocol is provided in readily-reproducible step-by
+step fashion, opening with an introductory overview, a list of the materials and reagents
+needed to complete the experiment, and followed by a detailed procedure that is supported
+with a helpful notes section offering tips and tricks of the trade as well as troubleshooting
+advice. These hallmark features were introduced by series editor Dr. John Walker and
+constitute the key ingredient in each and every volume of the Methods in Molecular Biology
+series. Tested and trusted, comprehensive and reliable, all protocols from the series are
+indexed in PubMed.
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_nakato_r_computational_methods_for_3d_genome_analysis",
+  "archetype": "Nakato R. Computational Methods for 3D Genome Analysis Pattern",
+  "domain": "biotech",
+  "source": "Nakato R. Computational Methods for 3D Genome Analysis 2024.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Nakato R. Computational Methods for 3D Genome Analysis",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+15. The "Otto C. Textbook of Clinical Echocardiography 7ed" Protocol
+
+Source Material: Otto C. Textbook of Clinical Echocardiography 7ed
+
+The Narrative:
+Source text (TOC + opening pages):
+. R
+CCaatthheerriinnee MM. OOttttoo
+t /Ain(«d
+DDIIGGIITTAALL
+VVEERRSSIIOONN
+TTEEXTXBOTOBK OOFOK OF
+CCLILNICINALICAL
+EECHCOCHARODICOGARARPHDY IOGRAPHY
+takkia-mm:,
+V
+irgt"
+11•••••-••
+SSEEVVENETNH TH
+EEDDITIITOINON
+EFLISSFENV 1I EF RR
+
+To protect the rights of the author(s) and publisher we inform you that this PDF is an uncorrected proof for internal business use only by the author(s), editor(s),
+reviewer(s), Elsevier and typesetter TNQ Books and Journals Pvt Ltd. It is not allowed to publish this proof online or in print. This proof copy is the copyright property
+of the publisher and is confi dential until formal publication.
+SEVENTH EDITION
+TEXTBOOK OF
+CLINICAL
+ECHOCARDIOGRAPHY
+Catherine M. Otto, MD
+J. Ward Kennedy- Hamilton Endowed Chair in Cardiology
+Professor of Medicine
+University of Washington School of Medicine;
+Director, Heart Valve Disease Clinic
+Associate Director, Echocardiography Laboratory
+University of Washington Medical Center
+Seattle, Washington
+
+Elsevier
+1600 John F. Kennedy Blvd.
+Ste 1800
+Philadelphia, PA 19103- 2899
+TEXTBOOK OF CLINICAL ECHOCARDIOGRAPHY, SEVENTH EDITION ISBN- 13: 978- 0- 323- 88208- 8
+Copyright © 2024 by Elsevier Inc. All rights reserved.
+No part of this publication may be reproduced or transmitted in any form or by any means, electronic or
+mechanical, including photocopying, recording, or any information storage and retrieval system, without
+permission in writing from the publisher. Details on how to seek permission, further information about the
+Publisher’s permissions policies, and our arrangements with organizations such as the Copyright Clearance
+Center and the Copyright Licensing Agency can be found at our website: www.elsevier.com/permissions.
+This book and the individual contributions contained in it are protected under copyright by the Publisher
+(other than as may be noted herein).
+Notice
+Practitioners and researchers must always rely on their own experience and knowledge in evaluating and
+using any information, methods, compounds, or experiments described herein. Because of rapid advances
+in the medical sciences in particular, independent verification of diagnoses and drug dosages should be
+made. To the fullest extent of the law, no responsibility is assumed by Elsevier, authors, editors, or con-
+tributors for any injury and/or damage to persons or property as a matter of products liability, negligence
+or otherwise, or from any use or operation of any methods, products, instructions, or ideas contained in
+the material herein.
+ISBN- 13: 978- 0- 323- 88208- 8
+Senior Content Strategist: Melanie Tucker
+Senior Content Development Specialist: Joanie Milnes
+Publishing Services Manager: Catherine Albright Jackson
+Senior Project Manager: Doug Turner
+Designer: Maggie Reid
+Printed in India
+Las
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_otto_c_textbook_of_clinical_echocardiography_7ed",
+  "archetype": "Otto C. Textbook of Clinical Echocardiography 7ed Pattern",
+  "domain": "biotech",
+  "source": "Otto C. Textbook of Clinical Echocardiography 7ed 2023.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Otto C. Textbook of Clinical Echocardiography 7ed",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+16. The "Seidman L. Basic Laboratory Methods for Biotechnology...Lab. Reference 3ed" Protocol
+
+Source Material: Seidman L. Basic Laboratory Methods for Biotechnology...Lab. Reference 3ed
+
+The Narrative:
+Source text (TOC + opening pages):
+Basic Laboratory Methods
+for Biotechnology
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_seidman_l_basic_laboratory_methods_for_biotechnology_lab_reference_3ed",
+  "archetype": "Seidman L. Basic Laboratory Methods for Biotechnology...Lab. Reference 3ed Pattern",
+  "domain": "biotech",
+  "source": "Seidman L. Basic Laboratory Methods for Biotechnology...Lab. Reference 3ed 2022.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Seidman L. Basic Laboratory Methods for Biotechnology...Lab. Reference 3ed",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+17. The "Syman K. Fundamentals of Biotechnology. Lecture Course" Protocol
+
+Source Material: Syman K. Fundamentals of Biotechnology. Lecture Course
+
+The Narrative:
+Source text (TOC + opening pages):
+S) man K.Zh.
+Fundamentals of
+Biotechnology
+Lecture course
+
+UDC 60(075)
+BBC 30.16‘h73
+S 91
+Reviewers:
+Iztayev A.I. - Doctor of Technical Sciences, Academician of the Kazakh National
+Academy.
+Atabayeva S.D. - Doctor of Biological Sciences, Professor of KazNU.
+Syman K. Zh.
+S91 Fundamentals of Biotechnology: Lecture course / K. Zh. Syman, - Almaty,
+Almanah, 2019.49 p.
+ISBN 978-601-7945-36-7
+The textbook "Fundamentals of Biotechnology" is devoted to the study of the
+history of biotechnology, genetic, cellular and tissue engineering, cultivation of
+bacteria and nanobiotechnology, as they are perspective, and others are used in various
+fields of human activity.
+In the textbook all questions of the curriculum are consecrated. This textbook
+can be recommended for publication and used by students of technical universities of
+the specialty "Biotechnology".
+UDC 60(075)
+BBC 30.16,h73
+The book is published in the Almanah Publishing House in accordance with license agreement
+No. 1 of January 15, 2019.
+ISBN 978-601-7945-36-7
+© Syman K.Zh., 2019
+© Almanah, 2019
+
+Introduction
+In most countries of the world biotechnology is considered as a priority direction, it
+determines technological progress and development of society. Some biotechnological processes
+(food production), were known for a long time. Traditional biotechnology has won die world
+market. Biotechnological industry produces proteins, peptides, amino acids, enzymes, vitamins,
+antibiotics, ethanol, organic acids (citric, isomonic, acetic, etc.), plant growth regulators, natural
+pesticides, biopreparations for human beings and animals. Biotechnological processes have
+significant advantages: in most cases they use renewable raw materials, carried out under the
+mild conditions with fewer stages, lower costs, and their waste is available for processing.
+At present, biotechnological processes provide a wide variety of new biologies, including
+vaccines and monoclonal antibodies (tnAb), drugs, new producer strains, etc. Their application is
+economically and technologically advantageous in the production of relatively expensive low-
+tonnage products.
+Biotechnology will continue use and used in various fields of human activity. The
+novelty is the creation of transgenic microorganisms, animals and plants. Their receipt represents
+new prospects in agriculture, public health, the food industry and other branches of the national
+economy.
+Genotherapy - a new step in biotechnology - will help to eradicate many previously
+incurable hereditary diseases. The bio-chips - unusual devices that in a short of time allow to
+determine a lot of allergens, oncogenes, various biological active substances and genetic defects
+- are the true evolutionary achievement of biotechnology in recent years.
+The problem of environmental protection remains a matter of exceptional importance for
+today, although
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_syman_k_fundamentals_of_biotechnology_lecture_course",
+  "archetype": "Syman K. Fundamentals of Biotechnology. Lecture Course Pattern",
+  "domain": "biotech",
+  "source": "Syman K. Fundamentals of Biotechnology. Lecture Course 2019.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Syman K. Fundamentals of Biotechnology. Lecture Course",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+18. The "Syman K. Objects of Biotechnology" Protocol
+
+Source Material: Syman K. Objects of Biotechnology
+
+The Narrative:
+Source text (TOC + opening pages):
+Syman K.Zh
+OBJECTS
+OF BIOTECHNOLOGY
+Textbook
+
+UDC 60(075.8)
+BBC 30.16d,73
+C95
+Reviewers:
+Sinyavsky Yu.A. — Head of laboratory of food biotechnology and specialized food
+products, Kazakh Academy of Nutrition,Doctor of biological sciences, professor.
+Kozybaev A.K. — Director of Research Institute of PB, Doctor of chemical sciences,
+professor.
+Syman K. Zh.,
+C 95 Objects of Biotechnology: Textbook / K. Zh. Syman, - Almaty, Almanah, 2019. -
+59 p.
+ISBN 978-601-7945-37-4
+Textbook "Objects of biotechnology" is devoted to the study of biotechnology
+include micro-organisms, bacteria, algae, protozoa, microscopic fungi; the main
+directions of the development of biotechnology, the cultivation of viruses, modern
+biotechnology of agricultural crops and livestock, genetic engineering, nutrient.
+The textbookfitted up all the questions of the curriculum. It can be recommended
+for publication and use of the students of technical universities in the specialty
+"Biotechnology".
+UDC 60(075.8)
+BBC 30.16th73
+The hook is published in the Almanah Publishing House in accordance with
+license agreement No. 1 of January 15, 2019.
+ISBN 978-601-7945-37-4 ©Syman K. Zh., 2019
+© Almanah, 2019
+
+Contents
+Introduction......................................................................................................................4
+The main directions of the development of biotechnology...........................................5
+Objects of biotechnology..................................................................................................6
+Cultivation of viruses. Biotechnology in virology.........................................................9
+Microorganisms in biotechnological production.........................................................14
+The use of bacteria in Biotechnology............................................................................17
+The use of algae in Biotechnology................................................................................21
+Protozoa in Biotechnology............................................................................................27
+Microscopic fungi as an object of Biotechnology........................................................29
+Biotechnology of agricultural crops.Prospects............................................................36
+Modern biotechnologies in livestock............................................................................39
+The nutrients...................................................................................................................44
+Biotechnical laboratory..................................................................................................47
+Methods of cell cultivation............................................................................................54
+Terms...............................................................................................................................58
+Bibliography...................
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_syman_k_objects_of_biotechnology",
+  "archetype": "Syman K. Objects of Biotechnology Pattern",
+  "domain": "biotech",
+  "source": "Syman K. Objects of Biotechnology 2019.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Syman K. Objects of Biotechnology",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+19. The "Sen D. Membrane Separation in Wastewater Purification and Biotechnology App" Protocol
+
+Source Material: Sen D. Membrane Separation in Wastewater Purification and Biotechnology App
+
+The Narrative:
+Source text (TOC + opening pages):
+Membrane Separation in Wastewater
+Purification and Biotechnology
+Applications
+
+Membrane Separation
+in Wastewater Purification and
+Biotechnology Applications
+Dwaipayan Sen
+Assistant Professor, Department of Chemical Engineering
+Heritage Institute of Technology, Kolkata, India
+Ankita Mazumder
+Assistant Professor, Department of Chemical Engineering
+Haldia Institute of Technology, Haldia, India
+p,
+A SCIENCE PUBLISHERS BOOK
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_sen_d_membrane_separation_in_wastewater_purification_and_biotechnology_app",
+  "archetype": "Sen D. Membrane Separation in Wastewater Purification and Biotechnology App Pattern",
+  "domain": "biotech",
+  "source": "Sen D. Membrane Separation in Wastewater Purification and Biotechnology App 2026.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: Sen D. Membrane Separation in Wastewater Purification and Biotechnology App",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+20. The "SURVIVAL MEDICINE GUIDE - The Ultimate First Aid Manual To Survive Any Medical Emergency" Protocol
+
+Source Material: SURVIVAL MEDICINE GUIDE - The Ultimate First Aid Manual To Survive Any Medical Emergency
+
+The Narrative:
+Source text (TOC + opening pages):
+SURVIVAL MEDICINE GUIDE
+The Ultimate First Aid Manual To Survive Any
+Medical Emergency
+           
+
+Copyright © 2020. David Burke
+All Rights Reserved.
+This document is geared towards providing exact and reliable information
+about the topic and issue covered. The publication is sold with the idea that
+the publisher is not required to render accounting, officially permitted or
+otherwise qualified services. If advice is necessary, legal or professional, a
+practiced individual in the profession should be ordered.
+- From a Declaration of Principles which was accepted and approved
+equally by a Committee of the American Bar Association and a Committee
+of Publishers and Associations.
+In no way is it legal to reproduce, duplicate, or transmit any part of this
+document in either electronic means or printed format. Recording of this
+publication is strictly prohibited, and any storage of this document is not
+allowed unless with written permission from the publisher. All rights
+reserved.
+The information provided herein is stated to be truthful and consistent, in
+that any liability, in terms of inattention or otherwise, by any usage or abuse
+of any policies, processes, or directions contained within is the sole and
+utter responsibility of the recipient reader. Under no circumstances will any
+legal obligation or blame be held against the publisher for any reparation,
+damages, or monetary loss due to the information herein, either directly or
+indirectly.
+Respective authors own all copyrights not held by the publisher.
+
+The Business Translation:
+Biotech domain protocol compiled from the Overlay365 book library. Translate biology into capital by de-risking the pipeline stage by stage.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the biotech practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the biotech practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the biotech practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the biotech practice
+
+* Strategy:
+  * Strategy Type: proprietary_tech
+  * Moat: proprietary_tech
+  * Value Chain Stage: r_and_d
+  * Business Model Lever: margin
+  * Target Segment: biotech founders, R&D leaders, clinicians
+  * Strategic Risk: Regulatory and trial risk dominate technical success
+  * Key Principle: Translate biology into capital by de-risking the pipeline stage by stage.
+  * Strategy Tags: biotech, healthcare, therapeutics, diagnostics, bioinformatics
+
+Vector Entry (JSON):
+{
+  "id": "protocol_survival_medicine_guide_the_ultimate_first_aid_manual_to_survive_any_medical_emergency",
+  "archetype": "SURVIVAL MEDICINE GUIDE - The Ultimate First Aid Manual To Survive Any Medical Emergency Pattern",
+  "domain": "biotech",
+  "source": "SURVIVAL MEDICINE GUIDE - The Ultimate First Aid Manual To Survive Any Medical Emergency.pdf",
+  "business_logic": "Translate biology into capital by de-risking the pipeline stage by stage.",
+  "application": "Business Book: SURVIVAL MEDICINE GUIDE - The Ultimate First Aid Manual To Survive Any Medical Emergency",
+  "strategy": {"strategy_type": "proprietary_tech", "moat": "proprietary_tech", "value_chain_stage": "r_and_d", "business_model_lever": "margin", "target_segment": "biotech founders, R&D leaders, clinicians", "strategic_risk": "Regulatory and trial risk dominate technical success", "key_principle": "Translate biology into capital by de-risking the pipeline stage by stage.", "strategy_tags": ["biotech", "healthcare", "therapeutics", "diagnostics", "bioinformatics"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

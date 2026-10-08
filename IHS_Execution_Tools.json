@@ -1,0 +1,19 @@
+{
+  "Deliverable_Intake": [
+    "Sports Formula",
+    "Trading Report",
+    "Business Kit",
+    "Biotech Paper",
+    "Gov Proposal"
+  ],
+  "Readout_Formats": {
+    "Business": "Industry-standard presentations",
+    "Trading": "Risk reports",
+    "Biotech": "Scientific paper format",
+    "Gov": "Proposal template"
+  },
+  "TAP_Weighted_Scoring": "Summation of 10 metrics with your weight priorities.",
+  "Probability_Weighted_Scoring": "Field-specific probability bands integrated into TAP.",
+  "Intake_Model": "CSV with intake requirements for each deliverable type.",
+  "Jargon_to_Job_Map": "Translation of your TAP-speak to professional job functions."
+}

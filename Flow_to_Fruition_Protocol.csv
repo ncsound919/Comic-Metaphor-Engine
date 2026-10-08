@@ -1,0 +1,11 @@
+Summary
+Method to decide if an idea deserves full buildout
+"Runs checkpoint sequence: viability, alignment, ROI"
+Helps avoid wasting cycles on dead-ends
+"Assigns readiness categories: stop, pause, push"
+Lightweight tool — checklist more than matrix
+Works across all IBS fronts
+Can be gamified with traffic light system or scoring
+Integrates as stage gate in Business Builder
+Reinforces discipline in creative flow
+"Saves time, focus, and resources"

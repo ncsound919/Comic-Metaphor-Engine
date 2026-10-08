@@ -1,0 +1,9 @@
+Module,Connected Modules
+IBS Bet,"IBS Trade, IBS Health"
+IBS Trade,"IBS Bet, IBS Logistics, IBS Media"
+IBS Logistics,"IBS Trade, IBS Health"
+IBS Media,"IBS Play, IBS DataHouse, IBS Trade"
+IBS Play,"IBS Media, IBS GameHub"
+IBS DataHouse,"IBS Media, IBS GameHub"
+IBS GameHub,"IBS Play, IBS DataHouse, IBS Health"
+IBS Health,"IBS Bet, IBS Logistics, IBS GameHub"

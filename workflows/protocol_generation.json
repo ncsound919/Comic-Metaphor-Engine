@@ -1,0 +1,43 @@
+{
+  "name": "protocol_generation",
+  "description": "Automated protocol generation and validation",
+  "version": "1.0",
+  "created_by": "cheetah_supreme_marathon",
+  "created_at": "2026-02-04T21:57:23.431283",
+  "steps": [
+    {
+      "name": "validate_input",
+      "timeout": 30
+    },
+    {
+      "name": "generate_protocol",
+      "timeout": 60
+    },
+    {
+      "name": "score_quality",
+      "timeout": 30
+    },
+    {
+      "name": "update_knowledge_base",
+      "timeout": 15
+    },
+    {
+      "name": "regenerate_embeddings",
+      "timeout": 45
+    },
+    {
+      "name": "run_validation_tests",
+      "timeout": 30
+    }
+  ],
+  "triggers": [
+    "manual",
+    "schedule_daily",
+    "api_call"
+  ],
+  "error_handling": {
+    "retry_count": 3,
+    "retry_delay": 10,
+    "fallback_action": "notify_admin"
+  }
+}

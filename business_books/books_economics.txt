@@ -1,0 +1,1208 @@
+Expansion Pack: economics books compiled from the Overlay365 book library.
+1. The "Del Río P. Handbook on the Economics of Renewable Energy" Protocol
+
+Source Material: Del Río P. Handbook on the Economics of Renewable Energy
+
+The Narrative:
+Source text (TOC + opening pages):
+HANDBOOK ON THE ECONOMICS OF
+RENEWABLE ENERGY
+
+To my wife Cristina and my sons Marcos and Alvaro (Pablo del Río)
+To my wife Ulrike, my son Adrian and my daughter Gesine (Mario Ragwitz)
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_del_r_o_p_handbook_on_the_economics_of_renewable_energy",
+  "archetype": "Del Río P. Handbook on the Economics of Renewable Energy Pattern",
+  "domain": "economics",
+  "source": "Del Río P. Handbook on the Economics of Renewable Energy 2023.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Del Río P. Handbook on the Economics of Renewable Energy",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+2. The "Microsoft 365 Outlo" Protocol
+
+Source Material: Microsoft 365 Outlo
+
+The Narrative:
+Source text (TOC + opening pages):
+Microsoft® 365 Outlook® For Dummies® To view this book's Cheat Sheet, simply go to www.dummies.com and search for “Microsoft 365 Outlook For Dummies Cheat Sheet” in the Search box. Table of Contents Cover Title Page Copyright Introduction Outlook: What Is It Good For? About This Book Outlook 365 for the Win! Foolish Assumptions Icons Used in This Book Beyond the Book Part 1: Getting Started with Outlook 365 Chapter 1: A First Look at Outlook 365 Making Sure You Have Outlook 365 Switching to the Simplified Ribbon Using Email: Basic Delivery Techniques Maintaining Your Calendar Adding a Contact Entering a Task Taking Notes Chapter 2: Taking a Tour of the Outlook 365 Interface Exploring Outlook’s Main Screen Finding Things in a Flash with Search Getting Help Chapter 3: Getting on the Fast Track with Handy Shortcuts Learning the Value of Dragging Creating Other Outlook Items from Email Messages Creating Email Messages from Other Items Keeping the Interface Simple Zen of the Right Button Part 2: Taming the Email Beast Chapter 4: Email Essentials Front Ends and Back Ends Creating Messages Reading and Replying to Email Messages That’s Not My Department: Forwarding Email Deleting Messages Saving a Draft of a Message Saving a Message as a File Chapter 5: Taking Email to the Next Level Nagging by Flagging Saving Copies of Your Messages — or Not Setting Your Reply and Forward Options Adding Comments to a Reply or a Forward Sending Attachments Emailing Screenshots Creating Signatures for Your Messages Translating a Foreign-Language Message Chapter 6: Conquering Your Mountain of Messages Organizing Folders Organizing Your Email with Search Folders Playing by the Rules Filtering Junk Email Archiving for Posterity Arranging Your Messages Simplifying Tasks Using Quick Steps Chapter 7: 
+
+Microsoft® 365 Outlook® For Dummies®, 2 nd Edition Published by: John Wiley &amp; Sons, Inc., 111 River Street, Hoboken, NJ 07030-5774, www.wiley.com Copyright © 2025 by John Wiley &amp; Sons, Inc. All rights reserved, including rights for text and data mining and training of artificial technologies or similar technologies. Media and software compilation copyright © 2025 by John Wiley &amp; Sons, Inc. All rights reserved, including rights for text and data mining and training of artificial technologies or similar technologies. Published simultaneously in Canada No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, scanning or otherwise, except as permitted under Sections 107 or 108 of the 1976 United States Copyright Act, without the prior written permission of the Publisher. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley &amp; Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at http://www.wiley.com/go/permissions . Trademarks: Wiley, For Dummies, the Dummies Man logo, Dummies.com , Making Everything Easier, and related trade dress are trademarks or registered trademarks of John Wiley &amp; Sons, Inc. and may not be used without written permission. Microsoft 365 and Outlook are trademarks or registered trademarks of Microsoft Corporation. All other trademarks are the property of their respective owners. John Wiley &amp; Sons, Inc. is not associated with any product or vendor mentioned in this book. Microsoft® 365 Outlook® For Dummies®, 2 nd Edition is an independent publication and is neither affiliated with, nor authorized, sponsored, or approved by, Micro
+
+Introduction Microsoft Outlook has become an essential business tool in the years since it was first released in the 1990s. If you work in a company that employs more than a dozen people, it’s a pretty good bet that you’ll be using Microsoft Outlook to manage your email and calendar. Whether you’re giving or taking directions, organizing meetings, collaborating on important projects, or just keeping up with business, Outlook is what you’ll use to get it done quickly. Outlook has become even more important to businesses in recent years, with more companies encouraging telecommuting and hiring employees who work from home. Outlook is not just for business use, though — far from it. Outlook is also the application of choice for millions of people who use it for their own personal communication needs. Students use it to communicate with their teachers and fellow students about academic p
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_microsoft_365_outlo",
+  "archetype": "Microsoft 365 Outlo Pattern",
+  "domain": "economics",
+  "source": "Microsoft 365 Outlo.epub",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Microsoft 365 Outlo",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+3. The "Pandiya D. AI and Microservices. Integrating AI into API Design..." Protocol
+
+Source Material: Pandiya D. AI and Microservices. Integrating AI into API Design...
+
+The Narrative:
+Source text (TOC + opening pages):
+AI and
+Microservices
+Integrating AI into API Design and
+Distributed Microservice Architecture
+—
+Dileep Kumar Pandiya
+Nilesh Charankar
+
+AI and Microservices
+Integrating AI into API Design
+and Distributed Microservice
+Architecture
+Dileep Kumar Pandiya
+Nilesh Charankar
+
+AI and Microservices: Integrating AI into API Design and Distributed
+Microservice Architecture
+Dileep Kumar Pandiya Nilesh Charankar
+Boston, MA, USA Edison, NJ, USA
+ISBN-13 (pbk): 979-8-8688-1305-4 ISBN-13 (electronic): 979-8-8688-1306-1
+https://doi.org/10.1007/979-8-8688-1306-1
+Copyright © 2025 by Dileep Kumar Pandiya and Nilesh Charankar
+This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or
+part of the material is concerned, specifically the rights of translation, reprinting, reuse of
+illustrations, recitation, broadcasting, reproduction on microfilms or in any other physical way,
+and transmission or information storage and retrieval, electronic adaptation, computer software,
+or by similar or dissimilar methodology now known or hereafter developed.
+Trademarked names, logos, and images may appear in this book. Rather than use a trademark
+symbol with every occurrence of a trademarked name, logo, or image we use the names, logos,
+and images only in an editorial fashion and to the benefit of the trademark owner, with no
+intention of infringement of the trademark.
+The use in this publication of trade names, trademarks, service marks, and similar terms, even if
+they are not identified as such, is not to be taken as an expression of opinion as to whether or not
+they are subject to proprietary rights.
+While the advice and information in this book are believed to be true and accurate at the date of
+publication, neither the authors nor the editors nor the publisher can accept any legal
+responsibility for any errors or omissions that may be made. The publisher makes no warranty,
+express or implied, with respect to the material contained herein.
+Managing Director, Apress Media LLC: Welmoed Spahr
+Acquisitions Editor: Anandadeep Roy
+Edito
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_pandiya_d_ai_and_microservices_integrating_ai_into_api_design",
+  "archetype": "Pandiya D. AI and Microservices. Integrating AI into API Design... Pattern",
+  "domain": "economics",
+  "source": "Pandiya D. AI and Microservices. Integrating AI into API Design...2025.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Pandiya D. AI and Microservices. Integrating AI into API Design...",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+4. The "Experimental and theoretical studies on new organotin(IV) complexes with oxygen donor ligand_ DNA binding, molecular docking and antimicrobial activity by unknow" Protocol
+
+Source Material: Experimental and theoretical studies on new organotin(IV) complexes with oxygen donor ligand_ DNA binding, molecular docking and antimicrobial activity by unknow
+
+The Narrative:
+Source text (TOC + opening pages):
+J. Chem. Sci. (2023) 135:90 (cid:2) Indian Academy of Sciences
+https://doi.org/10.1007/s12039-023-02207-9
+Sadhan(a0123456789().,-volV)FT3](0123475869().,-volV)
+REGULAR ARTICLE
+Experimental and theoretical studies on new organotin(IV)
+complexes with oxygen donor ligand: DNA binding, molecular
+docking and antimicrobial activity
+RABBIAKHANa,SONIARANIa,MUHAMMADTARIQa,*,FAIZRASOOLa,AJAZHUSSAINa,
+KHALID MAHMOODa, HAFIZ MUHAMMAD ASIFa, MUHAMMAD USMANb and
+MUHAMMAD SIRAJUDDINc
+aDivision of Inorganic Chemistry, Institute of Chemical Sciences, Bahauddin Zakariya University,
+Multan 60800, Pakistan
+bInstitute of Biomedical Materials and Engineering, College of Materials Science and Engineering,
+Qingdao University, 308 Ningxia Road, Qingdao 266071, Shangdong, China
+cDepartment of Chemistry, University of Science and Technology Bannu, Bannu 28100, Pakistan
+E-mail: muhammadtariq@bzu.edu.pk; mtnazir@yahoo.com
+MSreceived 13October 2022;revised 21June 2023;accepted 5 July2023
+Abstract. In the present paper, oxygen donor ligand having carboxylate moiety and two new tri-organ-
+otin(IV) carboxylates, (Ph Sn) L (1) and (n-Bu Sn) L (2) were prepared successfully and characterized by
+3 2 3 2
+FT-IR,NMRandUV-visiblespectroscopicanalysis.FT-IRresultsforcomplexes(1)and(2)withDmvalues
+216and188cm-1indicatedbidentatebindingmodeofligandleadingtotrigonalbipyramidalgeometry.NMR
+spectral results of ligand and complexes were compared and complex formation was confirmed by disap-
+pearance of carboxylic acidic proton in the range 13.14-13.10 ppm. DFT studies were performed for com-
+parative spectroscopic studies i.e., FT-IR, UV-Vis and to reveal the structural geometrical parameters of
+ligand and complexes which showed an outstanding collaboration between the DFT-based results and
+attained experimental res
+
+90 Page 2 of 20 J. Chem. Sci. (2023) 135:90
+substantially more efficient than cisplatin.16 The characterized by FTIR, 1H and 13C NMR and UV-
+antiproliferative action of di-, tri-, or aryltin(IV) car- Visible spectroscopies. The synthesized complexes
+boxylate complexes is significantly affected by the have been screened against various bacterial and fun-
+attachment of the carboxylato ligands and aryl gal strains and it is evaluated that they are highly
+or alkyl substituted molecules at tin(IV).17 Triorgan- active even at very small concentration. Computa-
+otin(IV) carboxylates have exhibited superior anti- tional studies of newly synthesized compounds for
+cancer activity compared to their mono- and investigation of their kinetic properties and determin-
+diorganotin(IV) counterparts which are linked to their ing their electronic structures are getting popular. The
+capacity to bind to proteins.18,19 Organotin(IV) car- stability, structure of newly synthesized organic
+boxylates are highly active against microorganisms, compounds and potential of non-covalent interactions
+even at very small concentrations. This toxicity action are investigated by calculations of density functional
+depends upon the ligand-metal, the coordination theory (DFT) by connecting their magnetic and elec-
+number of the tin metal atom, and the geometry of the tronic properties. The antitumor potential of ligand
+complex. The biological activity of organotin(IV) and its complexes were also determined using UV-
+carboxylates mainly depends upon the nature of Visible DNA interaction studies.
+ligands and their structure.20 The organotin(IV) com-
+pounds that contain functionalized carboxylate must
+2. Experimental
+have shown more pronounced biological properties
+because it may change lipophilicity/hydrophilici
+
+J. Chem. Sci. (2023) 135:90 Page 3 of 20 90
+(30 mL) separately. Both solutions were mixed up and was removed by filtration and filtrate was passed
+stirred for 3-4 h at room temperature until the formation throughrotaryevaporatortoremovesolventandtoget
+of yellow-colored precipitates. Then, these precipitates a pure solid product. Chloroform was used to
+were filtered and dried to get pure mass product. The recrystallize the product.
+structure and numbering for 1H NMR interpretation of Physical data: M.P. 90-93 (cid:3)C, Yield: 72%. CHN
+H 2 L (H-representing two acidic protons from two Ana for C 47 H 37 NO 6 Sn 2 : Cald, C 59.47, H 3.93, N
+carboxylic acid groups) are given in Scheme 1. 1.48. Found: C 59.61, H 3.94, N 1.49. FT-IR (cm-1):
+Physical data: M.P. 212 (cid:3)C, Yield: 76%. CHN 1645mOCO , 1429mOCO , (Dm=216), 3426 mN-
+asym sym
+Analysis:CaldforC H NO :C52.6,H3.61,N 5.58, H, 3349m
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_experimental_and_theoretical_studies_on_new_organotin_iv_complexes_with_oxygen_donor_ligan",
+  "archetype": "Experimental and theoretical studies on new organotin(IV) complexes with oxygen donor ligand_ DNA binding, molecular docking and antimicrobial activity by unknow Pattern",
+  "domain": "economics",
+  "source": "Experimental and theoretical studies on new organotin(IV) complexes with oxygen donor ligand_ DNA binding, molecular docking and antimicrobial activity by unknow.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Experimental and theoretical studies on new organotin(IV) complexes with oxygen donor ligand_ DNA binding, molecular docking and antimicrobial activity by unknow",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+5. The "Impact of iodide ions in the transformation of Cu nanostructures from one-dimensional nanowires to two-dimensional microplates by Devika C & Puspanjali Sahu & Darbha V Ravi Kumar" Protocol
+
+Source Material: Impact of iodide ions in the transformation of Cu nanostructures from one-dimensional nanowires to two-dimensional microplates by Devika C & Puspanjali Sahu & Darbha V Ravi Kumar
+
+The Narrative:
+Source text (TOC + opening pages):
+J. Chem. Sci. (2022) 134:64 (cid:2) Indian Academy of Sciences
+https://doi.org/10.1007/s12039-022-02056-y
+Sadhan(a0123456789().,-volV)FT3](0123475869().,-volV)
+RAPID COMMUNICATION
+Impact of iodide ions in the transformation of Cu nanostructures
+from one-dimensional nanowires to two-dimensional microplates
+DEVIKA Ca, PUSPANJALI SAHUb,* and DARBHA V RAVI KUMARc,*
+aDepartment of Sciences, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India
+bDepartment of Materials Science, Indian Association for the Cultivation of Sciences, Kolkata, India
+cDepartment of Chemistry, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Chennai, India
+E-mail: psahu.chem@gmail.com; darbhavravikumar@gmail.com; vrk_darbha@ch.amrita.edu
+MSreceived 13January2022; revised22February 2022;accepted 19March2022
+Abstract. Controllingtheshapeofametalnanostructureallowstocontrolitsproperties,yettheprocesses
+that induce solution-phase anisotropic growth of metal nanostructures are still a mystery. Though the iodide
+ion is well-known as a shape-directing agent, the study emphasizes the role of alkylamine in the shape-
+shifting of 1D Cu nanowires to 2D Cu nanoplates in conjunction with the iodide source. The role of iodide
+and Cu precursor sources for the production of 2D microplates is also highlighted in this study.
+Keywords. Copper nanowires; Copper nanoplates; Shape-directing agent.
+1. Introduction molecules i.e. surface-enhanced Raman scattering
+(SERS). Thus, they act as good substrates for
+Nanoscience and nanotechnology have advanced at a SERS.9,10
+breakneck pace during the last few decades. The Among the numerous anisotropic noble metallic
+captivatingfeatureofscienceatitsnanoscaleregimeis nanoparticles that are being widely explored, Cu
+theshapeandsize-dependentvariationini
+
+64 Page 2 of 7 J. Chem. Sci. (2022) 134:64
+Although there exist several reports on the effect of and pure iodine (0.007 mmol) were added to different
+halidesions onthe other noble metals,such studieson sets of experiments. After the addition of the iodide/
+the effect of halide ions on Cu anisotropic structures iodine source, the stirring of the reactant mixture was
+are very limited. Lee et al., demonstrated the single continued for 8 h. The pH of the solution was mea-
+pot, alkylamine mediated, hydrothermal method for sured and a pH *6 was observed for all the experi-
+thesynthesisofCunanowiresandnanoplates.17Inthis ments.Theblueemulsionformedafterthestirringwas
+procedure, the addition of small quantities of molec- thentransferredtoaTeflon-linedautoclaveandheated
+ular iodine changed the morphology of Cu nanos- at a temperature of 120 (cid:3)C for 24 h. The obtained
+tructures from wires to plates. CuBr was used as Cu reddishprecipitateatthebottomoftheTeflonvesselis
+2
+and Br source in a similar hydrothermal, alkylamine carefully collected in the glass vial. Purification of the
+mediated method to produce Cu nanoplates. Tang synthesized Cu nanostructures was done by the cen-
+et al., synthesized Cu nanoplates using branched trifugation method. 6 mL of each synthesized sample
+polyethyleneimine as stabilizing agent and CuBr as was taken along with 6 mL of hexane and 18 mL IPA
+2
+copper precursor.20 Kim et al., also used alkylamine in different centrifugation tubes, sonicated for 5 min,
+mediated hydrothermal method to synthesize Cu and then centrifuged for 10 min at 8000 rpm. After
+microplates in the presence of Cl- and I- ions.21 repeating the centrifugation process for a second time,
+Several studies explored the role of alkylamine in the purified nanostructures were subjected to
+
+J. Chem. Sci. (2022) 134:64 Page 3 of 7 64
+Figure 1. SEM images of the Cu nanowires obtained in the absence of iodide/iodine source.
+Figure 2. SEM images of Cu microplates synthesized with the addition of 0.007 mmol of KI (a-c). Truncation of the
+triangles are indicated with arrow and trapezoidal structure formed as result of truncation is encircled in (b). XRD
+(d) confirms face centered cubic phase of Cu microstructures (JCPDS no- 004 0836).
+producetrapezoidalstructures;oneofsuchtrapezoidal addition of very small quantities of HI, similar to the
+structures is encircled in Figure 2b. Figure 2d shows concentration of KI (i.e. 0.007 mmol) is extremely
+theXRDofCumicroplates.Thepredominantintensity difficult, hence the amount of HI that is added to the
+of (111) peak in the XRD can be attributed to the reaction mixture is increased to 0.02 mmol (to get the
+formation of anisotropic structu
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_impact_of_iodide_ions_in_the_transformation_of_cu_nanostructures_from_one_dimensional_nano",
+  "archetype": "Impact of iodide ions in the transformation of Cu nanostructures from one-dimensional nanowires to two-dimensional microplates by Devika C & Puspanjali Sahu & Darbha V Ravi Kumar Pattern",
+  "domain": "economics",
+  "source": "Impact of iodide ions in the transformation of Cu nanostructures from one-dimensional nanowires to two-dimensional microplates by Devika C & Puspanjali Sahu & Darbha V Ravi Kumar.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Impact of iodide ions in the transformation of Cu nanostructures from one-dimensional nanowires to two-dimensional microplates by Devika C & Puspanjali Sahu & Darbha V Ravi Kumar",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+6. The "Behavioural Economics_ Psychology, Neuroscience, and the Human Side of Economics by David Orrell" Protocol
+
+Source Material: Behavioural Economics_ Psychology, Neuroscience, and the Human Side of Economics by David Orrell
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13;
+
+&#13; &#13; i &#13; &#13; Hot Science is a series exploring the cutting edge of science and technology. With topics from big data to rewilding, dark matter to gene editing, these are books for popular science readers who like to go that little bit deeper … &#13; &#13; &#13; AVAILABLE NOW AND COMING SOON: &#13; Destination Mars: &#13;
+The Story of Our Quest to Conquer the Red Planet &#13; Big Data: &#13;
+How the Information Revolution is Transforming Our Lives &#13; Gravitational Waves: &#13;
+How Einstein’s Spacetime Ripples Reveal the Secrets of the Universe &#13; The Graphene Revolution: &#13;
+The Weird Science of the Ultrathin &#13; CERN and the Higgs Boson: &#13;
+The Global Quest for the Building Blocks of Reality &#13; Cosmic Impact: &#13;
+Understanding the Threat to Earth from Asteroids and Comets &#13; Artificial Intelligence: &#13;
+Modern Magic or Dangerous Future? ii &#13; Astrobiology: &#13;
+The Search for Life Elsewhere in the Universe &#13; Dark Matter &amp; Dark Energy: &#13;
+The Hidden 95% of the Universe &#13; Outbreaks &amp; Epidemics: &#13;
+Battling Infection From Measles to Coronavirus &#13; Rewilding: &#13;
+The Radical New Science of Ecological Recovery &#13; Hacking the Code of Life: &#13;
+How Gene Editing Will Rewrite Our Futures &#13; Origins of the Universe: &#13;
+The Cosmic Microwave Background and the Search for Quantum Gravity &#13; Behavioural Economics: &#13;
+Psychology, Neuroscience, and the Human Side of Economics &#13; Quantum Computing: &#13;
+The Transformative Technology of the Qubit Revolution &#13; &#13; &#13; &#13; &#13; &#13; &#13; Hot Science series editor: Brian Clegg &#13; &#13; &#13; &#13;
+
+&#13; &#13; v &#13; &#13; BEHAVIOURAL ECONOMICS &#13; Psychology, neuroscience, and the human side of economics &#13; DAVID ORRELL &#13; &#13; &#13; &#13; &#13; &#13; &#13; &#13; &#13;
+
+&#13; &#13; &#13; CONTENTS &#13; &#13; &#13; &#13; Title Page &#13; Introduction &#13; &#13; 1: Stay or Go? &#13; 2: The Rational(ish) Animal &#13; 3: Too Much Information &#13; 4: Prospect Theory &#13; 5: ‘Paradoxes’ &#13; 6: The Pleasure Machine &#13; 7: Safety in Numbers &#13; 8: The Big Picture &#13; &#13; Further reading &#13; Index &#13; About the Author &#13; Copyright &#13; &#13; &#13; &#13; &#13;
+
+&#13; &#13; 1 &#13; INTRODUCTION &#13; &#13; This volume forms part of the ‘Hot Science’ series of books, and if there is one area of economics which would seem to qualify for that descriptor it is behavioural economics. Both because it is ‘hot’ – according to the American Economic Association, since 1995 the number of academic meetings on the topic has expanded by about a factor of ten – and because it is based on empirical science. The marriage of psychology, neuroscience, and economics, behavioural economics is an attempt to put the study of economic decision-making onto a firm scientific basis. &#13; Economists had long assumed, if only to simplify their models, that people make decisions rationally in order to optimise their utility (i.e. happiness or pleasure). Here ‘rational’ doesn’t mean sensible or reasonable, it just means acting in a way that is internally consistent. Psychologists, after many decades of the close study of actual human behaviour, had come to a rather different conclusion. &#13; For example, far from being perfectly clear-sighted and rational, we are subject to numerous cognitive biases. In fact, 2 identifying such biases has become something of a growth industry – Wikipedia currently lists about 200 of them, ranging from general ones like the default effect (given a number of options we tend to select the default one) to more specific ones such as the IKEA effect, which refers to ‘The tendency for people to place a disproportionately high value on objects that they partially assembled themselves, such as furniture from IKEA, regardless of the quality of the end result’ (a similar effect explains why cake mixes ask you to add an egg). Often these are combined, as when IKEA becomes the default option for home furnishing. &#13; While some of the
+
+&#13; &#13; 5 &#13; STAY OR GO? 1 &#13; &#13; Many of the results in behavioural psychology are based, as we’ll see, on the results of psychological experiments, in which human subjects are asked to reveal their preferences by answering a kind of survey. In June 2016 the UK population was asked, in a large and binding version of such a survey, to answer the following economics-related question: ‘Should the United Kingdom remain a mem
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_behavioural_economics_psychology_neuroscience_and_the_human_side_of_economics_by_david_orr",
+  "archetype": "Behavioural Economics_ Psychology, Neuroscience, and the Human Side of Economics by David Orrell Pattern",
+  "domain": "economics",
+  "source": "Behavioural Economics_ Psychology, Neuroscience, and the Human Side of Economics by David Orrell.epub",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Behavioural Economics_ Psychology, Neuroscience, and the Human Side of Economics by David Orrell",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+7. The "Making Sense of Chaos - A Better Economics for a Better World" Protocol
+
+Source Material: Making Sense of Chaos - A Better Economics for a Better World
+
+The Narrative:
+Source text (TOC + opening pages):
+About the Author J. Doyne Farmer is an American complex systems scientist and entrepreneur who was a pioneer in many of the fields that define the scientific agenda of our times: dynamical systems, chaos, complex systems, artificial life, wearable computing, time series analysis, theoretical biology, and the theory of prediction. Currently he is Director of the Complexity Economics programme at the Institute for New Economic Thinking at the Oxford Martin School, Baillie Gifford Professor of Complex Systems Science in the school of Geography and the Environment at the University of Oxford, Senior Associate Research Fellow at Christ Church College, Chief Scientist at Macrocosm, and an External Professor at the Santa Fe Institute. Previously, he was an Oppenheimer Fellow and the founder of the Complex Systems Group at Los Alamos National Laboratory. While a graduate student he led a cooperative calling itself Eudaemonic Enterprises who built the first wearable (and concealed) digital computer and used it in casinos, successfully beating the house. He was a founder of Prediction Company, an early quantitative automated trading firm that was sold to the United Bank of Switzerland in 2006. His current research is in economics, including agent-based modeling, financial instability and technological progress, and a founder of Macrocosm, a new company using complexity economics to guide the green energy transition. As an adventurer and avid sailor, Doyne also finds time to enjoy sailing his boat Eudemon.
+
+J. Doyne Farmer MAKING SENSE OF CHAOS A Better Economics for a Better World
+
+Contents Cover About the Author Title Page Dedication Acknowledgments List of Illustrations Prologue Introduction PART I: WHAT IS COMPLEXITY ECONOMICS? 1. What is a Complex System? 2. The Economy is a Complex System 3. Understanding the Metabolism of Civilization 4. How Simulations Help us Understand the Economy PART II: STANDARD ECONOMICS ⇔ COMPLEXITY ECONOMICS 5. A Lightning Summary of Standard Economics 6. Modeling an Uncertain and Complicated Economy 7. Why Is the Economy Always Changing? PART III: THE FINANCIAL SYSTEM 8. Inefficient Markets 9. The Self-Referential Market 10. Ecology and Evolution in Finance 11. How Credit Causes Financial Turbulence PART IV: CLIMATE ECONOMICS 12. How we Learned to Predict Weather and Climate 13. Climate Economics and Technological Progress PART V: MODELING FOR A BETTER FUTURE 14. Guidance to Solve Some of Our Big Problems 15. Removing the Roadblocks 16. Becoming a Conscious Civilization Bibliography Notes Index Copyright v ix x xi xii xiii xiv xv xvi xvii xviii xix 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 53 52 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 70 69 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 89 90 91 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 120 119 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 137 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 210 209 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 2
+
+This book is dedicated to my childhood mentor, Thomas Edward Ingerson (1938–2019).
+
+Acknowledgments During the ten years it took me to write this book, I often felt like a monkey with a typewriter; without extensive help from my friends, colleagues and editors, it would have been incomprehensible garbage. I should first thank my agent, John Brockman, who nagged me to write this book for thirty years, and my other agent, his son Max Brockman, who helped push it over the finish line. On the editorial front, I would like to thank Vince Bielski, Seth Ditchik, Edward Kastenmeier, Sienna Latham, Dorothy Nicholas and Andrew Weber for valuable suggestions. Kurt Vonnegut once said that when he wrote, he always imagined he was talking to his sister; Shanny Peer played that role for me, but much more: She encouraged me, forced me to be clear, made insightful suggestions and spent innumerable hours editing every line. Sara Lippincott did a superb edit from front to back, further streamlining my rambling thoughts. I was lucky to get Keith Mansfield as my editor at Penguin, who made creative, tho
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_making_sense_of_chaos_a_better_economics_for_a_better_world",
+  "archetype": "Making Sense of Chaos - A Better Economics for a Better World Pattern",
+  "domain": "economics",
+  "source": "Making Sense of Chaos - A Better Economics for a Better World.epub",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Making Sense of Chaos - A Better Economics for a Better World",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+8. The "Mankiw N. Principles of Economics 8ed" Protocol
+
+Source Material: Mankiw N. Principles of Economics 8ed
+
+The Narrative:
+Source text (TOC + opening pages):
+CCCCCCCCCCCoooooooooopppppppppyyyyyyyyrrrrrriiiiiiggggggghhhhhtttttttttt 222220000000000111111111188888888888888888888 CCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnggggggggggggggggggaaaaaaaaaaaaaaaaaaaaggggggggggggggggggggggggggeeeeeeeeeeeeee LLLLLLLLLLLLLLLLLLLLLLLLLLLLLeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarrrrrrrrrrrrrrrrrrrrrrrrrrrrrnnnnnnnnnnnnnnnnnnnnnnnnnnniiiiiiiiiiinnnnnnnnnnnnnnnnnnnngggggggggggggggggggggggggggggggg.......AAAAAAAAAAAAAAAAAAAlllllllllllllllllllllllllllRRRRRRRRRRRRRRRRRRRRRRiiiiiiiggggggghhhhhhttttttssssss RRRRRRRRRRRRReeeeeeeeeeeeeeeeeeeeeeeeeeeeessssssssssssseeeeeeeeerrrrrrrrrrrrrrrvvvvvvvvvvvvvvvvvvvvvvvveeeeeeeeeeeeddddddddddddddd.......... MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy nnnnnnnnnnnnnnnnooooooootttttttttt bbbbbbbbbbbbbbbbbbbbbbbbbbbbbeeeeeeeeeccccccoooooooooppppppppppppiiiiiieeeeeeeedddddddddd,,sssssssscccccccccccccccccccccaaaaaaaaaaaaaaaaaaaaannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnneeeeeeeddd,,,,,,, oooooooorrrrrrrrddddddduuuuuuuuuuuuuuuuupppppppppppppppppppppppppllllllllllliiiiiiiicccccccccccaaaaaaaaaatttttttttteeeeeeeeeeeeeeeeeeeedddddddddddddddddddddddddd,,,,,,,,,,,,,,,,,,iiiiiiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnwwwwwwwwhhhooooooooollllleeeee ooooooooooorrrrrrriiinnnnnnn pppppppppppppppppppaaaaaaaaaaaaaaaaaaaaarrrrrrrrrrrrrrrrttttttttttttt.... WCCCCCCCCCCCCCCNNNNNNNNNNNN 0000000222--220000--222200003333333
+
+PRINCIPLES OF
+ECONOMICS
+Eighth Edition
+N. GREGORY MANKIW
+HARVARD UNIVERSITY
+Australia • Brazil • Mexico • Singapore • United Kingdom • United States
+Copyright 2018 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicatedd, in whole or in part. WCCN 02-200-203
+
+Principles of Economics, 8e © 2018, 2015 Cengage Learning
+N. Gregory Mankiw
+ALL RIGHTS RESERVED. No part of this work covered by the copyright herein
+Vice President, General Manager, Social Science may be reproduced or distributed in any form or by any means, except as
+& Qualitative Business: Erin Joyner permitted by U.S. copyright law, without the prior written permission of the
+copyright owner.
+Product Director: Jason Fremder
+Senior Product Manager: Michael Parthenakis
+For product information and technology assistance, contact us at
+Developmental Editor: Jane Tufts Cengage Learning Customer & Sales Support, 1-800-354-9706
+Senior Digital Content Designer: Kasie Jean For permission to use material from this text or product,
+submit all requests online at www.cengage.com/permissions
+Senior Content Developer: Anita Verma
+Further permissions questions can be emailed to
+Content Development Manager: Clara permissionrequest@cengage.com
+Goosman
+Product Assistant: Emily Lehmann
+Unless otherwise noted, all items © Cengage Learning.
+Executive Marketing Manager: John Carey
+Library of Congress Control Number: 2016947882
+Senior Content Project Manager:
+ISBN 13: 978-1-305-58512-6
+Colleen A. Farmer
+Senior Digital Production Project Manager: ISBN 10: 1-305-58512-7
+Derek Drifmeyer
+Manufacturing Planner: Kevin Kluck Cengage Learning
+Marketing Coordinator: Casey Binder 20 Channel Center Street
+Boston, MA 02210
+Senior Learning Design Author: Eugenia Belova
+USA
+Learning Design Author: Brian A. Rodriguez
+Production Service: Lumina Datamatics Inc.,
+Cengage Learning is a leading provider of customized learning solutions with
+Intellectual Property
+employees residing in nearly 40 different countries and sales in more than
+Analyst: Jennifer Bowes
+125 countries around the world. Find your local rep
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_mankiw_n_principles_of_economics_8ed",
+  "archetype": "Mankiw N. Principles of Economics 8ed Pattern",
+  "domain": "economics",
+  "source": "Mankiw N. Principles of Economics 8ed 2017.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Mankiw N. Principles of Economics 8ed",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+9. The "Mankiw N. Principles of Economics 9ed" Protocol
+
+Source Material: Mankiw N. Principles of Economics 9ed
+
+The Narrative:
+Source text (TOC + opening pages):
+Copyright 2021 Cengage Learning. All Rights Reserved. May not be copied, scanned, or duplicated, in whole or in part. WCN 02-200-203
+
+Principles of Economics:
+a Guided Tour
+IntroductIon
+1 Ten Principles of Economics The study of economics is guided by a few big ideas.
+2 Thinking Like an Economist Economists view the world as both scientists and policymakers.
+3 Interdependence and the Gains from Trade The theory of comparative advantage explains how people
+benefit from economic interdependence.
+how markets work
+4 The Market Forces of Supply and Demand
+How does the economy coordinate interdependent economic
+5 Elasticity and Its Application actors? Through the market forces of supply and demand.
+6 Supply, Demand, and Government Policies The tools of supply and demand are put to work to examine
+the effects of various government policies.
+markets and welFare
+7 Consumers, Producers, and the Efficiency
+of Markets Why is the equilibrium of supply and demand desirable for
+society as a whole? The concepts of consumer and producer
+8 Application: The Costs of Taxation surplus explain the efficiency of markets, the costs of taxation,
+and the benefits of international trade.
+9 Application: International Trade
+the economIcs oF the PuBlIc sector
+10 Externalities
+Market outcomes are not always efficient, and governments
+can sometimes remedy market failure.
+11 Public Goods and Common Resources
+12 The Design of the Tax System To fund programs, governments raise revenue through their
+tax systems, which are designed with an eye toward balancing
+efficiency and equity.
+FIrm BehavIor and the organIzatIon oF Industry
+13 The Costs of Production
+The theory of the firm sheds light on the decisions that lie
+behind supply in competitive markets.
+14 Firms in Competitive Markets
+15 Monopoly
+Firms with market power can cause market outcomes
+16 Monopolistic Competition
+to be inefficient.
+17 Oligopoly
+Copyright 2021 Cengage Learning. A
+
+the economIcs oF laBor markets
+18 The Markets for the Factors of Production
+These chapters examine the special features of labor markets,
+19 Earnings and Discrimination
+in which most people earn most of their income.
+20 Income Inequality and Poverty
+toPIcs For Further study
+21 The Theory of Consumer Choice Additional topics in microeconomics include household decision
+making, asymmetric information, political economy, and
+22 Frontiers of Microeconomics behavioral economics.
+the data oF macroeconomIcs
+23 Measuring a Nation’s Income
+The overall quantity of production and the overall price level
+are used to monitor developments in the economy as a whole.
+24 Measuring the Cost of Living
+the real economy In the long run
+25 Production and Growth
+These chapters describe the forces that in the long run determine
+26 Saving, Investment, and the Financial System
+key real variables, including GDP growth, saving, investment,
+27 The Basic Tools of Finance real interest rates, and unemployment.
+28 Unemployment
+money and PrIces In the long run
+29 The Monetary System The monetary system is crucial in determining the long-run
+behavior of the price level, the inflation rate, and other
+30 Money Growth and Inflation nominal variables.
+the macroeconomIcs oF oPen economIes
+31 Open-Economy Macroeconomics: A nation’s economic interactions with other nations are described
+Basic Concepts by its trade balance, net foreign investment, and exchange rate.
+32 A Macroeconomic Theory of the A long-run model of the open economy explains the determinants
+Open Economy of the trade balance, the real exchange rate, and other real variables.
+short-run economIc FluctuatIons
+33 Aggregate Demand and Aggregate Supply
+The model of aggregate demand and aggregate supply explains
+34 The Influence of Monetary and Fisc
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_mankiw_n_principles_of_economics_9ed",
+  "archetype": "Mankiw N. Principles of Economics 9ed Pattern",
+  "domain": "economics",
+  "source": "Mankiw N. Principles of Economics 9ed 2020.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Mankiw N. Principles of Economics 9ed",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+10. The "Modern Principles of Economics (3rd Ed)(gnv64)" Protocol
+
+Source Material: Modern Principles of Economics (3rd Ed)(gnv64)
+
+The Narrative:
+Source text (TOC + opening pages):
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_modern_principles_of_economics_3rd_ed_gnv64",
+  "archetype": "Modern Principles of Economics (3rd Ed)(gnv64) Pattern",
+  "domain": "economics",
+  "source": "Modern Principles of Economics (3rd Ed)(gnv64).pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Modern Principles of Economics (3rd Ed)(gnv64)",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+11. The "Poor Economics by Abhijit V. Banerjee, Esther Duflo" Protocol
+
+Source Material: Poor Economics by Abhijit V. Banerjee, Esther Duflo
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13; &#13;
+
+&#13; &#13; &#13; &#13;
+
+&#13; Table of Contents &#13; &#13; Title Page &#13; Dedication &#13; Foreword &#13; Chapter 1 - Think Again, Again &#13; TRAPPED IN POVERTY? &#13; &#13; PART I - Private Lives &#13; Chapter 2 - A Billion Hungry People? &#13; ARE THERE REALLY A BILLION HUNGRY PEOPLE? &#13; ARE THE POOR REALLY EATING WELL, AND EATING ENOUGH? &#13; WHY DO THE POOR EAT SO LITTLE? &#13; SO IS THERE REALLY A NUTRITION-BASED POVERTY TRAP? &#13; Chapter 3 - Low-Hanging Fruit for Better (Global) Health? &#13; THE HEALTH TRAP &#13; WHY AREN’T THESE TECHNOLOGIES USED MORE? &#13; UNDERSTANDING HEALTH-SEEKING BEHAVIOR &#13; THE VIEW FROM OUR COUCH &#13; Chapter 4 - Top of the Class &#13; SUPPLY-DEMAND WARS &#13; THE CURSE OF EXPECTATIONS &#13; WHY SCHOOLS FAIL &#13; REENGINEERING EDUCATION &#13; Chapter 5 - Pak Sudarno’s Big Family &#13; WHAT IS WRONG WITH LARGE FAMILIES? &#13; DO THE POOR CONTROL THEIR FERTILITY DECISIONS? &#13; CHILDREN AS FINANCIAL INSTRUMENTS &#13; THE FAMILY &#13; &#13; PART II - Institutions &#13; Chapter 6 - Barefoot Hedge-Fund Managers &#13; THE HAZARDS OF BEING POOR &#13; THE HEDGE &#13; WHERE ARE THE INSURANCE COMPANIES FOR THE POOR? &#13; Chapter 7 - The Men from Kabul and the Eunuchs of India: The (Not So) Simple ... &#13; LENDING TO THE POOR &#13; MICRO INSIGHTS FOR A MACRO PROGRAM &#13; DOES MICROCREDIT WORK? &#13; THE LIMITS OF MICROCREDIT &#13; HOW CAN LARGER FIRMS BE FINANCED? &#13; Chapter 8 - Saving Brick by Brick &#13; WHY THE POOR DON’T SAVE MORE &#13; THE PSYCHOLOGY OF SAVINGS &#13; POVERTY AND THE LOGIC OF SELF-CONTROL &#13; Chapter 9 - Reluctant Entrepreneurs &#13; CAPITALISTS WITHOUT CAPITAL &#13; THE BUSINESSES OF THE POOR &#13; GOOD JOBS &#13; Chapter 10 - Policies, Politics &#13; POLITICAL ECONOMY &#13; CHANGES AT THE MARGIN &#13; DECENTRALIZATION AND DE
+
+&#13; For our mothers, Nirmala Banerjee and Violaine Duflo &#13;
+&#13; &#13;
+
+&#13; Foreword &#13; Esther was six when she read in a comic book on Mother Teresa that the city then called Calcutta was so crowded that each person had only 10 square feet to live in. She had a vision of a vast checkerboard of a city, with 3 feet by 3 feet marked out on the ground, each with a human pawn, as it were, huddled into it. She wondered what she could do about it. &#13; When she finally visited Calcutta, she was twenty-four and a graduate student at MIT. Looking out of the taxi on her way to the city, she felt vaguely disappointed; everywhere she looked, there was empty space—trees, patches of grass, empty sidewalks. Where was all the misery so vividly depicted in the comic book? Where had all the people gone? &#13; At six, Abhijit knew where the poor lived. They lived in little ramshackle houses behind his home in Calcutta. Their children always seemed to have lots of time to play, and they could beat him at any sport: When he went down to play marbles with them, the marbles would always end up in the pockets of their ragged shorts. He was jealous. &#13; This urge to reduce the poor to a set of clichés has been with us for as long as there has been poverty: The poor appear, in social theory as much as in literature, by turns lazy or enterprising, noble or thievish, angry or passive, helpless or self-sufficient. It is no surprise that the policy stances that correspond to these views of the poor also tend to be captured in simple formulas: “Free markets for the poor,” “Make human rights substantial,” “Deal with conflict first,” “Give more money to the poorest,” “Foreign aid kills development,” and the like. These ideas all have important elements of truth, but they rarely have much space for average poor women or men, with their hopes and doubts, limitations
+
+&#13; 1 &#13; Think Again, Again &#13; E very year, 9 million children die before their fifth birthday. 1 A woman in sub-Saharan Africa has a one-in-thirty chance of dying while giving birth—in the developed world, the chance is one in 5,600. There are at least twenty-five countries, most of them in sub-Saharan Africa, where the average person is expected to live no more than fifty-five years. In India alone, more than 50 million school-going children cannot read a very simple text. 2 &#13; This is the kind of paragraph that might make you want to shut this book and, ideally, forget about this whole business of world poverty: The problem seems too big, too intractable. Our goal with this book is to persuade you not to. &#13; A recent experiment at the University of Penn
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_poor_economics_by_abhijit_v_banerjee_esther_duflo",
+  "archetype": "Poor Economics by Abhijit V. Banerjee, Esther Duflo Pattern",
+  "domain": "economics",
+  "source": "Poor Economics by Abhijit V. Banerjee, Esther Duflo.epub",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Poor Economics by Abhijit V. Banerjee, Esther Duflo",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+12. The "The Economics Book - Big Ideas Simply Explained By DK" Protocol
+
+Source Material: The Economics Book - Big Ideas Simply Explained By DK
+
+The Narrative:
+Source text (TOC + opening pages):
+Source: The Economics Book - Big Ideas Simply Explained By DK.pdf
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_economics_book_big_ideas_simply_explained_by_dk",
+  "archetype": "The Economics Book - Big Ideas Simply Explained By DK Pattern",
+  "domain": "economics",
+  "source": "The Economics Book - Big Ideas Simply Explained By DK.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: The Economics Book - Big Ideas Simply Explained By DK",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+13. The "The Economics of Inequality by Thomas Piketty" Protocol
+
+Source Material: The Economics of Inequality by Thomas Piketty
+
+The Narrative:
+Source text (TOC + opening pages):
+THE ECONOMICS OF INEQUALITY Thomas Piketty Translated by Arthur Goldhammer The Belknap Press of Harvard University Press CAMBRIDGE, MASSACHUSETTS LONDON, ENGLAND 2015
+
+Copyright © 2015 by the President and Fellows of Harvard College All rights reserved First published as L’ é conomie des in é galit é s copyright © É ditions La D é couverte, Paris, France, 1997, 2008, 2014 Jacket design by Graciela Galup 978-0-674-50480-6 (hardcover) 978-0-674-91558-9 (EPUB) 978-0-674-91557-2 (MOBI) 978-0-674-91556-5 (PDF) The Library of Congress has cataloged the printed edition as follows: Piketty, Thomas, 1971– [L’ é conomie des in é galit é s. English] The economics of inequality / Thomas Piketty ; translated by Arthur Goldhammer. pages cm Includes bibliographical references and index. 1. Income distribution. 2. Equality—Economic aspects. I. Title. HB523.P54713 2015 339.2'2—dc23 2015008813 Book design by Dean Bornstein
+
+Contents Note to the Reader Introduction 1. The Measurement of Inequality and Its Evolution 2. Capital-Labor Inequality 3. Inequality of Labor Income 4. Instruments of Redistribution References Contents in Detail Index
+
+Note to the Reader This book was written and first published in 1997. It was subsequently updated for several new editions, most recently in 2014. It should be noted, however, that the overall structure has not been changed since 1997 and that the work essentially reflects the state of knowledge and data available at that time. As a consequence, this book does not fully take into account the results of the past fifteen years of international research on the historical dynamics of inequality. In particular, recent research has demonstrated that there are important historical variations in the capital-income ratios and the capital shares in national income, and not only in the concentration of capital ownership at the individual level. That is, the macroeconomic or functional distribution of national income and national wealth is substantially less stable than what I was taught in graduate school and what I report in this book. The large historical variations in top income shares also receive insufficient treatment in the present book, because the corresponding research became fully available only recently. Readers interested in a detailed account of that more recent research and the lessons that can be drawn from it are advised to consult the World Top Incomes Database (available online) and my book Capital in the Twenty-First Century (Belknap Press, 2014).
+
+Introduction The question of inequality and redistribution is central to political conflict. Caricaturing only slightly, two positions have traditionally been opposed. The right-wing free-market position is that, in the long run, market forces, individual initiative, and productivity growth are the sole determinants of the distribution of income and standard of living, in particular of the least well-off members of society; hence government efforts to redistribute wealth should be limited and should rely on instruments that interfere as little as possible with the virtuous mechanisms of the market—instruments such as Milton Friedman’s negative income tax (1962). The traditional left-wing position, passed down from nineteenth-century socialist theory and trade-union practice, holds that the only way to alleviate the misery of the poorest members of capitalist society is through social and political struggle, and that the redistributive efforts of government must penetrate to the very heart of the productive process. Opponents of the system must challenge the market forces that determine the profits of capitalists and the unequal remuneration of workers, for instance, by nationalizing the means of production or setting strict wage schedules. Merely collecting taxes to finance transfers to the poor is not enough. This left-right conflict shows that disagreements about the concrete form and desirability of redistributive policy are not necessarily due to contradictory principles of social justice but rather to contradictory analyses of the economic and social mechanisms that produce inequality. Indeed, there exists a certain consensus in regard to the fundamental principles of social justice: if inequality is due, at least in part, to factors beyond the control of individua
+
+{ONE} The Measurement of Inequality and Its Evolution What orders of magnitude can we associate with contemporary inequality? Is the income of the rich in a given country twice t
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_economics_of_inequality_by_thomas_piketty",
+  "archetype": "The Economics of Inequality by Thomas Piketty Pattern",
+  "domain": "economics",
+  "source": "The Economics of Inequality by Thomas Piketty.epub",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: The Economics of Inequality by Thomas Piketty",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+14. The "Understandable Economics by Howard Yaruss" Protocol
+
+Source Material: Understandable Economics by Howard Yaruss
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13;
+&#13; ACKNOWLEDGMENTS &#13; There are countless people who have made this book possible by either contributing ideas, helping me to better understand how our economy works, or simply listening to my incessant tirades about the economy and (through their expressions) forcing me to be more succinct and coherent. They range from co-workers at my father’s Met Foods Store in Brooklyn to students at NYU and the Lander College for Men. I have been fortunate to know so many interesting and helpful people in my life, and I could not be more grateful for that. &#13; There are a few people who directly helped to create this book. Grace Layer meticulously edited multiple drafts of the manuscript, and without her help this book would not have been possible. Grace is a true editing prodigy. Michael Goodwin, the author of Economix , also went through the manuscript word by word and helped me make my points more balanced and compelling. David Berman, my spouse, carefully reviewed the entire manuscript. As helpful as his comments were, our countless discussions of many of the ideas in the book were indispensable in enabling me to put them into written form. Antoine Martin of the Federal Reserve Bank of New York reviewed the sections of the book regarding the Fed and provided many essential comments on its operations. Finally, my editor, Jake Bonar of Prometheus Books, could not have been more helpful. He was the last to review the manuscript and still managed to find many ways to improve it. &#13; This book would not have been published without the efforts of my agent, Susan Schulman. I am deeply indebted to her for taking on a book by a first-time author on a subject that is not known for its marketability. I also thank Linda Migalti, her rights director, for handling the audio a
+
+&#13; 1 &#13; CAPITALISM &#13; What Gets Made, and Who Gets What? &#13; &#13; The inherent vice of capitalism is the unequal sharing of blessings; the inherent virtue of socialism is the equal sharing of miseries. &#13; —Winston Churchill &#13; &#13; &#13; CAPITALISM, SOCIALISM, OTHER “ISMS,” AND REALITY &#13; What do Helen Keller, Adolph Hitler, Oscar Wilde, Joseph Stalin, and Nelson Mandela have in common? They all called themselves “socialists.” Meanwhile, former president Donald Trump, who broke all conventions and radically departed from the status quo, is called “conservative”; people who fault the media for not sticking to the truth are called “liberal”; and sycophants who make a living by cozying up to politicians are called “capitalists.” Clearly, many of the key terms used to describe economic and political systems have lost their meanings. Labels like “capitalist” and “socialist” have become so distorted and politicized over time that they serve more often as insults than as a succinct and accurate summary of someone’s worldview. Therefore, they aren’t particularly useful in helping us to look fairly and objectively at our economic system and gain insight into how it actually works. &#13; In order to start understanding the economy, we need to begin with the most fundamental economic questions: Who gets what? and Who does what? Today, with so much stuff to allocate (such as cars, phones, college educations, and books on economics) and so many things to do (such as building cars, assembling phones, teaching, and writing books on economics), countless decisions have to be made. How can we make these decisions? &#13; On one hand, these decisions could be made collectively by the government. In this scenario, the government owns everything and makes all the decis
+
+&#13; 2 &#13; THE CHANGING ECONOMY &#13; Why Are Some People Losing Faith in Our Economic System? &#13; &#13; An imbalance between rich and poor is the oldest and most fatal ailment of all republics. &#13; —Plutarch, ancient Greek philosopher &#13; &#13; &#13; HOW IS CAPITALISM CHANGING? &#13; No matter how good an economic system may be, there will always be shortcomings, disappointments, and room for improvement. No one book could possibly address them all. My goal is to identify the criticisms that are so significant that they are causing people to lose faith in our own economic system and question its legitimacy. &#13; Economics studies the production and distribution of goods and services. Therefore, every economic system is designed to answer: (1) how products are made, (2) what products are made, and (3) who gets what. How our system is answering these three questions has star
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_understandable_economics_by_howard_yaruss",
+  "archetype": "Understandable Economics by Howard Yaruss Pattern",
+  "domain": "economics",
+  "source": "Understandable Economics by Howard Yaruss.epub",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Understandable Economics by Howard Yaruss",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+15. The "Minnick C. Microsoft Copilot For Dummies" Protocol
+
+Source Material: Minnick C. Microsoft Copilot For Dummies
+
+The Narrative:
+Source text (TOC + opening pages):
+Microsoft
+®
+Copilot
+®
+by Chris Minnick
+
+The Business Translation:
+Economics domain protocol compiled from the Overlay365 book library. Follow the incentive — it predicts behavior better than stated intent.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the economics practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the economics practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the economics practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the economics practice
+
+* Strategy:
+  * Strategy Type: cost_leadership
+  * Moat: scale_economies
+  * Value Chain Stage: operations
+  * Business Model Lever: margin
+  * Target Segment: economists, policy analysts, strategists
+  * Strategic Risk: Incentives misread produce policy failure
+  * Key Principle: Follow the incentive — it predicts behavior better than stated intent.
+  * Strategy Tags: economics, incentives, markets, macro, policy
+
+Vector Entry (JSON):
+{
+  "id": "protocol_minnick_c_microsoft_copilot_for_dummies",
+  "archetype": "Minnick C. Microsoft Copilot For Dummies Pattern",
+  "domain": "economics",
+  "source": "Minnick C. Microsoft Copilot For Dummies 2025.pdf",
+  "business_logic": "Follow the incentive — it predicts behavior better than stated intent.",
+  "application": "Business Book: Minnick C. Microsoft Copilot For Dummies",
+  "strategy": {"strategy_type": "cost_leadership", "moat": "scale_economies", "value_chain_stage": "operations", "business_model_lever": "margin", "target_segment": "economists, policy analysts, strategists", "strategic_risk": "Incentives misread produce policy failure", "key_principle": "Follow the incentive \u2014 it predicts behavior better than stated intent.", "strategy_tags": ["economics", "incentives", "markets", "macro", "policy"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

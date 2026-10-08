@@ -1,0 +1,21 @@
+Category,Element,Content
+Unified Flow,Step 1,Intake (TAP Speak) → Parse request into sector/run
+Unified Flow,Step 2,"Pre-Go 4Q Profile → Confirm sector, run type, focus, inputs"
+Unified Flow,Step 3,"Input Assembly → Collect datasets, books, frameworks, log provenance"
+Unified Flow,Step 4,Model Selection → Choose weighted/probability model based on sector
+Unified Flow,Step 5,Computation & Simulation → Run model on inputs
+Unified Flow,Step 6,Validation → Science/Finance cross-checks
+Unified Flow,Step 7,Credibility Gatekeeper → DCI scoring
+Unified Flow,Step 8,Deliverable Assembly → Format per profession
+Unified Flow,Step 9,Professional Readout → TAP & field summary
+Unified Flow,Step 10,Post-Log & Extra Insights → Archive + capture secondary data
+Math Spec,Weighted Score,"S = Σ w_i x_i, 3–5 vars, weights sum to 1"
+Math Spec,Expectancy Model,E = p_win * avg_win − p_loss * avg_loss
+Math Spec,Survival Probability,P = 1/(1+exp(-(β0+Σ β_i x_i)))
+Math Spec,UPAMS Mapping,Bands: 0–20 very weak → 81–100 very strong
+Math Spec,DCI,0.30*Math + 0.30*Science + 0.20*Finance + 0.10*Business + 0.05*Philosophy + 0.05*Security
+Technical Readout,Science Validation,Biotech = peer-review alignment; Business = finance sanity
+Technical Readout,Credibility,Hash + timestamp every artifact
+Technical Readout,Professional Readout,"Who, what, why, how (TAP & field)"
+Technical Readout,Extra Insights,Unused stats & trends logged for reuse
+System Flow,Security,"SHA-256 hash for each file, timestamped for integrity"

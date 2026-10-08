@@ -1,0 +1,78 @@
+# Top 20 Marvel Story Arcs (1990-2009) — Cancer Metaphor Reference
+
+Curated list of Marvel's top story arcs from the 1990s and 2000s, used as
+reference points for cancer-research metaphors in the Comic Metaphor Engine.
+
+Source: curated critical rankings + fan consensus (see citations below).
+
+---
+
+## The 1990s
+
+1. **The Infinity Gauntlet (1991)** — Starlin/Pérez/Lim. Thanos assembles the six
+   Infinity Gems, becomes a god. *Multi-modal combination / pan-system integration.*
+2. **X-Men: Age of Apocalypse (1995)** — Legion kills Xavier in the past; Apocalypse
+   conquers Earth. *Unchecked driver mutation → totalitarian worst-case timeline.*
+3. **Marvels (1994)** — Busiek/Ross. Marvel history through photographer Phil
+   Sheldon. *Perspective shift; disease through the patient's eyes.*
+4. **X-Men: Fatal Attractions (1993)** — Magneto rips adamantium from Wolverine;
+   Xavier mind-wipes Magneto. *Forcible removal of an integrated asset; unintended
+   consequence of intervention.*
+5. **The Clone Saga (1994-1996)** — Is Peter Parker or Ben Reilly (Scarlet Spider)
+   the "real" Spider-Man? *Clonal heterogeneity; which subclone drives the disease.*
+6. **Onslaught Saga (1996)** — Psychic manifestation of Xavier's dark side attacks
+   the MU. *Tumor arising from a cell's own latent program — the shadow of the host.*
+7. **Daredevil: The Man Without Fear (1993)** — Miller/Romita Jr. Gritty origin.
+   *Facing the origin of fear; early detection / origin story of disease.*
+8. **Avengers: Operation: Galactic Storm (1992)** — Kree-Shi'ar war; execution of
+   the Supreme Intelligence. *Two-superpower arms race; resource conflict; hard
+   decisions with consequences.*
+9. **X-Men: The Phalanx Covenant (1994)** — Techno-organic Phalanx assimilate
+   mutantkind. *Tumor invasion; hijacking/supplanting normal tissue.*
+10. **Rise of the Midnight Sons (1992)** — Horror line launch (Ghost Rider,
+    Morbius, Nightstalkers). *Supernatural/atmospheric; confronting the darkness
+    within.*
+
+## The 2000s
+
+11. **Ultimate Spider-Man (2000-)** — Bendis/Bagley. Peter Parker in high school.
+    *Modernized origin; recontextualizing a known story for a new era.*
+12. **Civil War (2006-2007)** — Millar/McNiven. Superhuman Registration Act; Cap
+    vs Iron Man. *Compliance vs autonomy; division within the body's defenses.*
+13. **House of M (2005)** — Scarlet Witch rewrites reality; "No more mutants."
+    *Targeted decimation of a cell population; selective eradication.*
+14. **New X-Men (2001-2004)** — Morrison/Quitely. "E is for Extinction."
+    *Evolution and extinction pressure; selective sweeps.*
+15. **Bendis's Daredevil (2001-2006)** — Secret identity outed. *Exposure of a
+    hidden truth; biomarker / detection revealing a concealed disease.*
+16. **Winter Soldier (2005-)** — Brubaker/Epting. Bucky returns brainwashed.
+    *A trusted defensive asset turned against the host — subverted immune cells.*
+17. **Annihilation (2006-2007)** — Giffen. Nova/Silver Surfer vs Annihilus's
+    Annihilation Wave. *A spreading wave of destruction — metastasis.*
+18. **Secret Invasion (2008)** — Bendis/Yu. Skrulls infiltrate Earth. *Immune
+    disguise; enemy already inside.*
+19. **Immortal Iron Fist (2006-2007)** — Brubaker/Fraction/Aja. Iron Fist's lore.
+    *Precise targeted strikes; single-point intervention.*
+20. **Avengers Disassembled (2004-2005)** — Bendis/Finch. Scarlet Witch attacks
+    the Avengers; team disbands. *An internal cell turning on the organism;
+    tissue disassembly / oncogene-driven disruption.*
+
+## Honorable Mentions
+- **Kang Dynasty (2001-2002)** — Time-traveling recurring adversary. *Recurrence;
+  adaptive adversary that learns from each encounter.*
+- **Welcome Back, Frank (2000)** — Ennis. Punisher's relentless pursuit. *Relentless
+  surveillance / immune clearance of a persistent threat.*
+- **Mark Waid's FF (2002-2005)** — Whimsical sci-fi. *Optimistic exploration.*
+- **Dark Reign (2008-2010)** — Osborn takes over SHIELD. *Subversion of control /
+  hostile takeover of governance.*
+- **Spider-Man: Blue (2002)** — Loeb/Sale. Gwen Stacy's death. *Grief and loss;
+  the cost of a failed intervention.*
+
+---
+
+### Citations
+- Collider best Marvel comics storylines all-time ranked
+- CBR greatest 90s comics all-time ranked / best Marvel comic by year (2000s)
+- Wikipedia publication history of Marvel crossover events
+- 13th Dimension (Marvels novelization)
+- Comicbook.com 10 most iconic 90s X-Men villains

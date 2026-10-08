@@ -1,0 +1,603 @@
+Expansion Pack: leadership books compiled from the Overlay365 book library.
+1. The "The 48 Laws of Power by Robert Greene" Protocol
+
+Source Material: The 48 Laws of Power by Robert Greene
+
+The Narrative:
+Source text (TOC + opening pages):
+Table of Contents Title Page Copyright Page Dedication Acknowledgements PREFACE LAW 1 - NEVER OUTSHINE THE MASTER LAW 2 - NEVER PUT TOO MUCH TRUST IN FRIENDS, LEARN HOW TO USE ENEMIES LAW 3 - CONCEAL YOUR INTENTIONS LAW 4 - ALWAYS SAY LESS THAN NECESSARY LAW 5 - SO MUCH DEPENDS ON REPUTATION—GUARD IT WITH YOUR LIFE LAW 6 - COURT ATTENTION AT ALL COST LAW 7 - GET OTHERS TO DO THE WORK FOR YOU, BUT ALWAYS TAKE THE CREDIT LAW 8 - MAKE OTHER PEOPLE COME TO YOU—USE BAIT IF NECESSARY LAW 9 - WIN THROUGH YOUR ACTIONS, NEVER THROUGH ARGUMENT LAW 10 - INFECTION: AVOID THE UNHAPPY AND UNLUCKY LAW 11 - LEARN TO KEEP PEOPLE DEPENDENT ON YOU LAW 12 - USE SELECTIVE HONESTY AND GENEROSITY TO DISARM YOUR VICTIM LAW 13 - WHEN ASKING FOR HELP, APPEAL TO PEOPLE’S SELF-INTEREST, NEVER TO THEIR ... LAW 14 - POSE AS A FRIEND, WORK AS A SPY LAW 15 - CRUSH YOUR ENEMY TOTALLY LAW 16 - USE ABSENCE TO INCREASE RESPECT AND HONOR LAW 17 - KEEP OTHERS IN SUSPENDED TERROR: CULTIVATE AN AIR OF UNPREDICTABILITY LAW 18 - DO NOT BUILD FORTRESSES TO PROTECT YOURSELF—ISOLATION IS DANGEROUS LAW 19 - KNOW WHO YOU’RE DEALING WITH—DO NOT OFFEND THE WRONG PERSON LAW 20 - DO NOT COMMIT TO ANYONE LAW 21 - PLAY A SUCKER TO CATCH A SUCKER—SEEM DUMBER THAN YOUR MARK LAW 22 - USE THE SURRENDER TACTIC: TRANSFORM WEAKNESS INTO POWER LAW 23 - CONCENTRATE YOUR FORCES LAW 24 - PLAY THE PERFECT COURTIER LAW 25 - RE-CREATE YOURSELF LAW 26 - KEEP YOUR HANDS CLEAN LAW 27 - PLAY ON PEOPLE’S NEED TO BELIEVE TO CREATE A CULTLIKE FOLLOWING LAW 28 - ENTER ACTION WITH BOLDNESS LAW 29 - PLAN ALL THE WAY TO THE END LAW 30 - MAKE YOUR ACCOMPLISHMENTS SEEM EFFORTLESS LAW 31 - CONTROL THE OPTIONS: GET OTHERS TO PLAY WITH THE CARDS YOU DEAL LAW 32 - PLAY TO PEOPLE’S FANTASIES LAW 33 - DISCOVER EACH MAN’S THUMBSCREW LAW 34 - BE ROYAL IN Y
+
+PENGUIN BOOKS THE 48 LAWS OF POWER
+
+Robert Greene has a degree in classical studies and has been an editor at Esquire and other magazines. He is also a playwright and lives in Los Angeles. Joost Elffers is the producer of Penguin Studio’s bestselling The Secret Language of Birthdays, The Secret Language of Relationships, and of Play With Your Food. He lives in New York City.
+
+PENGUIN BOOKS Published by the Penguin Group Penguin Group (USA) Inc., 375 Hudson Street, New York, New York 10014, U.S.A. Penguin Group (Canada), 90 Eglinton Avenue East, Suite 700, Toronto, Ontario, Canada M4P 2Y3 (a division of Pearson Penguin Canada Inc.) Penguin Books Ltd, 80 Strand, London WC2R ORL, England Penguin Ireland, 25 St Stephen’s Green, Dublin 2, Ireland (a division of Penguin Books Ltd) Penguin Group (Australia), 250 Camberwell Road, Camberwell, Victoria 3124, Australia (a division of Pearson Australia Group Pry Ltd) Penguin Books India Pvt Ltd, 11 Community Centre, Panchsheel Park, New Delhi-110 017, India Penguin Group (NZ), 67 Apollo Drive, Mairangi Bay, Auckland 1311, New Zealand (a division of Pearson New Zealand Ltd) Penguin Books (South Africa) (Pty) Ltd, 24 Sturdee Avenue, Rosebank, Johannesburg 2196, South Africa Penguin Books Ltd, Registered Offices: 80 Strand, London WC2R ORL, England First published in the United States of America by Viking Penguin, a member of Penguin Putnam Inc. 1998 Published in Penguin Books 2000 30 29 Copyright © Joost Elffers and Robert Greene, 1998 All rights reserved A portion of this work first appeared in The Utne Reader. CIP data available. eISBN : 978-1-101-04245-8 The scanning, uploading and distribution of this book via the Internet or via any other means without the permission of the publisher is illegal and punishable by law. Please purchase only authorized electronic editions, and do not participate in or encourage electronic piracy of copyrighted materials. Your support of the author’s rights is appreciated. http://us.penguingroup.com
+
+A Treasury of Jewish Folklore by Nathan Ausubel. Copyright © 1948, 1976 by Crown Publishers, Inc. Reprinted by permission of Crown Publishers, Inc. The Chinese Looking Glass by Dennis Bloodworth. Copyright © 1966, 1967 by Dennis Bloodworth. By permission of Ferrar, Straus and Giroux. The Book of the Courtier by Baldesar Castiglione, translated by George Bull; Penguin Books (London). Copyright © George Bull, 1967. The Golden Dream: Seekers of El Dorado by Walker Chapman; Bobbs-Merrill. Copyright © 1967 by Walker Chapman. The Borgias by Ivan Cloulas, translated by Gilda Roberts; Franklin Watts, Inc. Copyright © 1987 by Librairie Artheme Fayard. Translation copyright © 1989 by Franklin W
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_48_laws_of_power_by_robert_greene",
+  "archetype": "The 48 Laws of Power by Robert Greene Pattern",
+  "domain": "leadership",
+  "source": "The 48 Laws of Power by Robert Greene.epub",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: The 48 Laws of Power by Robert Greene",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+2. The "Arora J. Advanced Digital Technologies in Financial and Business Management" Protocol
+
+Source Material: Arora J. Advanced Digital Technologies in Financial and Business Management
+
+The Narrative:
+Source text (TOC + opening pages):
+ADVANCED DIGITAL
+TECHNOLOGIES IN FINANCIAL
+AND BUSINESS MANAGEMENT
+Unleashing the Power of Artificial Intelligence,
+Machine Learning, Blockchain, and the
+Internet of Things
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_arora_j_advanced_digital_technologies_in_financial_and_business_management",
+  "archetype": "Arora J. Advanced Digital Technologies in Financial and Business Management Pattern",
+  "domain": "leadership",
+  "source": "Arora J. Advanced Digital Technologies in Financial and Business Management 2025.pdf",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: Arora J. Advanced Digital Technologies in Financial and Business Management",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+3. The "Markopoulos C. Breast Cancer Management for Surgeons. An Examination Guide" Protocol
+
+Source Material: Markopoulos C. Breast Cancer Management for Surgeons. An Examination Guide
+
+The Narrative:
+Source text (TOC + opening pages):
+Breast Cancer
+Management
+for Surgeons
+An Examination Guide
+Christos Markopoulos
+Andreas Karakatsanis
+Editors
+123
+
+Breast Cancer Management
+for Surgeons
+
+Christos Markopoulos
+Andreas Karakatsanis
+Editors
+Breast Cancer
+Management for
+Surgeons
+An Examination Guide
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_markopoulos_c_breast_cancer_management_for_surgeons_an_examination_guide",
+  "archetype": "Markopoulos C. Breast Cancer Management for Surgeons. An Examination Guide Pattern",
+  "domain": "leadership",
+  "source": "Markopoulos C. Breast Cancer Management for Surgeons. An Examination Guide 2023.pdf",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: Markopoulos C. Breast Cancer Management for Surgeons. An Examination Guide",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+4. The "How To Become A Communication Genius - 49 Simple Rules" Protocol
+
+Source Material: How To Become A Communication Genius - 49 Simple Rules
+
+The Narrative:
+Source text (TOC + opening pages):
+How to become a communication
+genius
+49 Simple rules
+Samuel Greenberg
+Text Copyright © 2019
+
+Disclaimer notice:
+Please note information in this book for educational purpose only.
+Every attempt has been made to providing accurate and complete
+information. Readers recognize that creator is not participating in rendering
+legitimate, money related or proficient guidance.
+By reading this book reader agrees that under no circumstances are the
+author is not responsible of direct or indirect loses as a result of using
+information in this book including - but not limited - any possible errors,
+omissions and inaccuracies.
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_how_to_become_a_communication_genius_49_simple_rules",
+  "archetype": "How To Become A Communication Genius - 49 Simple Rules Pattern",
+  "domain": "leadership",
+  "source": "How To Become A Communication Genius - 49 Simple Rules.pdf",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: How To Become A Communication Genius - 49 Simple Rules",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+5. The "How To Win Friends And Influence People By Dale Carnegie" Protocol
+
+Source Material: How To Win Friends And Influence People By Dale Carnegie
+
+The Narrative:
+Source text (TOC + opening pages):
+EIGHT THINGS THIS BOOK WILL
+
+HELP YOU ACHIEVE
+
+1. Get out of a mental rut, think new thoughts, acquire new visions, discover new ambitions. 2. Make friends quickly and easily. 3. Increase your popularity. 4. Win people to your way of thinking. 5. Increase your influence, your prestige, your ability to get things done. 6. Handle complaints, avoid arguments, keep your human contacts smooth and pleasant. 7. Become a better speaker, a more entertaining conversationalist. 8. Arouse enthusiasm among your associates. This book has done all these things for more than ten million readers in thirty-six languages. This Book Is Dedicated to a Man Who Doesn’t Need to Read It:- My Cherished Friend HOMER CROY HOW TO Win Friends AND Influence People REVISED EDITION Dale Carnegie Editorial Consultant: Dorothy Carnegie Editorial Assistance: Arthur R. Pell, Ph.D.
+
+SIMON AND SCHUSTER
+
+NEW YORK
+
+Copyright 1936 by Dale Carnegie, copyright renewed © 1964 by Donna Dale Carnegie and Dorothy Carnegie Revised Edition copyright © 1981
+
+by Donna Dale Carnegie and Dorothy Carnegie All rights reserved including the right of reproduction in whole or in part in any form Published by Simon and Schuster A Division of Gulf &amp; Western Corporation Simon &amp; Schuster Building Rockefeller Center 1230 Avenue of the Americas New York, New York 10020 SIMON AND SCHUSTER and colophon are trademarks of Simon &amp; Schuster Designed by Stanley S. Drate Manufactured in the United States of America
+
+19 20 18 Library of Congress Cataloging in Publication Data Carnegie, Dale, 1888-1955. How to win friends and influence people. Includes index. 1. Success. I. Title. BF637.S8C37 1981 158’. 1 80-28759 ISBN O-671-42517-X Preface to Revised Edition How to Win Friends and Influence People was first published in 1937 in an edition of only five thousand copies. Neither Dale Carnegie nor the publishers, Simon and Schuster, anticipated more than this modest sale. To their amazement, the book became an overnight sensation, and edition after edition rolled off the presses to keep up with the increasing public demand. Now to Win Friends and InfEuence People took its place in publishing history as one of the all-time international best-sellers. It touched a nerve and filled a human need that was more than a faddish phenomenon of post-Depression days, as evidenced by its continued and uninterrupted sales into the eighties, almost half a century later. Dale Carnegie used to say that it was easier to make a million dollars than to put a phrase into the English language. How to Win Friends and Influence People became such a phrase, quoted, paraphrased, parodied, used in innumerable contexts from political cartoon to novels. The book itself was translated into almost every known written language. Each generation has discovered it anew and has found it relevant. Which brings us to the logical question: Why revise a book that has proven and continues to prove its vigorous and universal appeal? Why tamper with success? To answer that, we must realize that Dale Carnegie himself was a tireless reviser of his own work during his lifetime. How to Win Friends and Influence People was written to be used as a textbook for his courses in Effective Speaking and Human Relations and is still used in 
+
+Dale Carnegie During the first thirty-five years of the twentieth century, the publishing houses of America printed more than a fifth of a million different books. Most of them were deadly dull, and many were financial failures. “Many,” did I say? The president of one of the largest publishing houses in the world confessed to me that his company, after seventy-five years of publishing experience, still lost money on seven out of every eight books it published. Why, then, did I have the temerity to write another book? And, after I had written it, why should you bother to read it? Fair questions, both; and I'll try to answer them. I have, since 1912, been conducting educational courses for business and professional men and women in New York. At first, I conducted courses in public speaking only - courses designed to train adults, by actual experience, to think on their feet and express their ideas with more clarity, more effectiveness and more poise, both in business interviews and before groups. But gradually, as the seasons passed, I realized that as sorely as these adults needed training in effective speaking, they needed still more training in the fine art of getting along with people in everyday
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_how_to_win_friends_and_influence_people_by_dale_carnegie",
+  "archetype": "How To Win Friends And Influence People By Dale Carnegie Pattern",
+  "domain": "leadership",
+  "source": "How To Win Friends And Influence People By Dale Carnegie.epub",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: How To Win Friends And Influence People By Dale Carnegie",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+6. The "The Resume and Cover Letter Phrase Book - What to Write to Get the Job That_s Right" Protocol
+
+Source Material: The Resume and Cover Letter Phrase Book - What to Write to Get the Job That_s Right
+
+The Narrative:
+Source text (TOC + opening pages):
+bESt phRaSES
+The
+What to Write
+PLUS
+50
+pERfECt pitCh to Get the
+PHRASES
+for the
+Job That’s right
+YOU
+ShOULd
+Words matter when you’re trying to get noticed, get the interview,
+NEvER
+and get the job. Staffing experts Schuman and Nadler know this. USE!
+The
+And from their experience and knowledge they show you which
+words and phrases open doors, impress managers, and point out
+your value to the company. You don’t need to struggle any more
+to find the expressions that best highlight your achievements; RESUME
+instead, you can grab attention with such smart options as:
+I created a program that accomplished the following . . .
+My work generated $5 million in revenue . . .
+I built a team of employees who created . . .
+The work I did saved my company $3 million . . .
+and
+I solved the following problems for my employer . . .
+The market’s tight, but the jobs are out there. With these essential CovER LE t tER
+words and phrases, you’ll move your application to the top of
+the pile!
+Nancy schuman, CsP is a vice president at Lloyd Staffing and the
+author of The Job Interview Phrase Book. She is the Jobs and Careers
+columnist for the Long Island Press. She lives in East Northport, NY.
+phrase book
+Burton Jay Nadler is the Assistant Dean of the College and Director
+of the Career Center at the University of Rochester. He is the author of
+The Everything® Resume Book, 2nd Edition. He lives in Pittsford, NY.
+NANcy ScHUmAN
+ScHUmAN
+and
+NAdlER CSP, ViCe PreSidenT Of LLOYd STaffing
+and BUrTOn JaY nadLer
+www.adamsmedia.com
+RESUME
+CovER
+LEttER
+The
+and
+phrase
+book
+Cover Design: Sylvia McArdle
+$10.95 (CAN $11.99) Careers
+ISBN-13: 978-1-4405-0981-0
+ISBN-10: 1-4405-0981-6
+
+What to Write
+PLUS
+50
+to Get the
+PHRASES
+Job That’s right
+YOU
+ShOULd
+NEvER
+The
+USE!
+RESUME
+and
+CovER LE t tER
+phrase book
+NANcy ScHUmAN
+CSP, ViCe PreSidenT Of LLOYd STaffing
+BURtoN JAy NAdlER
+and
+Avon, Massachusetts
+
+Copyright © 2011 by F+W Media, Inc.
+All rights reserved.
+This book, or parts thereof, may not be reproduced in any
+form without permission from the publisher; exceptions are
+made for brief excerpts used in published reviews.
+Published by
+Adams Media, a division of F+W Media, Inc.
+57 Littlefield Street, Avon, MA 02322. U.S.A.
+www.adamsmedia.com
+ISBN 10: 1-4405-0981-6
+ISBN 13: 978-1-4405-0981-0
+eISBN 10: 1-4405-0993-X
+eISBN 13: 978-1-4405-0993-3
+Printed in the United States of America.
+10 9 8 7 6 5 4 3 2 1
+library of congress cataloging-in-Publication data
+A cup of comfort for couples / edited by Colleen Sell.
+p. cm.
+ISBN 978-1-4405-0200-2
+1. Couples. 2. Man-woman relationships. 3. Love. I. Sell, Colleen.
+HQ801.C84 2011
+306.7092’2—dc22
+2010038484
+Contains material adapted and abridged from The Everything® Cover Letter Book,
+2nd Edition, by Burton Jay Nadler, copyright © 2005 by F+W Media, Inc., ISBN
+10: 1-59337-335-X, ISBN 13: 978-1-59337-335-1; The Everything® Resume Book,
+3rd Edition, by Nancy Schuman, copyright © 2008 by F+W Media, Inc., ISBN
+10: 1-59869-637-8, ISBN 13: 978-1-59869-637-0; and Resume Buzz Words, by
+Erik Herman and Sarah Rocha, copyright © 2004 F+W Media, Inc., ISBN 10:
+1-59337-114-4, ISBN 13: 978-1-59337-114-2.
+This publication is designed to provide accurate and authoritative information
+with regard to the subject matter covered. It is sold with the understanding that
+the publisher is not engaged in rendering legal, accounting, or other profes-
+sional advice. If legal advice or other expert assistance is required, the services
+of a competent professional person should be sought.
+—From a Declaration of Principles jointly adopted by a Committee
+of the American Bar Association and a Committee of
+Publishers and Associations
+Many of the designations used by
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_resume_and_cover_letter_phrase_book_what_to_write_to_get_the_job_that_s_right",
+  "archetype": "The Resume and Cover Letter Phrase Book - What to Write to Get the Job That_s Right Pattern",
+  "domain": "leadership",
+  "source": "The Resume and Cover Letter Phrase Book - What to Write to Get the Job That_s Right.pdf",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: The Resume and Cover Letter Phrase Book - What to Write to Get the Job That_s Right",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+7. The "Kubernetes Step-by-Step - A beginner_s Guide to Build, Scale, Deploy, Manage Production-Ready" Protocol
+
+Source Material: Kubernetes Step-by-Step - A beginner_s Guide to Build, Scale, Deploy, Manage Production-Ready
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13; &#13; &#13; &#13;
+
+&#13; &#13;
+
+© Copyright 2019 by ……………………. &#13; All rights reserved. &#13; T his document is geared towards providing exact and reliable information with regard to the topic and issue covered. The publication is sold with the idea that the publisher is not required to render accounting, officially permitted, or otherwise, qualified services. If advice is necessary, legal or professional, a practiced individual in the profession should be ordered. &#13; &#13; In no way is it legal to reproduce, duplicate, or transmit any part of this document in either electronic means or in printed format. Recording of this publication is strictly prohibited and any storage of this document is not allowed unless with written permission from the publisher. All rights reserved. &#13; The information provided herein is stated to be truthful and consistent, in that any liability, in terms of inattention or otherwise, by any usage or abuse of any policies, processes, or directions contained within is the solitary and utter responsibility of the recipient reader. Under no circumstances will any legal &#13; responsibility or blame be held against the publisher for any reparation, damages, or monetary loss due to the information herein, either directly or indirectly. &#13; Respective authors own all copyrights not held by the publisher. &#13; The information herein is offered for informational purposes solely and is universal as so. The presentation of the information is without a contract or any type of guarantee assurance. The trademarks that are used are without any consent, and the publication of the trademark is without permission or backing by the trademark owner. All trademarks and brands within this book are for clarifying purposes only and are owned by the owners themselves, not affiliated with th
+
+Do you wish you understood the revolutionary platform that companies all over the world are using to streamline their production? Then keep reading! &#13; If you’ve been seeing all the fuss about Kubernetes and wondering how you could get in on that, then you need this step-by-step guide on the platform. This guide provides you with the steps you need in order to master the platform, deploy it through your entire production team and maximize the quality of your team’s work while shrinking the lead time. &#13; This is the perfect book to help you to master every aspect of Kubernetes from deployments to pods, services, client libraries, extensions, and all the other valuable assets this platform has to offer you. This book contains practical examples you can use to fully understand the material and to get an idea for how to creatively maximize your usage of this platform to augment your business! &#13; In this step-by-step guide, you will find: &#13; &#13; The very purpose for which Kubernetes was created and how it does the things it does &#13; How to assist others in using this platform to maximize the quality of their work &#13; The limitations this platform has, and how to creatively navigate around them &#13; Detailed explanations of each of the features of the platform and how to use them &#13; The benefits of extensions for Kubernetes &#13; So much more! &#13; &#13; Don’t delay any longer in learning about and getting the best possible user experience in Kubernetes. With this book, you can adopt the most helpful habits and practices in using the platform, you can learn the strategies of the professionals who use this platform every day, and you can solve any possible issues or obstacles that present themselves. &#13; There are no down-sides! &#13; Buy your copy tod
+
+Table of Contents &#13; &#13; Nodes &#13; &#13; &#13; The Cluster &#13; &#13; &#13; Persistent Volumes &#13; &#13; &#13; Persistent Volume Claim requesting a Raw Block Volume &#13; &#13; &#13; Pod specification adding Raw Block Device path in container &#13; &#13; &#13; Containers &#13; &#13; &#13; Pods &#13; &#13; &#13; Deployments &#13; &#13; &#13; Ingress &#13; &#13;
+
+K ubernetes (commonly styled as k8) is an open-source container-orchestration gadget to automate application deployment, scaling, and management. It was initially designed by Google and is now maintained through the Cloud Native Computing Foundation. It has the ambition to present "a platform for the deployment, scaling, and handling of application containers in groups of hosts". It works with a variety of container tools, including Docker. Many clouds offer to provide a Kubernet
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_kubernetes_step_by_step_a_beginner_s_guide_to_build_scale_deploy_manage_production_ready",
+  "archetype": "Kubernetes Step-by-Step - A beginner_s Guide to Build, Scale, Deploy, Manage Production-Ready Pattern",
+  "domain": "leadership",
+  "source": "Kubernetes Step-by-Step - A beginner_s Guide to Build, Scale, Deploy, Manage Production-Ready.epub",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: Kubernetes Step-by-Step - A beginner_s Guide to Build, Scale, Deploy, Manage Production-Ready",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+8. The "Petricek T. Cultures of Programming.The Development of Programming Concepts" Protocol
+
+Source Material: Petricek T. Cultures of Programming.The Development of Programming Concepts
+
+The Narrative:
+Source text (TOC + opening pages):
+CulturesofProgramming
+What defines a correct program? What education makes a good programmer? The
+answers to these questions depend on whether programs are seen as mathematical
+entities, engineered socio-technical systems or media for assisting human thought.
+Programmers have developed a wide range of concepts and methodologies to con-
+struct programs of increasing complexity. This book shows how those concepts and
+methodologiesemergedanddevelopedfromthe1940stothepresent.Itfollowsseveral
+strandsinthehistoryofprogrammingandinterpretskeyhistoricalmomentsasinter-
+actionsbetweenfivedifferentculturesofprogramming.Rootedindisciplinessuchas
+mathematics,electricalengineering,businessmanagementorpsychology,thedifferent
+culturesofprogramminghaveexchangedideasandgivenrisetonovelprogramming
+conceptsandmethodologies.Theyhavealsoclashedaboutthenatureofprogramming;
+thoseclashesremainatthecoreofmanyquestionsaboutprogrammingtoday.Thistitle
+isalsoavailableasOpenAccessonCambridgeCore.
+Tomas Petricek is Assistant Professor in the Faculty of Mathematics and Physics at
+CharlesUniversity,Prague.Heusesinterdisciplinaryresearchmethodstounderstand
+programmingandtodesignsimpleandexpressiveprogrammingtools.Hedevelopeda
+theoryofcontext-awarecomputationsattheUniversityofCambridge,workedonthe
+F#programminglanguageatMicrosoftResearchandbuiltdataexplorationtoolsfor
+non-programmersatTheAlanTuringInstituteandtheUniversityofKent.
+
+The Business Translation:
+Leadership domain protocol compiled from the Overlay365 book library. Leadership is the allocation of attention — spend it like capital.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the leadership practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the leadership practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the leadership practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the leadership practice
+
+* Strategy:
+  * Strategy Type: transformational
+  * Moat: talent
+  * Value Chain Stage: operations
+  * Business Model Lever: retention
+  * Target Segment: executives, managers, team leads
+  * Strategic Risk: Culture decay compounds faster than product decay
+  * Key Principle: Leadership is the allocation of attention — spend it like capital.
+  * Strategy Tags: leadership, culture, management, team, execution
+
+Vector Entry (JSON):
+{
+  "id": "protocol_petricek_t_cultures_of_programming_the_development_of_programming_concepts",
+  "archetype": "Petricek T. Cultures of Programming.The Development of Programming Concepts Pattern",
+  "domain": "leadership",
+  "source": "Petricek T. Cultures of Programming.The Development of Programming Concepts 2026.pdf",
+  "business_logic": "Leadership is the allocation of attention — spend it like capital.",
+  "application": "Business Book: Petricek T. Cultures of Programming.The Development of Programming Concepts",
+  "strategy": {"strategy_type": "transformational", "moat": "talent", "value_chain_stage": "operations", "business_model_lever": "retention", "target_segment": "executives, managers, team leads", "strategic_risk": "Culture decay compounds faster than product decay", "key_principle": "Leadership is the allocation of attention \u2014 spend it like capital.", "strategy_tags": ["leadership", "culture", "management", "team", "execution"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

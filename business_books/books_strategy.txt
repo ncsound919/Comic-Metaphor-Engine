@@ -1,0 +1,528 @@
+Expansion Pack: strategy books compiled from the Overlay365 book library.
+1. The "Harvard Business Review USA - July-August" Protocol
+
+Source Material: Harvard Business Review USA - July-August
+
+The Narrative:
+Source text (TOC + opening pages):
+The
+Conflict-
+Intelligent
+Leader
+Learn to manage
+discord before it disrupts
+your business.
+PAGE 46
+July–
+August
+2025
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_harvard_business_review_usa_july_august",
+  "archetype": "Harvard Business Review USA - July-August Pattern",
+  "domain": "strategy",
+  "source": "Harvard Business Review USA - July-August 2025.pdf",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: Harvard Business Review USA - July-August",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+2. The "Hill C. Global Business Today 12ed" Protocol
+
+Source Material: Hill C. Global Business Today 12ed
+
+The Narrative:
+Source text (TOC + opening pages):
+This International Student Edition is for use outside of the U.S.
+12e
+Global Business
+Today
+12e
+Global
+Business
+Today
+Hill
+Your studies. Your rules.
+Our new digital learning tools and resources will help you learn in
+the way that works best for you. With our exclusive partner offers
+and discounts — like free tutoring and access to our student
+success center full of practical videos — we are here to support
+you along every step of your learning journey. Get redi your way!
+Sign up for McGraw Hill redi today!
+Visit redi online to get started and
+Learning access free and discounted offers.
+tools for
+your course! studyredi.com/study
+ISBN: 978-1-266-10314-8
+MHID: 1-266-10314-7
+mheducation.com/highered
+EAN
+Charles W. L. Hill
+90000
+9 781266 103148
+9781266103148_ISECoverAppFiles_CVRMech.indd 1 11/5/20 11:04 AM
+
+Final
+hil6750X_fm_i-xxv.pdf December 3, 2020
+
+Final
+Global Business Today
+12e
+Charles W. L. Hill
+University of Washington
+hil6750X_fm_i-xxv.pdf December 3, 2020
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_hill_c_global_business_today_12ed",
+  "archetype": "Hill C. Global Business Today 12ed Pattern",
+  "domain": "strategy",
+  "source": "Hill C. Global Business Today 12ed 2022.pdf",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: Hill C. Global Business Today 12ed",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+3. The "Knowledge is Profit - The Role of Espionage and Intelligence in Business" Protocol
+
+Source Material: Knowledge is Profit - The Role of Espionage and Intelligence in Business
+
+The Narrative:
+Source text (TOC + opening pages):
+KNOWLEDGE IS PROFIT
+First published in Great Britain 2018 by Amazon
+This paperback edition published in March 2018. Manchester, United Kingdom
+1
+Copyright © Debora G. Barbosa 2017 & 2018
+Illustration © Copyright to third party sources mentioned at the end of the book.
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_knowledge_is_profit_the_role_of_espionage_and_intelligence_in_business",
+  "archetype": "Knowledge is Profit - The Role of Espionage and Intelligence in Business Pattern",
+  "domain": "strategy",
+  "source": "Knowledge is Profit - The Role of Espionage and Intelligence in Business.pdf",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: Knowledge is Profit - The Role of Espionage and Intelligence in Business",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+4. The "Mastering ChatGPT - Create Highly Effective Prompts, Strategies, and Best Practices to Go From Novice" Protocol
+
+Source Material: Mastering ChatGPT - Create Highly Effective Prompts, Strategies, and Best Practices to Go From Novice
+
+The Narrative:
+Source text (TOC + opening pages):
+Mastering ChatGPT:
+Create Highly Effective Prompts, Strategies, and Best Practices to Go
+From Novice to Expert
+TJ Books
+
+Copyright © 2023 by TJ Books
+All rights reserved.
+No portion of this book may be reproduced in any form without
+written permission from the publisher or author, except as
+permitted by U.S. copyright law.
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_mastering_chatgpt_create_highly_effective_prompts_strategies_and_best_practices_to_go_from",
+  "archetype": "Mastering ChatGPT - Create Highly Effective Prompts, Strategies, and Best Practices to Go From Novice Pattern",
+  "domain": "strategy",
+  "source": "Mastering ChatGPT - Create Highly Effective Prompts, Strategies, and Best Practices to Go From Novice.pdf",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: Mastering ChatGPT - Create Highly Effective Prompts, Strategies, and Best Practices to Go From Novice",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+5. The "The 100 Best Business Books of All Time What They Say, Why They Matter, and How They Can Help You" Protocol
+
+Source Material: The 100 Best Business Books of All Time What They Say, Why They Matter, and How They Can Help You
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13; &#13; &#13;
+
+&#13; &#13; PORTFOLIO / PENGUIN &#13; THE 100 BEST BUSINESS BOOKS OF ALL TIME &#13; J ACK C OVERT is the founder and former president (retired) of 800-CEO-READ, a specialty business book retailer that began as a subsidiary of the Harry W. Schwartz Bookshops. Jack still offers his hard-won business and book acumen to the company as a consultant. He lives in Milwaukee, Wisconsin, with his wife of forty-plus years. &#13; T ODD S ATTERSTEN helps business experts create and publish business books. He lives in Portland, Oregon, with his wife and three children. &#13; S ALLY H ALDORSON is the general manager of 800-CEO-READ and has worked for the company in many different roles for 20 years. She has an M.A. in English and Creative Writing, and lives in Milwaukee, Wisconsin, with her husband and son. &#13; Visit www.100bestbiz.com &#13; &#13; &#13;
+
+&#13; &#13; &#13; &#13; &#13; &#13;
+
+&#13; &#13; PORTFOLIO / PENGUIN &#13; An imprint of Penguin Random House LLC &#13; 375 Hudson Street &#13; New York, New York 10014 &#13; penguin.com &#13; First published in the United States of America by Portfolio / Penguin 2009 &#13; Published in paperback with new material and revisions 2011 &#13; This paperback edition with further new material published 2016 &#13; Copyright © 2009, 2011, 2016 by Jack Covert and Todd Sattersten &#13; Copyright © 2016 by Sally Haldorson &#13; Penguin supports copyright. Copyright fuels creativity, encourages diverse voices, promotes free speech, and creates a vibrant culture. Thank you for buying an authorized edition of this book and for complying with copyright laws by not reproducing, scanning, or distributing any part of it in any form without permission. You are supporting writers and allowing Penguin to continue to publish books for every reader. &#13; This page constitutes an extension of this copyright page. &#13; ISBN 9781101992388 (ebook) &#13; Library of Congress Cataloging-in-Publication Data &#13; Names: Covert, Jack, author. | Sattersten, Todd, author. | Haldorson, Sally, author &#13; Title: The 100 best business books of all time : what they say, why they matter, and how they can help you / Jack Covert, Todd Sattersten, Sally Haldorson. &#13; Other titles: One hundred best business books of all time &#13; Description: Third Edition. | New York : Portfolio/Penguin, 2016. | Revised edition of The 100 best business books of all time, 2009. &#13; Identifiers: LCCN 2016019222 | ISBN 9780143109730 (paperback) &#13; Subjects: LCSH: Business—Bibliography. | Management—Bibliography. | Businesspeople—Books and reading—United States. | Executives—Books and reading—United States. | Best books—United States. | BISAC: BUSINESS &am
+
+&#13; &#13; I dedicate this book to A. David Schwartz, who saw something in me that I didn’t, and who is either really proud or is rolling over in his grave. Either way, thanks! &#13; Jack Covert &#13; To Eric and Sue Sattersten—For your love and support from the very beginning. &#13; Todd Sattersten &#13; Thank you to Jack and Todd for the opportunity to work on this book with you and for sharing your expansive business knowledge with me over the years. &#13; Sally Haldorson &#13; &#13; &#13;
+
+&#13; CONTENTS &#13; ABOUT THE AUTHORS &#13; TITLE PAGE &#13; COPYRIGHT &#13; DEDICATION &#13; PREFACE TO THE REVISED PAPERBACK EDITION &#13; INTRODUCTION &#13; YOU &#13; Improving your life, your person, and your strengths. Flow · Getting Things Done · The Effective Executive · The Gifts of Imperfection · The 7 Habits of Highly Effective People · How to Win Friends and Influence People · Swim with the Sharks Without Being Eaten Alive · The Power of Intuition · What Should I Do with My Life? · The First 90 Days · Oh, the Places You’ll Go! · Chasing Daylight | SIDEBARS: Jack Covert Selects · Expanding the Conversation: Five to Read · Business Books for Kids of All Ages &#13; LEADERSHIP &#13; Inspiratio n. Challenge. Courage. Change. On Becoming a Leader · Up the Organization · The Leadership Moment · The Leadership Challenge · Leadership Is an Art · The Radical Leap · Control Your Destiny or Someone Else Will · Leading Change · Questions of Character · The Story Factor · Lean In | SIDEBARS: Leadership in Movies · The Economist &#13; STRATEGY &#13; Nine organizational blueprints from which to draft your own. In Search of Excellence · Good to Great · The Innovator’s Dilemma · Only the Paranoid Survive · Who Says Elephants Can’t Dance? · Discovering the Soul of Service · 
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_100_best_business_books_of_all_time_what_they_say_why_they_matter_and_how_they_can_hel",
+  "archetype": "The 100 Best Business Books of All Time What They Say, Why They Matter, and How They Can Help You Pattern",
+  "domain": "strategy",
+  "source": "The 100 Best Business Books of All Time What They Say, Why They Matter, and How They Can Help You.epub",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: The 100 Best Business Books of All Time What They Say, Why They Matter, and How They Can Help You",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+6. The "Zingaro Daniel, Porter Leo - Learn AI-assisted Python Programming" Protocol
+
+Source Material: Zingaro Daniel, Porter Leo - Learn AI-assisted Python Programming
+
+The Narrative:
+Source text (TOC + opening pages):
+MANNING Leo Porter ● Daniel Zingaro Foreword by Beth Simon, Ph.D. With GitHub Copilot and ChatGPT The function design cycle with Copilot, augmented to include debugging MANNING S hel ter I Sland Lear n AI-Assisted Python Pr ogramming LEO POR TER DANIEL ZINGAR O W  GH C  C GPT For online information and ordering of this and other Manning books, please visit www .manning.com. The publisher offers discounts on this book when ordered in quantity . For more information, please contact Special Sales Department Manning Publications Co. 20 Baldwin Road PO Box 761 Shelter Island, NY 11964 Email: orders@manning.com © 2024 by Manning Publications Co. All rights Reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher . Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in the book, and Manning Publications was aware of a trademark claim, the designations have been printed in initial caps or all caps. Recognizing the importance of preserving what has been written, it is Manning’s policy to have the books we publish printed on acid- free paper , and we exert our best efforts to that end. Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15 percent recycled and processed without the use of elemental chlorine. ∞ Manning Publications Co. 20 Baldwin Road PO Box 761 Shelter Island, NY 11964 ISBN: 9781633437784 Printed in the United States of America The author and publisher have made every effort to ensure that the information 
+
+Dan t hanks his wif e, D oyal i , f or tradin g some of t he ir ti me , agai n, to help this book exist. Leo thanks his wi fe, Lo ri , and h is children Sa m and A ver y f o r t he ir love and s uppo rt .
+
+iv contents forewor d ix acknowledgments xi introduction xiii about the authors xxii about the cover illustration xxiv 1 Introducing AI-assisted pr ogramming with Copilot 1 1.1 How we talk to computers 2 Making it a little easier 2 ■ Making it a lot easier 3 1.2 About the technology 3 Copilot, your AI Assistant 4 ■ How Copilot works behind the scenes—in 30 seconds 5 1.3 How Copilot changes how we learn to program 6 1.4 What else can Copilot do for us? 7 1.5 Risks and challenges when using Copilot 8 1.6 The skills we need 10 1.7 Societal concerns about AI code assistants like Copilot 11 Summary 12 v contents v 2 Getting started with Copilot 13 2.1 Time to set up your computer to start learning 14 Over view of the software in your pr ogramming environment 14 2.2 Getting your system set up 15 2.3 W orking with Copilot in Visual Studio Code 16 Set up your working folder 17 ■ Check to see if your setup is working properly 18 2.4 Addressing common Copilot challenges 20 2.5 Our rst programming problem 22 Showcasing Copilot’s value in a data pr ocessing task 23 Summary 32 3 Designing functions 33 3.1 Functions 34 The components of a function 35 ■ Using a function 37 3.2 Benets of functions 38 3.3 Roles of functions 40 3.4 What’ s a reasonable task for a function? 43 Attributes of good functions 43 ■ Examples of good (and bad) leaf functions 44 3.5 The cycle of design of functions with Copilot 45 3.6 Examples of creating good functions with Copilot 46 Dan’s stock pick 47 ■ Leo’s passwor d 50 ■ Getting a strong password 54 ■ Scrabble scoring 55 ■ The best word 57 Summary 59 4 Reading Python code: Part 1 60 4.1 Why we need to read code 61 4.2 Asking Copilot to explain code 63 4.3 T op 10 programming features you need to know: Part 1 66 #1. Functions 67 ■ #2. V ariables 67 ■ #3. 
+
+ix for ewor d It’ s an awesome time to learn programming. Why? Let me use an analogy to explain. I like to make my own bread. I make it more frequently , and more reliably , when I use my stand mixer to knead the dough compared to kneading it by hand. Maybe you’d say that’ s lazy . I’d say it makes me more productive and more likely to actually make the bread. Maybe you have something that makes your life easier by taking over a tedious task, leaving you free to focus on more important or interesting things. Do you have a car that supports you in parallel parking? I recall when Gmail added spell and grammar checks in languages other than English. My husband’ s German relative were 
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_zingaro_daniel_porter_leo_learn_ai_assisted_python_programming",
+  "archetype": "Zingaro Daniel, Porter Leo - Learn AI-assisted Python Programming Pattern",
+  "domain": "strategy",
+  "source": "Zingaro Daniel, Porter Leo - Learn AI-assisted Python Programming - 2024.epub",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: Zingaro Daniel, Porter Leo - Learn AI-assisted Python Programming",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+7. The "Artificial Intelligence_ The Insights You Need from Harvard Business Review" Protocol
+
+Source Material: Artificial Intelligence_ The Insights You Need from Harvard Business Review
+
+The Narrative:
+Source text (TOC + opening pages):
+HBR’s latest thinking on
+the future of business
+Insights You Need from
+ARTIFICIAL
+INTELLIGENCE
+ARTIFICIAL
+INTELLIGENCE
+Insights
+You
+Need
+from
+HBR
+US$22.95 MANAGEMENT
+COMPANIES THAT DON’T USE AI
+WILL SOON BE OBSOLETE.
+From making faster, better decisions to automating rote work to enabling robots
+to respond to emotions, AI and machine learning are already reshaping business
+and society. What should you and your company be doing today to ensure that
+you’re poised for success and keeping up with your competitors in the age of AI?
+Artificial Intelligence: The Insights You Need from Harvard Business Review brings
+you today’s most essential thinking on AI and explains how to launch the right
+initiatives at your company to capitalize on the opportunity of the machine
+intelligence revolution.
+Business is changing. Will you adapt or be left behind?
+Get up to speed and deepen your understanding of the topics that are shaping
+your company’s future with the Insights You Need from Harvard Business
+Review series. Featuring HBR’s smartest thinking on fast-moving issues—
+blockchain, cybersecurity, AI, and more—each book provides the foundational
+introduction and practical case studies your organization needs to compete
+today and collects the best research, interviews, and analysis to get it ready
+for tomorrow.
+You can’t afford to ignore how these issues will transform the landscape of
+business and society. The Insights You Need series will help you grasp these
+critical ideas—and prepare you and your company for the future.
+ISBN-13: 978-1-63369-789-8
+90000
+HBR.ORG 9 781633 697898
+
+Insights You Need from
+ARTIFICIAL
+INTELLIGENCE
+054-80639_ch00_4P.indd 1 6/22/19 7:33 AM
+
+054-80639_ch00_4P.indd 2 6/22/19 7:33 AM
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_artificial_intelligence_the_insights_you_need_from_harvard_business_review",
+  "archetype": "Artificial Intelligence_ The Insights You Need from Harvard Business Review Pattern",
+  "domain": "strategy",
+  "source": "Artificial Intelligence_ The Insights You Need from Harvard Business Review.pdf",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: Artificial Intelligence_ The Insights You Need from Harvard Business Review",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+8. The "50 Business Classics - Your shortcut to the most important ideas" Protocol
+
+Source Material: 50 Business Classics - Your shortcut to the most important ideas
+
+The Narrative:
+Source text (TOC + opening pages):
+Contents Title Page Copyright Praise for 50 Business Classics Introduction 1 P. T. Barnum – The Art of Money Getting (1880) There are no shortcuts to business success; good character is everything 2 Richard Branson – Losing My Virginity (1998) Don’t be afraid to be different. On entering any new field or an industry, aim to shake it up and provide new value 3 Andrew Carnegie – The Gospel of Wealth (1899) The wealth creator has a moral obligation to enrich the lives of others in whatever way they can 4 Alfred Chandler – The Visible Hand (1977) It is not entrepreneurship but management that has brought the greatest advances in business 5 Ron Chernow – Titan: The Life of John D. Rockefeller, Sr. (1998) Society’s interests are best served by giant monopolies which provide quality and lower prices for the consumer 6 Clayton Christensen – The Innovator’s Dilemma (1997) Businesses must purposefully engage in “disruptive innovation” if they are to survive and prosper 7 Duncan Clark – Alibaba: The House That Jack Ma Built (2016) Don’t be cowed by the big players in your industry. Vision, patience, and agility can see you outpace them 8 Jim Collins – Great by Choice (2011) Great companies outperform even in turbulent times 9 W. Edwards Deming – Out of the Crisis (1982) Enterprises with an extreme focus on quality, better systems and constant improvement have the edge 10 Peter Drucker – The Effective Executive (1967) Effectiveness at work depends on clarity of aims and the desire to contribute 11 Roger Fisher, William Ury &amp; Bruce Patton – Getting To Yes (2011) Successful negotiation is based on principles, not pressure 12 Martin Ford – Rise of the Robots (2015) Automation and artificial intelligence will change the landscape of work and production forever 13 Michael E. Gerber 
+
+www.nicholasbrealey.com www.butler-bowdon.com
+
+First published in 2018 by Nicholas Brealey Publishing An imprint of John Murray Press An Hachette UK company Copyright © Tom Butler-Bowdon 2018 The right of Tom Butler-Bowdon to be identified as the Author of the Work has been asserted by him in accordance with the Copyright, Designs and Patents Act 1988. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means without the prior written permission of the publisher, nor be otherwise circulated in any form of binding or cover other than that in which it is published and without a similar condition being imposed on the subsequent purchaser. British Library Cataloguing-in-Publication Data A catalogue record for this book is available from the British Library. ISBN 978 1 857 88675 7 eBook (UK) ISBN 978 1 473 68391 4 eBook (US) ISBN 978 1 473 68392 1 www.nicholasbrealey.com www.butler-bowdon.com
+
+Praise for 50 Business Classics “Nobody explains the gist of books better than Tom ButlerBowdon, as he demonstrates to great effect in 50 Business Classics . He curates essential wisdom written by leading practitioners, such as Richard Branson, Howard Schultz, and Sheryl Sandberg, the most astute observers (Peter Drucker, Jim Collins, and others), and master storytellers such as Walter Isaacson and Ron Chernow. The revelations about the creation of wealth, the changing nature of work and employment, and the impact of technological advancements are timely, practical, and relevant.” Bruce Rosenstein, Managing Editor, Leader to Leader ; Author, Create Your Future the Peter Drucker Way “Teaching management, I’m always looking for ways to distil knowledge for the benefit of my students. 50 Business Classics provides an excellent base of management history, mission and goal development, and ethics. Highly recommended as a tool for business and personal growth.” Lawrence J. Danks, Assistant Professor of Business, Camden County College, New Jersey, author of Your Unfinished Life
+
+Introduction “People always overestimate how complex business is. This isn’t rocket science—we’ve chosen one of the world’s most simple professions.” Jack Welch, former head of General Electric 50 Business Classics is a mix of intriguing theories, real-life examples, and salutary stories aimed at getting you thinking more deeply about business. From genuine historical classics that still carry meaning, to the best of recent writings, the aim is to pick out the most important ideas that can help you come up with a worthy idea, turn it into a business, and strategize your way to success. Most business books contain on
+
+The Business Translation:
+Strategy domain protocol compiled from the Overlay365 book library. Competitive position is a choice, not an accident — pick where to win.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the strategy practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the strategy practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the strategy practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the strategy practice
+
+* Strategy:
+  * Strategy Type: differentiation
+  * Moat: brand
+  * Value Chain Stage: marketing_sales
+  * Business Model Lever: retention
+  * Target Segment: CEOs, founders, strategists
+  * Strategic Risk: Imitation erodes differentiation without a defensible moat
+  * Key Principle: Competitive position is a choice, not an accident — pick where to win.
+  * Strategy Tags: strategy, positioning, competitive, moat, planning
+
+Vector Entry (JSON):
+{
+  "id": "protocol_50_business_classics_your_shortcut_to_the_most_important_ideas",
+  "archetype": "50 Business Classics - Your shortcut to the most important ideas Pattern",
+  "domain": "strategy",
+  "source": "50 Business Classics - Your shortcut to the most important ideas.epub",
+  "business_logic": "Competitive position is a choice, not an accident — pick where to win.",
+  "application": "Business Book: 50 Business Classics - Your shortcut to the most important ideas",
+  "strategy": {"strategy_type": "differentiation", "moat": "brand", "value_chain_stage": "marketing_sales", "business_model_lever": "retention", "target_segment": "CEOs, founders, strategists", "strategic_risk": "Imitation erodes differentiation without a defensible moat", "key_principle": "Competitive position is a choice, not an accident \u2014 pick where to win.", "strategy_tags": ["strategy", "positioning", "competitive", "moat", "planning"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

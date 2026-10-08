@@ -1,0 +1,11 @@
+Summary
+Mini-system for capturing changes across runs
+Originally biotech mutation tracking but reusable anywhere
+Shows before vs after state in a compact snapshot
+"Good for comparisons across time (trading, betting, etc.)"
+"Keeps track of deltas, not full datasets"
+Helps identify reinforcing or destabilizing patterns
+Can double as an audit tool
+"Small, lightweight format (CSV/JSON friendly)"
+Integrates best into closed-loop feedback runs
+Core to IBS memory — prevents re-inventing analysis

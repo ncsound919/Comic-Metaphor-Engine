@@ -1,0 +1,13 @@
+Category,Element,Content
+Deliverable Intake,Sports Formula Run,"Inputs: NBA/NFL/WNBA stats, Fun_Bet_Picker.csv | Frameworks: Numbers & Functions, Python Analytics | Context: Game ID/timeframe | Credibility: Variance models"
+Deliverable Intake,Trading Report,"Inputs: Trade logs, Market feeds | Frameworks: Forex book, Psychology of Money | Context: Horizon, instruments | Credibility: Risk allocation rule"
+Deliverable Intake,Business Kit,"Inputs: IBS_BusinessBuilder.csv, PartnerCriteria, Accounting | Frameworks: Business Analytics, Psychology of Money, Energy Materials | Context: Client stage | Credibility: SBA/NIH criteria"
+Deliverable Intake,Biotech Paper,"Inputs: Mutation_Snapshot.csv, Genome datasets | Frameworks: Numbers & Functions, Biotech PDFs | Context: Mutation focus | Credibility: Peer-review, novelty check"
+Deliverable Intake,Government Proposal,"Inputs: GFL Raleigh Profile, SynergyWeb.csv | Frameworks: Energy Materials, Business Analytics | Context: Proposal scope & agency | Credibility: Gov compliance"
+TAP Weighted Scoring,10 Factors,"Monetization, Synergy, Grant Angle, IP Strength, Utility, Impact, Scalability, Reputation, Assist Value, Speed-to-Action"
+Probability Weighted Scoring,6 Layers,"Math (0.30), Science (0.30), Finance (0.20), Business (0.10), Philosophy (0.05), Security (0.05)"
+Readout Format,Sports Formula,"Field: Dataset, Variables, Outputs | TAP: TAP Score, IHS Impact, Cross-Sector Insights"
+Readout Format,Trading Report,"Field: Entry Logic, Expectancy, Volatility | TAP: TAP Score, Cousin Assist, Business Cross-Link"
+Readout Format,Business Kit,"Field: SWOT, Capital Runway, Grants | TAP: TAP Score, Monetization, Licensing"
+Readout Format,Biotech Paper,"Field: IMRaD (Intro, Method, Results, Discussion) | TAP: TAP Score, IP Strength, Actionability"
+Readout Format,Government Proposal,"Field: Problem, Objectives, Methods, Budget, Compliance | TAP: TAP Score, Reputation, Community Impact"

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "auto_expand_protocols",
+    "description": "Automatically expand protocols when count is low",
+    "condition": "protocol_count < 100",
+    "action": "trigger_workflow:protocol_generation",
+    "schedule": "daily_at_02:00",
+    "enabled": true
+  },
+  {
+    "name": "quality_check_new_protocols",
+    "description": "Validate quality of newly added protocols",
+    "condition": "new_protocol_added",
+    "action": "run_validation_tests",
+    "immediate": true,
+    "enabled": true
+  },
+  {
+    "name": "system_health_monitor",
+    "description": "Monitor system health and trigger alerts",
+    "condition": "system_health < 0.8",
+    "action": "send_alert:system_admin",
+    "check_interval": 300,
+    "enabled": true
+  }
+]

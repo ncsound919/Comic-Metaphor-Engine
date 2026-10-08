@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-09-16T00:31:16.558Z",
+  "project": {
+    "name": "Comic Metaphor Engine",
+    "path": "C:\\Users\\User\\Downloads\\Uplift\\02_Pillars\\Overlay Writing\\Comic Metaphor Engine\\Comic Metaphor Logic",
+    "githubFullName": "ncsound919/Comic-Metaphor-Engine",
+    "branch": "main"
+  },
+  "lastRun": null,
+  "lastAudit": {
+    "id": "audit_1789518676508",
+    "overallStatus": "warn",
+    "timestamp": "2026-09-16T00:31:16.509Z",
+    "scores": [
+      {
+        "scorer": "reporank",
+        "score": 57,
+        "summary": "grade C"
+      },
+      {
+        "scorer": "grader",
+        "score": 62,
+        "summary": "grade B-"
+      },
+      {
+        "scorer": "claw-protect",
+        "score": 60,
+        "summary": "SCA scanned 9 files, 4 potential secrets found"
+      },
+      {
+        "scorer": "sca",
+        "score": 52,
+        "summary": "0 CVE(s) · crit 0 · high 0 · med 0 · low 0 · 3 secret(s) · 12 misconfig(s)"
+      },
+      {
+        "scorer": "codegraph",
+        "score": 20,
+        "summary": "graph risk 0.80 · 38 changed fn · 36 untested · 38 affected flows"
+      },
+      {
+        "scorer": "ocr",
+        "score": 71,
+        "summary": "deterministic: 44 reviewable file(s) · LLM review on (64 findings)"
+      },
+      {
+        "scorer": "deep",
+        "score": 80,
+        "summary": "The Deep: 449 findings across 99 files (0 critical, 0 high) · 99 files (73 py, 24 ts, 2 js) · 0 unsupported"
+      },
+      {
+        "scorer": "codegang",
+        "score": 69,
+        "summary": "CodeGang: 221 files, 52 dependencies, avg complexity 16.1"
+      },
+      {
+        "scorer": "local_qa",
+        "score": 95,
+        "summary": "local QA failed (pytest -q + npm test (vitest)) — 101/102 passed, 1 failed, 69% cov"
+      },
+      {
+        "scorer": "typecheck",
+        "score": 98,
+        "summary": "mypy: 1 type error"
+      },
+      {
+        "scorer": "lint",
+        "score": 20,
+        "summary": "ruff: 134 problems"
+      },
+      {
+        "scorer": "deps_freshness",
+        "score": 40,
+        "summary": "473 outdated packages (90 major) via pip"
+      },
+      {
+        "scorer": "licenses_sbom",
+        "score": 90,
+        "summary": "no LICENSE · 0 package licenses · 0 copyleft · 0 unknown"
+      },
+      {
+        "scorer": "duplication",
+        "score": 40,
+        "summary": "built-in: 40 duplicated blocks (no jscpd/pylint)"
+      },
+      {
+        "scorer": "perf",
+        "score": 40,
+        "summary": "perf heuristics: 19 hotspots (14 N+1) across 99 file(s)"
+      },
+      {
+        "scorer": "a11y",
+        "score": null,
+        "summary": "'pa11y' is not recognized as an internal or external command,"
+      },
+      {
+        "scorer": "api_contract",
+        "score": null,
+        "summary": "no OpenAPI/Swagger spec found"
+      },
+      {
+        "scorer": "git_history",
+        "score": 96,
+        "summary": "git history: 0 secret(s), 2 large file(s), 0 vague commit(s)"
+      },
+      {
+        "scorer": "iac",
+        "score": 100,
+        "summary": "IaC built-in rules: 0 issues across 2 file(s)"
+      }
+    ]
+  },
+  "todos": 0,
+  "modelRoutes": {}
+}

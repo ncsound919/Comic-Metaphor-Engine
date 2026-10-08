@@ -1,0 +1,572 @@
+Expansion Pack: entrepreneurship books compiled from the Overlay365 book library.
+1. The "How To Start Your Own Business - The Facts Visually Explained" Protocol
+
+Source Material: How To Start Your Own Business - The Facts Visually Explained
+
+The Narrative:
+Source text (TOC + opening pages):
+US_002-003_Title.indd 2 24/09/2020 10:11
+
+HOW TO
+START YOUR
+OWN BUSINESS
+... AND MAKE IT WORK
+Consultant editor Cheryl Rickman
+US_002-003_Title.indd 3 24/09/2020 10:11
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_how_to_start_your_own_business_the_facts_visually_explained",
+  "archetype": "How To Start Your Own Business - The Facts Visually Explained Pattern",
+  "domain": "entrepreneurship",
+  "source": "How To Start Your Own Business - The Facts Visually Explained 2021.pdf",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: How To Start Your Own Business - The Facts Visually Explained",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+2. The "Killer ChatGPT Prompts - Harness the Power of AI for Success and Profit" Protocol
+
+Source Material: Killer ChatGPT Prompts - Harness the Power of AI for Success and Profit
+
+The Narrative:
+Source text (TOC + opening pages):
+KILLER
+CHATGPT™
+PROMPTS
+Harness the Power of AI
+for Success and Profit
+GUY HART-D AVIS
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_killer_chatgpt_prompts_harness_the_power_of_ai_for_success_and_profit",
+  "archetype": "Killer ChatGPT Prompts - Harness the Power of AI for Success and Profit Pattern",
+  "domain": "entrepreneurship",
+  "source": "Killer ChatGPT Prompts - Harness the Power of AI for Success and Profit.pdf",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: Killer ChatGPT Prompts - Harness the Power of AI for Success and Profit",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+3. The "Lipenkova J. The Art of AI Product Development. Delivering business value" Protocol
+
+Source Material: Lipenkova J. The Art of AI Product Development. Delivering business value
+
+The Narrative:
+Source text (TOC + opening pages):
+the art of
+Delivering
+business value
+M A N N I N G Dr. Janna Lipenkova
+
+The Art of AI Product Development
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_lipenkova_j_the_art_of_ai_product_development_delivering_business_value",
+  "archetype": "Lipenkova J. The Art of AI Product Development. Delivering business value Pattern",
+  "domain": "entrepreneurship",
+  "source": "Lipenkova J. The Art of AI Product Development. Delivering business value 2025.pdf",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: Lipenkova J. The Art of AI Product Development. Delivering business value",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+4. The "Passive Income Ideas - $10,000 per Month Beginners Guide To Make Money Online Dropshipping, Affiliate" Protocol
+
+Source Material: Passive Income Ideas - $10,000 per Month Beginners Guide To Make Money Online Dropshipping, Affiliate
+
+The Narrative:
+Source text (TOC + opening pages):
+Passive Income Ideas &#13; $10,000/Month Beginners Guide To Make Money Online Dropshipping, Affiliate Marketing, Blogging, Amazon FBA And More &#13;
+
+&#13; &#13; Also by Michael Cruz &#13; &#13; &#13; &#13; &#13; &#13; &#13; Amazon fba 2022 A Step by Step Beginners Guide To Build Your Own E-Commerce Business From Home and Make $10,000 per Month Selling Physical Products On Amazon &#13; &#13; &#13; &#13; Passive Income Ideas: $10,000/Month Beginners Guide To Make Money Online Dropshipping, Affiliate Marketing, Blogging, Amazon FBA And More &#13; &#13; &#13; &#13; &#13; &#13; &#13;
+
+Table of Contents &#13; Title Page &#13; Also By Michael Cruz &#13; Passive Income Online Ideas Learn Proven Strategies To Make Money Online Dropshipping, Affiliate Marketing, Blogging, E-Commerce, Amazon FBA, Dividend Stocks &#13; Introduction &#13; Conclusion &#13; Sign up for Michael Cruz's Mailing List &#13; Also By Michael Cruz &#13;
+
+© Copyright 2020 Michael Cruz- All rights reserved. &#13; In no way is it legal to reproduce, duplicate, or transmit any part of this document in either electronic means or in printed format. Recording of this publication is strictly prohibited and any storage of this document is not allowed unless with written permission from the publisher. All rights reserved. &#13; The information provided herein is stated to be truthful and consistent, in that any liability, in terms of inattention or otherwise, by any usage or abuse of any policies, processes, or directions contained within is the solitary and utter responsibility of the recipient reader. Under no circumstances will any legal re- sponsibility or blame be held against the publisher for any reparation, damages, or monetary loss due to the information herein, either directly or indirectly. Respective authors own all copyrights not held by the publisher. Legal Notice: &#13; This book is copyright protected. This is only for personal use. You cannot amend, distribute, sell, use, quote or paraphrase any part or the content within this book without the consent of the author or copyright owner. Legal action will be pursued if this is breached. &#13; Disclaimer Notice: &#13; Please note the information contained within this document is for educational and entertainment purposes only. Every attempt has been made to provide accurate, up to date and reliable complete information. No warranties of any kind are expressed or implied. Readers acknowledge that the author is not engaging in the rendering of legal, financial, medical or professional advice. &#13; By reading this document, the reader agrees that under no circumstances are we responsible for any loss- es, direct or indirect, which are incurred as a result of the use of
+
+Introduction &#13; P assive income is very important in the sense that it allows people to achieve some sort of financial freedom while getting the chance to indulge in the things that they are passionate about. For example, with an alternative source of income, you can spend more time doing something you love like going to the beach to surf, going to the mountains to hike or spending quality time with your loved ones. It enables to you to earn money without having to work day in and day out for it. Of course, the importance of passive income largely depends on where you are coming from and what your goals are in pursuing it. &#13; But the bottom line here is that passive income offers you an opportunity to earn good money with less work. It is hard work at first but you slowly unburden yourself from the work as your business and passive income stream grows. That’s the beauty of it. It gets easier and easier with the passage of time provided that you are doing things the right way and that you are scaling your business with the right strategies. The work you have done yesterday will continue to benefit you in the coming days, weeks, months, or even years. This is especially true if you are running a content-based business that’s hosted online. &#13; To cut the story short, passive income is important to those who are looking for a good source of alternative income that requires minimal work. It’s important to those who want to supplement their income from their 9 to 5 jobs. It’s important to those who want more time to pursue their passions. It’s important to those who want to build businesses that have the potential of completely replacing their income from their ordinary jobs. &#13; Finally, having a good passive income base will make y
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_passive_income_ideas_10_000_per_month_beginners_guide_to_make_money_online_dropshipping_af",
+  "archetype": "Passive Income Ideas - $10,000 per Month Beginners Guide To Make Money Online Dropshipping, Affiliate Pattern",
+  "domain": "entrepreneurship",
+  "source": "Passive Income Ideas - $10,000 per Month Beginners Guide To Make Money Online Dropshipping, Affiliate.epub",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: Passive Income Ideas - $10,000 per Month Beginners Guide To Make Money Online Dropshipping, Affiliate",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+5. The "The ChatGPT Millionaire Handbook. Make Money Online..Power of AI Technology" Protocol
+
+Source Material: The ChatGPT Millionaire Handbook. Make Money Online..Power of AI Technology
+
+The Narrative:
+Source text (TOC + opening pages):
+The ChatGPT Millionaire
+Handbook
+Make Money Online With the Power of AI Technology
+TJ Books
+
+Copyright © 2023 by TJ Books
+All rights reserved.
+No portion of this book may be reproduced in any form without written permission from the
+publisher or author, except as permitted by U.S. copyright law.
+
+Contents
+1. Introduction
+2. Principles of Wealth Creation
+3. ChatGPT for Personal Finance Management and Finance Coaching
+4. ChatGPT for Investing Success
+5. ChatGPT for Building a Successful Online Business
+6. Networking and Collaboration with ChatGPT to Build Wealth
+7. How to Use ChatGPT Safely to Protect Your Data
+8. Conclusion - Building Wealth with ChatGPT
+9. 30 Best Prompts to Ask ChatGPT In Order to Create $1 Million As Fast
+As Possible
+10. Resources
+Author's Notes
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_chatgpt_millionaire_handbook_make_money_online_power_of_ai_technology",
+  "archetype": "The ChatGPT Millionaire Handbook. Make Money Online..Power of AI Technology Pattern",
+  "domain": "entrepreneurship",
+  "source": "The ChatGPT Millionaire Handbook. Make Money Online..Power of AI Technology 2023.pdf",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: The ChatGPT Millionaire Handbook. Make Money Online..Power of AI Technology",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+6. The "The Diary of a CEO_ The 33 Laws of Business and Life by Steven Bartlett" Protocol
+
+Source Material: The Diary of a CEO_ The 33 Laws of Business and Life by Steven Bartlett
+
+The Narrative:
+Source text (TOC + opening pages):
+&#13; &#13; &#13;
+
+&#13; Praise for The Diary of a CEO &#13; ‘There is a new breed of CEO taking over the business world. The blustery, chest-beating CEOs who act like they make no mistakes are being replaced by CEOs who talk about their feelings, lead with curiosity and are willing to work on themselves . . . and Steven Bartlett is leading the revolution! The Diary of a CEO is an essential companion for any leader who wants to take themselves on and lead us into the next generation.’ &#13; Simon Sinek, optimist and New York Times bestselling author of Start with Why and The Infinite Game &#13; ‘I’ve watched Steven Bartlett’s journey from the start, always knowing he had that raw, fiery spark. Seeing him harness it, seeing him succeed, damn, it fills me with pure, undiluted pride. I’m on the sidelines, cheering him on, because this guy embodies the entrepreneur’s spirit.’ &#13; Gary Vaynerchuck, CEO of VaynerMedia and New York Times bestselling author &#13; ‘Steven Bartlett has overcome seemingly insurmountable odds to become a mega-successful serial entrepreneur. Along the way, he has learned some valuable lessons about the importance of following a different and unconventional path to power, synthesizing his experience into practical laws that will challenge and guide you in the harshly competitive world we live in.’ &#13; Robert Greene, bestselling author of Mastery &#13; ‘Weaving the latest research, his own experiences, and captivating stories, Bartlett guides readers to redefine success and achieve their potential. This is a must read for anyone dreaming of doing something audacious.’ &#13; Jay Shetty, New York Times bestselling author and award-winning host of On Purpose &#13; ‘Surprising and persuasive in equal measure. Bartlett’s advice will supercharge your chances of achieving 
+
+&#13; &#13; &#13; &#13; &#13; &#13; &#13;
+
+&#13; &#13; &#13; PORTFOLIO / PENGUIN &#13; An imprint of Penguin Random House LLC &#13; penguinrandomhouse.com &#13; &#13; Simultaneously published in Great Britain in 2023 by Ebury Edge, an imprint of Ebury, London. Ebury is part of the Penguin Random House Group of companies. &#13; First published in the United States by Portfolio, 2023 &#13; Copyright © 2023 by Steven Bartlett &#13; Penguin Random House supports copyright. Copyright fuels creativity, encourages diverse voices, promotes free speech, and creates a vibrant culture. Thank you for buying an authorized edition of this book and for complying with copyright laws by not reproducing, scanning, or distributing any part of it in any form without permission. You are supporting writers and allowing Penguin Random House to continue to publish books for every reader. &#13; Illustrations by Vyki Hendy &#13; LIBRARY OF CONGRESS RECORD AVAILABLE AT https://lccn.loc.gov/2023944176 &#13; ISBN 9780593715833 (hardcover) &#13; ISBN 9780593715840 (ebook) &#13; pid_prh_6.1_144831032_c0_r0 &#13; &#13;
+
+&#13; &#13; Dedicated to everyone that listens to and watches The Diary Of A CEO ! Thank you for allowing us to live the greatest dream we never had. &#13; &#13;
+
+&#13; CONTENTS &#13; Introduction: Who am I to write this book? &#13; PILLAR I: THE SELF &#13; 1. Fill your five buckets in the right order &#13; 2. To master it, you must create an obligation to teach it &#13; 3. You must never disagree &#13; 4. You do not get to choose what you believe &#13; 5. You must lean in to bizarre behaviour &#13; 6. Ask, don’t tell – the question/behaviour effect &#13; 7. Never compromise your self-story &#13; 8. Never fight a bad habit &#13; 9. Always prioritise your first foundation &#13; PILLAR II: THE STORY &#13; 10. Useless absurdity will define you more than useful practicalities &#13; 11. Avoid wallpaper at all costs &#13; 12. You must piss people off &#13; 13. Shoot your psychological moonshots first &#13; 14. Friction can create value &#13; 15. The frame matters more than the picture &#13; 16. Use Goldilocks to your advantage &#13; 17. Let them try and they will buy &#13; 18. Fight for the first five seconds &#13; PILLAR III: THE PHILOSOPHY &#13; 19. You must sweat the small stuff &#13; 20. A small miss now creates a big miss later &#13; 21. You must out-fail the competition &#13; 22. You must become a Plan-A thinker &#13; 23. Don’t be an ostrich &#13; 24. You must make pressure your privilege &#13; 25. The power of negative manifestation &#13; 26. Your skills are worthless, but your context is valuable &#13; 27. The discipline equation: death, time an
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_diary_of_a_ceo_the_33_laws_of_business_and_life_by_steven_bartlett",
+  "archetype": "The Diary of a CEO_ The 33 Laws of Business and Life by Steven Bartlett Pattern",
+  "domain": "entrepreneurship",
+  "source": "The Diary of a CEO_ The 33 Laws of Business and Life by Steven Bartlett.epub",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: The Diary of a CEO_ The 33 Laws of Business and Life by Steven Bartlett",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+7. The "The Small Business Start-Up Kit, 13th Edition – A Step-By-Step Legal Guide" Protocol
+
+Source Material: The Small Business Start-Up Kit, 13th Edition – A Step-By-Step Legal Guide
+
+The Narrative:
+Source text (TOC + opening pages):
+“Answers important questions, including whether to
+incorporate and how to price merchandise.”
+REAL SIMPLE MAGAZINE
+With
+Downloadable
+FORMS
+13TH EDITION
+The
+Business
+Small
+Start-Up Kit
+A Step-by-Step Legal Guide
+Everything entrepreneurs need to know about:
+Peri H. Pakroo, J.D., author of
+The Women’s Small Business Start-Up Kit • business plans and marketing
+• taxes and finances
+• permits, licenses, and regulations
+OVER 200,000 SOLD
+
+Download Forms on Nolo.com
+To download the forms, go to this book’s companion page at:
+www.nolo.com/back-of-book/SMBU.html
+Checking the companion page is also a good way
+to stay informed on topics related to this book.
+More Resources
+from Nolo.com
+Legal Forms, Books, & Software
+Hundreds of do-it-yourself products—all written in plain English,
+approved, and updated by our in-house legal editors.
+Legal Articles
+Get informed with thousands of free articles on everyday legal
+topics. Our articles are accurate, up to date, and reader friendly.
+Find a Lawyer
+Want to talk to a lawyer? Use Nolo to find a lawyer who can
+help you with your case.
+LAW for ALL
+
+The Trusted Name
+(but don’t take our word for it)
+“ In Nolo you can trust.”
+THE NEW YORK TIMES
+“ Nolo is always there in a jam as the nation’s premier publisher
+of do-it-yourself legal books.”
+NEWSWEEK
+“ Nolo publications…guide people simply through the how,
+when, where and why of the law.”
+THE WASHINGTON POST
+“ [Nolo’s]…material is developed by experienced attorneys who
+have a knack for making complicated material accessible.”
+LIBRARY JOURNAL
+“ When it comes to self-help legal stuff, nobody does a better job
+than Nolo…”
+USA TODAY
+“ The most prominent U.S. publisher of self-help legal aids.”
+TIME MAGAZINE
+“ Nolo is a pioneer in both consumer and business self-help
+books and software.”
+LOS ANGELES TIMES
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_the_small_business_start_up_kit_13th_edition_a_step_by_step_legal_guide",
+  "archetype": "The Small Business Start-Up Kit, 13th Edition – A Step-By-Step Legal Guide Pattern",
+  "domain": "entrepreneurship",
+  "source": "The Small Business Start-Up Kit, 13th Edition – A Step-By-Step Legal Guide.pdf",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: The Small Business Start-Up Kit, 13th Edition – A Step-By-Step Legal Guide",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}
+
+8. The "AI Hustles - The Definitive Guide to Earning Passive Income with Artificial Intelligence in" Protocol
+
+Source Material: AI Hustles - The Definitive Guide to Earning Passive Income with Artificial Intelligence in
+
+The Narrative:
+Source text (TOC + opening pages):
+AI Hustles: How to Make Passive Income with Zero Coding
+Skills in 2025
+Introduction:
+Welcome to the AI Hustle Playbook. This book is for anyone who wants to
+earn passive
+income without coding skills, using AI tools smartly.
+Chapter 1: The Truth About Passive Income
+Passive income is real, but it takes effort up front. With the right tools and
+mindset, you can
+build automated systems that generate money even while you sleep.
+Chapter 2: The Rise of AI Tools
+AI tools like ChatGPT, Midjourney, and Notion AI are transforming how we
+work. They are accessible, affordable, and incredibly powerful for
+solopreneurs.
+Chapter 3: Top 5 AI Tools for Solopreneurs
+1. ChatGPT
+2. Canva + Magic Write
+3. Notion AI
+4. Pictory.ai
+5. Copy.ai
+Each of these tools can help you automate, create, or scale a side hustle.
+Chapter 4: 5 AI Hustles You Can Start Today
+1. AI-generated eBooks
+2. YouTube faceless channels
+3. Print-on-demand merch
+4. AI freelance writing
+5. Notion templates
+Chapter 5: How to Market and Monetize
+Use Reddit, Instagram, YouTube Shorts, and SEO to get free traffic. Focus
+
+on consistency and
+targeting the right audience.
+Chapter 6: What to Do With Your First ₹5,000 Profit
+Reinvest it smartly—into better tools, outsourcing, or creating digital
+products. This is how
+you scale small wins into big ones.
+Conclusion
+You don’t need a tech degree to succeed in the AI world. What you need is
+initiative. Start
+small, but start now. Build, improve, and stay consistent.
+Introduction: The Dawn of the AI-Powered Entrepreneur
+The digital landscape of 2025 is marked by a profound shift, driven by the
+rapid evolution and democratization of Artificial Intelligence (AI). What was
+once confined to the realm of science fiction and specialized tech industries
+has now become an accessible and powerful toolkit for individuals from all
+walks of life. This expanded edition of the "AI Hustle Playbook" delves
+deeper into the transformative potential of AI, specifically for those seeking
+to generate passive income streams without the traditional barrier of coding
+skills.
+This comprehensive guide is meticulously crafted to provide you with the
+knowledge, strategies, and actionable steps to leverage AI tools intelligently
+and ethically. Whether you are a seasoned professional looking to diversify
+your income, a student seeking financial independence, or simply someone
+curious about the possibilities of the AI-driven future, this book will serve as
+your roadmap to building automated income-generating systems that work
+for you, even while you sleep.
+We will explore the fundamental principles of passive income in the age of
+AI, dissect the most potent AI tools available to solopreneurs, and provide in-
+depth blueprints for five distinct AI-powered hustles you can initiate today.
+
+The Business Translation:
+Entrepreneurship domain protocol compiled from the Overlay365 book library. Find the uncontested space; create value where no one is looking.
+
+* D1 (Bio/Internal):
+  * Logic: The book's treatment of the internal capability, learning and team psychology required to execute.
+  * Metric: Outcome metric tracking internal capability across the entrepreneurship practice
+
+* D2 (Tech/External):
+  * Logic: The book's treatment of external technology, tools and system architecture.
+  * Metric: Outcome metric tracking technology adoption across the entrepreneurship practice
+
+* D3 (Eco/Resources):
+  * Logic: The book's treatment of resources, economics, allocation and market forces.
+  * Metric: Outcome metric tracking resource allocation across the entrepreneurship practice
+
+* D4 (Cosmic/Limit):
+  * Logic: The book's treatment of structural limits, uncertainty and long-horizon dynamics.
+  * Metric: Outcome metric tracking long-horizon risk across the entrepreneurship practice
+
+* Strategy:
+  * Strategy Type: blue_ocean
+  * Moat: none_na
+  * Value Chain Stage: platform_infrastructure
+  * Business Model Lever: compounding
+  * Target Segment: founders, solo operators, startups
+  * Strategic Risk: Founder-market fit is fragile without repeatable demand
+  * Key Principle: Find the uncontested space; create value where no one is looking.
+  * Strategy Tags: startup, founder, business model, ventures, opportunity
+
+Vector Entry (JSON):
+{
+  "id": "protocol_ai_hustles_the_definitive_guide_to_earning_passive_income_with_artificial_intelligence_in",
+  "archetype": "AI Hustles - The Definitive Guide to Earning Passive Income with Artificial Intelligence in Pattern",
+  "domain": "entrepreneurship",
+  "source": "AI Hustles - The Definitive Guide to Earning Passive Income with Artificial Intelligence in 2025.pdf",
+  "business_logic": "Find the uncontested space; create value where no one is looking.",
+  "application": "Business Book: AI Hustles - The Definitive Guide to Earning Passive Income with Artificial Intelligence in",
+  "strategy": {"strategy_type": "blue_ocean", "moat": "none_na", "value_chain_stage": "platform_infrastructure", "business_model_lever": "compounding", "target_segment": "founders, solo operators, startups", "strategic_risk": "Founder-market fit is fragile without repeatable demand", "key_principle": "Find the uncontested space; create value where no one is looking.", "strategy_tags": ["startup", "founder", "business model", "ventures", "opportunity"], "confidence": 0.7},
+  "key_characters": [],
+  "related_protocols": []
+}

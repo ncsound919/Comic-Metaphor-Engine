@@ -1,0 +1,536 @@
+import React, { useState, useEffect } from 'react';
+import { 
+  Brain, Cpu, Globe, Infinity, Sparkles, Download, 
+  BookOpen, Building2, AlertTriangle, TrendingUp, Shield, 
+  Zap, ChevronRight, FileJson, LayoutDashboard, History, 
+  Settings, Search, Menu, X, Share2, Copy
+} from 'lucide-react';
+
+// --- Mock Data Generator for Simulation ---
+const simulateAnalysis = (topic, type, protocol = null) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      if (type === 'pedagogical') {
+        resolve({
+          topic,
+          module: 'pedagogical',
+          dimensions: [
+            { id: 'D1', title: 'Biological Anchor', science: 'Evolutionary Mismatch', character: 'Captain America vs Hulk', analysis: `How ${topic} triggers ancient stress responses in modern biology.`, lesson: 'Identify the friction between hardware (body) and software (environment).' },
+            { id: 'D2', title: 'Technological Bridge', science: 'The Alignment Problem', character: 'Iron Man vs Ultron', analysis: `The tools we build to manage ${topic} often create new, automated risks.`, lesson: 'Technology is an extension of faculty, but amputation of skill.' },
+            { id: 'D3', title: 'Planetary Cost', science: 'Carrying Capacity', character: 'Wakanda vs Thanos', analysis: `The hidden resource cost of ${topic} regarding energy and rare earth minerals.`, lesson: 'Every digital asset has a physical exhaust plume.' },
+            { id: 'D4', title: 'Cosmic Limit', science: 'Entropy & Decay', character: 'Silver Surfer', analysis: `The inevitable thermodynamic degradation of ${topic} over time.`, lesson: 'Systems naturally move toward disorder without energy input.' }
+          ],
+          synthesis: `Comparing ${topic} to a 'Glitchy App' running on 'Infinite Electricity'.`,
+          output: "Lesson Plan: Start with the biological impact, trace the tool used to fix it, map the resource cost, and end with the physics limit."
+        });
+      } else {
+        resolve({
+          topic,
+          module: 'strategy',
+          protocol: protocol.name,
+          risk_assessment: {
+            hidden_externalities: "Suppression of long-term environmental costs for short-term gain.",
+            structural_fragility: "Just-In-Time optimization lacks 'Damage Control' buffers.",
+            entropy_forecast: "Systemic collapse probability increases by 15% annually.",
+            marvel_analog: "The Roxxon Energy Model"
+          },
+          actionable_intelligence: {
+            immediate_risks: ["Reputational backlash via social algorithms", "Supply chain bottleneck at raw material source", "Regulatory 'Thanos Snap' event"],
+            strategic_recommendations: ["Implement 'Damage Control' reserve funds", "Diversify biological IP sources (Krakoa Doctrine)", "Audit energy inputs for entropy leaks"],
+            resilience_gaps: "Lack of redundant systems for Black Swan events."
+          },
+          synthesis: "The system is efficient but brittle; optimized for a world that no longer exists."
+        });
+      }
+    }, 2000);
+  });
+};
+
+const MetaphorIntelligenceEngine = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [activeView, setActiveView] = useState('dashboard'); // dashboard, edtech, strategy, vault
+  const [topic, setTopic] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [analysis, setAnalysis] = useState(null);
+  const [recentScans, setRecentScans] = useState([
+    { id: 1, title: 'Generative AI Supply Chain', type: 'Strategy', date: '2h ago', status: 'Critical' },
+    { id: 2, title: 'The Gig Economy', type: 'EdTech', date: '5h ago', status: 'Complete' },
+    { id: 3, title: 'Lab-Grown Meat', type: 'Strategy', date: '1d ago', status: 'Stable' },
+  ]);
+
+  // --- UI Components ---
+
+  const SidebarItem = ({ icon: Icon, label, view, onClick }) => (
+    <button
+      onClick={() => onClick(view)}
+      className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
+        activeView === view 
+          ? 'bg-purple-600/20 text-purple-300 border border-purple-500/30' 
+          : 'text-gray-400 hover:bg-slate-800 hover:text-white'
+      }`}
+    >
+      <Icon className="w-5 h-5" />
+      {sidebarOpen && <span className="font-medium">{label}</span>}
+    </button>
+  );
+
+  const StatCard = ({ icon: Icon, label, value, trend, color }) => (
+    <div className="bg-slate-900/50 backdrop-blur-md border border-white/5 p-5 rounded-xl">
+      <div className="flex justify-between items-start mb-4">
+        <div className={`p-2 rounded-lg bg-${color}-500/10 text-${color}-400`}>
+          <Icon className="w-6 h-6" />
+        </div>
+        <span className={`text-xs font-mono px-2 py-1 rounded bg-${color}-500/10 text-${color}-400`}>
+          {trend}
+        </span>
+      </div>
+      <h3 className="text-gray-400 text-sm font-medium">{label}</h3>
+      <p className="text-2xl font-bold text-white mt-1">{value}</p>
+    </div>
+  );
+
+  const AnalysisCard = ({ title, icon: Icon, color, children }) => (
+    <div className={`relative overflow-hidden bg-slate-900/40 backdrop-blur-sm border border-${color}-500/20 rounded-xl p-6 hover:border-${color}-500/40 transition-all group`}>
+      <div className={`absolute top-0 right-0 p-3 opacity-10 group-hover:opacity-20 transition-opacity text-${color}-500`}>
+        <Icon className="w-24 h-24" />
+      </div>
+      <div className="flex items-center gap-3 mb-4 relative z-10">
+        <div className={`p-2 rounded bg-${color}-500/20 text-${color}-400`}>
+          <Icon className="w-5 h-5" />
+        </div>
+        <h3 className={`text-lg font-bold text-${color}-100`}>{title}</h3>
+      </div>
+      <div className="relative z-10 text-gray-300 text-sm leading-relaxed">
+        {children}
+      </div>
+    </div>
+  );
+
+  // --- Views ---
+
+  const DashboardView = () => (
+    <div className="space-y-6 animate-in fade-in duration-500">
+      <div className="flex justify-between items-end">
+        <div>
+          <h1 className="text-3xl font-bold text-white">Mission Control</h1>
+          <p className="text-gray-400">System Entropy Levels: Stable</p>
+        </div>
+        <div className="text-right hidden md:block">
+          <p className="text-xs text-purple-400 font-mono">CORE_VERSION_2.4.0</p>
+          <p className="text-xs text-gray-500 font-mono">UPTIME: 99.9%</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <StatCard icon={Brain} label="Analyses Run" value="1,248" trend="+12%" color="blue" />
+        <StatCard icon={AlertTriangle} label="Risks Detected" value="84" trend="+5%" color="red" />
+        <StatCard icon={Globe} label="Sovereignty Index" value="92.4" trend="-2%" color="green" />
+        <StatCard icon={Zap} label="Processing Load" value="42%" trend="OPTIMAL" color="purple" />
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2 bg-slate-900/50 backdrop-blur-md border border-white/5 rounded-xl p-6">
+          <h3 className="text-lg font-bold text-white mb-4">Recent Scans</h3>
+          <div className="space-y-3">
+            {recentScans.map((scan) => (
+              <div key={scan.id} className="flex items-center justify-between p-3 hover:bg-white/5 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-white/5">
+                <div className="flex items-center gap-4">
+                  <div className={`w-2 h-2 rounded-full ${scan.type === 'Strategy' ? 'bg-red-400' : 'bg-blue-400'}`} />
+                  <div>
+                    <h4 className="text-white font-medium">{scan.title}</h4>
+                    <p className="text-xs text-gray-400">{scan.type} Protocol</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <span className="text-xs text-gray-500 font-mono">{scan.date}</span>
+                  <ChevronRight className="w-4 h-4 text-gray-600" />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-br from-purple-900/40 to-slate-900 border border-purple-500/20 rounded-xl p-6">
+          <h3 className="text-lg font-bold text-white mb-2">Daily Insight</h3>
+          <div className="flex items-start gap-3 mt-4">
+            <Infinity className="w-6 h-6 text-purple-400 shrink-0 mt-1" />
+            <p className="text-sm text-gray-300 italic">
+              "To define is to limit. The app vs electricity analogy reminds us that our interfaces (definitions) are fragile, but the energy (reality) is eternal."
+            </p>
+          </div>
+          <button className="mt-6 w-full py-2 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 rounded-lg text-sm font-medium transition-all">
+            View Full Archives
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
+  const ModuleView = ({ type }) => {
+    const isStrategy = type === 'strategy';
+    const [selectedProtocol, setSelectedProtocol] = useState(null);
+
+    const handleRunAnalysis = async () => {
+      setLoading(true);
+      const result = await simulateAnalysis(topic, type, selectedProtocol);
+      setAnalysis(result);
+      setLoading(false);
+    };
+
+    return (
+      <div className="animate-in slide-in-from-right-4 duration-500 max-w-5xl mx-auto">
+        {!analysis ? (
+          <div className="space-y-8">
+             <div className="text-center mb-10">
+                <div className={`inline-flex p-4 rounded-2xl mb-4 bg-gradient-to-br ${isStrategy ? 'from-red-500/20 to-orange-500/20' : 'from-blue-500/20 to-cyan-500/20'}`}>
+                  {isStrategy ? <Building2 className="w-12 h-12 text-red-400" /> : <BookOpen className="w-12 h-12 text-blue-400" />}
+                </div>
+                <h2 className="text-4xl font-bold text-white mb-2">
+                  {isStrategy ? 'Strategic Risk Matrix' : 'Pedagogical Designer'}
+                </h2>
+                <p className="text-gray-400 max-w-xl mx-auto">
+                  {isStrategy 
+                    ? 'Identify "Roxxon-Level" liabilities and "Krakoa" leverage points in your business model.' 
+                    : 'Translate complex subjects into cognitive anchors using the 4-Dimensional Framework.'}
+                </p>
+             </div>
+
+             <div className="bg-slate-900/80 backdrop-blur-xl border border-white/10 rounded-2xl p-8 shadow-2xl">
+                {isStrategy && (
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                    {[
+                      { id: 'roxxon', name: 'Roxxon Audit', icon: AlertTriangle, color: 'red' },
+                      { id: 'krakoa', name: 'Krakoa Sim', icon: Shield, color: 'green' },
+                      { id: 'damage', name: 'Damage Control', icon: TrendingUp, color: 'purple' }
+                    ].map(p => (
+                      <button 
+                        key={p.id}
+                        onClick={() => setSelectedProtocol(p)}
+                        className={`p-4 rounded-xl border flex flex-col items-center gap-2 transition-all ${
+                          selectedProtocol?.id === p.id 
+                            ? `bg-${p.color}-500/20 border-${p.color}-500 text-white` 
+                            : 'bg-slate-800/50 border-white/5 text-gray-400 hover:bg-slate-800'
+                        }`}
+                      >
+                        <p.icon className={`w-6 h-6 ${selectedProtocol?.id === p.id ? `text-${p.color}-400` : ''}`} />
+                        <span className="font-medium text-sm">{p.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+
+                <div className="relative">
+                  <input
+                    type="text"
+                    value={topic}
+                    onChange={(e) => setTopic(e.target.value)}
+                    placeholder={isStrategy ? "Enter Company, Supply Chain, or Asset Class..." : "Enter Subject (e.g., Photosynthesis, Bitcoin)..."}
+                    className="w-full bg-slate-950 border border-white/10 rounded-xl px-6 py-4 text-lg text-white placeholder-gray-600 focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/50 transition-all"
+                  />
+                  <div className="absolute right-2 top-2">
+                    <button
+                      onClick={handleRunAnalysis}
+                      disabled={!topic || loading || (isStrategy && !selectedProtocol)}
+                      className="bg-white text-slate-950 px-6 py-2 rounded-lg font-bold hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center gap-2"
+                    >
+                      {loading ? <Sparkles className="w-4 h-4 animate-spin" /> : <Zap className="w-4 h-4" />}
+                      {loading ? 'Processing...' : 'Run Engine'}
+                    </button>
+                  </div>
+                </div>
+             </div>
+          </div>
+        ) : (
+          <div className="space-y-6">
+            <div className="flex items-center justify-between mb-6">
+              <button onClick={() => setAnalysis(null)} className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium">
+                <ChevronRight className="w-4 h-4 rotate-180" /> Back to Input
+              </button>
+              <div className="flex gap-2">
+                <button className="p-2 text-gray-400 hover:text-white bg-white/5 rounded-lg"><Share2 className="w-4 h-4" /></button>
+                <button className="p-2 text-gray-400 hover:text-white bg-white/5 rounded-lg"><Download className="w-4 h-4" /></button>
+              </div>
+            </div>
+
+            {/* Synthesis Header */}
+            <div className="bg-gradient-to-r from-slate-900 to-purple-900/20 border border-purple-500/30 rounded-2xl p-8 relative overflow-hidden">
+               <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/10 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2" />
+               <div className="relative z-10">
+                 <h2 className="text-3xl font-bold text-white mb-2">{topic}</h2>
+                 <p className="text-purple-300 text-lg font-light italic">"{analysis.synthesis}"</p>
+               </div>
+            </div>
+
+            {/* Output Grid */}
+            {analysis.module === 'pedagogical' ? (
+              <div className="grid md:grid-cols-2 gap-4">
+                {analysis.dimensions.map((dim) => (
+                   <AnalysisCard key={dim.id} title={dim.title} icon={dim.id === 'D1' ? Brain : dim.id === 'D2' ? Cpu : dim.id === 'D3' ? Globe : Infinity} color={dim.id === 'D1' ? 'green' : dim.id === 'D2' ? 'red' : dim.id === 'D3' ? 'purple' : 'blue'}>
+                      <div className="space-y-3">
+                        <div className="flex justify-between border-b border-white/5 pb-2">
+                          <span className="text-xs uppercase tracking-wider opacity-70">Concept</span>
+                          <span className="text-white font-medium">{dim.science}</span>
+                        </div>
+                        <div className="flex justify-between border-b border-white/5 pb-2">
+                          <span className="text-xs uppercase tracking-wider opacity-70">Anchor</span>
+                          <span className="text-white font-medium">{dim.character}</span>
+                        </div>
+                        <p className="py-2">{dim.analysis}</p>
+                        <div className="bg-white/5 p-3 rounded-lg border-l-2 border-current opacity-80">
+                          <span className="font-bold text-xs block mb-1">LESSON:</span>
+                          {dim.lesson}
+                        </div>
+                      </div>
+                   </AnalysisCard>
+                ))}
+              </div>
+            ) : (
+              <div className="grid md:grid-cols-3 gap-6">
+                 <div className="md:col-span-2 space-y-6">
+                    <div className="bg-slate-900/40 border border-red-500/30 rounded-xl p-6">
+                      <h3 className="flex items-center gap-2 text-red-400 font-bold mb-4">
+                        <AlertTriangle className="w-5 h-5" /> Hidden Externalities
+                      </h3>
+                      <p className="text-gray-300">{analysis.risk_assessment.hidden_externalities}</p>
+                    </div>
+                    
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div className="bg-slate-900/40 border border-orange-500/20 rounded-xl p-6">
+                         <h4 className="text-orange-400 font-bold text-sm mb-2">Structural Fragility</h4>
+                         <p className="text-sm text-gray-400">{analysis.risk_assessment.structural_fragility}</p>
+                      </div>
+                      <div className="bg-slate-900/40 border border-blue-500/20 rounded-xl p-6">
+                         <h4 className="text-blue-400 font-bold text-sm mb-2">Entropy Forecast</h4>
+                         <p className="text-sm text-gray-400">{analysis.risk_assessment.entropy_forecast}</p>
+                      </div>
+                    </div>
+
+                    <div className="bg-emerald-900/10 border border-emerald-500/30 rounded-xl p-6">
+                      <h3 className="flex items-center gap-2 text-emerald-400 font-bold mb-4">
+                         <Shield className="w-5 h-5" /> Strategic Recommendations
+                      </h3>
+                      <ul className="space-y-2">
+                        {analysis.actionable_intelligence.strategic_recommendations.map((rec, i) => (
+                          <li key={i} className="flex items-start gap-2 text-gray-300 text-sm">
+                            <span className="text-emerald-500 mt-1">✓</span> {rec}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                 </div>
+
+                 {/* Sidebar in Result */}
+                 <div className="space-y-4">
+                    <div className="bg-slate-800/50 p-6 rounded-xl border border-white/5 text-center">
+                       <div className="w-16 h-16 mx-auto bg-red-500/20 rounded-full flex items-center justify-center text-red-500 mb-4">
+                         <AlertTriangle className="w-8 h-8" />
+                       </div>
+                       <h4 className="text-gray-400 text-xs uppercase tracking-widest mb-1">Analog Pattern</h4>
+                       <p className="text-white font-bold text-lg">{analysis.risk_assessment.marvel_analog}</p>
+                    </div>
+                    
+                    <div className="bg-slate-800/50 p-6 rounded-xl border border-white/5">
+                       <h4 className="text-gray-400 text-xs uppercase tracking-widest mb-4">Immediate Threats</h4>
+                       <ul className="space-y-3">
+                         {analysis.actionable_intelligence.immediate_risks.map((risk, i) => (
+                           <li key={i} className="text-xs text-red-300 flex items-start gap-2">
+                             <span className="mt-0.5">•</span> {risk}
+                           </li>
+                         ))}
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  // --- Main Layout ---
+
+  return (
+    <div className="flex h-screen bg-slate-950 text-white font-sans selection:bg-purple-500/30">
+      
+      {/* Sidebar */}
+      <div className={`flex-shrink-0 bg-slate-900 border-r border-white/5 transition-all duration-300 ${sidebarOpen ? 'w-64' : 'w-20'} flex flex-col`}>
+        <div className="p-6 flex items-center gap-3">
+          <div className="relative">
+             <Infinity className="w-8 h-8 text-purple-500" />
+             <div className="absolute top-0 right-0 w-2 h-2 bg-yellow-400 rounded-full animate-pulse" />
+          </div>
+          {sidebarOpen && (
+            <div>
+              <h1 className="font-bold tracking-tight">METAPHOR<span className="text-purple-500">.IE</span></h1>
+              <p className="text-[10px] text-gray-500 tracking-widest">INTELLIGENCE ENGINE</p>
+            </div>
+          )}
+        </div>
+
+        <div className="flex-1 px-3 space-y-2 overflow-y-auto">
+          <div className="text-xs font-semibold text-gray-500 px-4 py-2 mt-4">{sidebarOpen ? 'MAIN' : '...'}</div>
+          <SidebarItem icon={LayoutDashboard} label="Dashboard" view="dashboard" onClick={setActiveView} />
+          
+          <div className="text-xs font-semibold text-gray-500 px-4 py-2 mt-4">{sidebarOpen ? 'MODULES' : '...'}</div>
+          <SidebarItem icon={BookOpen} label="EdTech Matrix" view="edtech" onClick={setActiveView} />
+          <SidebarItem icon={Building2} label="Strategy Risk" view="strategy" onClick={setActiveView} />
+          
+          <div className="text-xs font-semibold text-gray-500 px-4 py-2 mt-4">{sidebarOpen ? 'DATA' : '...'}</div>
+          <SidebarItem icon={History} label="The Vault" view="vault" onClick={setActiveView} />
+        </div>
+
+        <div className="p-4 border-t border-white/5">
+          <button onClick={() => setSidebarOpen(!sidebarOpen)} className="w-full flex items-center justify-center p-2 text-gray-500 hover:text-white transition-colors">
+            {sidebarOpen ? <ChevronRight className="w-5 h-5 rotate-180" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="flex-1 overflow-auto bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950">
+        <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/50 border-b border-white/5 px-8 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-4 text-sm breadcrumbs text-gray-400">
+            <span>Metaphor.IE</span>
+            <ChevronRight className="w-4 h-4" />
+            <span className="text-white capitalize">{activeView}</span>
+          </div>
+          <div className="flex items-center gap-4">
+            <button className="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-full"><Search className="w-5 h-5" /></button>
+            <button className="p-2 text-gray-400 hover:text-white hover:bg-white/5 rounded-full"><Settings className="w-5 h-5" /></button>
+            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-500 to-pink-500 border-2 border-slate-900" />
+          </div>
+        </header>
+
+        <main className="p-8 pb-20">
+          {activeView === 'dashboard' && <DashboardView />}
+          {(activeView === 'edtech' || activeView === 'strategy') && <ModuleView type={activeView} />}
+          {activeView === 'vault' && (
+            <div className="flex flex-col items-center justify-center h-96 text-gray-500">
+              <History className="w-16 h-16 mb-4 opacity-20" />
+              <p>Archives Encrypted. Access restricted in Demo Mode.</p>
+            </div>
+          )}
+        </main>
+      </div>
+    </div>
+  );
+};
+
+export default MetaphorIntelligenceEngine;
+
+This is the critical shift. To make this a viable product, we cannot rely on "hallucinating" metaphors. We need a backend that is deterministic and grounded in the framework we built.
+We will build this using a RAG (Retrieval-Augmented Generation) architecture. This ensures the engine doesn't just "guess" a Marvel analogy; it retrieves specific, curated data points (The Matrix) to ensure consistency.
+Here is the Backend Technical Specification for the Metaphor Intelligence Engine.
+I. High-Level Architecture: The "Cognitive Pipeline"
+The backend consists of three distinct layers:
+ * The Vault (Knowledge Base): Where the Marvel Matrix lives (Vector Database).
+ * The Weaver (Orchestration): The logic that maps User Input \rightarrow Matrix Archetype.
+ * The API (Interface): The endpoints serving the React frontend.
+II. Database Schema (The "Vault")
+We need two types of storage:
+ * PostgreSQL (Relational): For user accounts, report history, and rigid structured data.
+ * Vector Database (Pinecone/Weaviate): For semantic search. This is how the engine "understands" that Supply Chain Fragility is mathematically similar to Damage Control.
+A. The Relational Schema (SQL)
+-- 1. Users & Tenants
+CREATE TABLE organizations (
+  id UUID PRIMARY KEY,
+  name VARCHAR(255),
+  tier ENUM('edtech', 'enterprise_strategy')
+);
+
+-- 2. The Output History
+CREATE TABLE analyses (
+  id UUID PRIMARY KEY,
+  org_id UUID REFERENCES organizations(id),
+  input_topic TEXT NOT NULL, -- e.g., "Just-in-Time Logistics"
+  module_type ENUM('pedagogical', 'strategy'),
+  
+  -- The Generated Insight (JSON Blob)
+  result_json JSONB, 
+  
+  -- Metadata
+  sentiment_score FLOAT, -- How "dangerous" is this topic?
+  entropy_score INT, -- 0-100 (Stability rating)
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+B. The Vector Schema (The Matrix)
+This is the secret sauce. We don't just ask an LLM "What is Captain America?" We pre-load the Vector Database with our "Truths."
+ * Vector Entry Example:
+   * ID: d1_hulk_mismatch
+   * Content: "The Hulk represents evolutionary mismatch. A biological system overwhelmed by environmental radiation/stress, reacting with uncontrolled inflammation and rage. Represents the failure of homeostasis."
+   * Metadata: { "dimension": "D1", "archetype": "Hulk", "keywords": ["inflammation", "stress", "biological limit", "reactionary"] }
+III. The Logic Controller (The "Weaver")
+This is the Node.js/Python logic that runs when a user clicks "Analyze."
+The Algorithm:
+ * Ingest: Receive User Topic (e.g., "Social Media Algorithm").
+ * Embed: Convert "Social Media Algorithm" into a vector array (using OpenAI text-embedding-3-small).
+ * Retrieve (The Search): Query the Vector DB: "Find the Marvel Archetype most semantically similar to this topic's structural friction."
+   * Result: The DB returns d2_ultron_alignment (Similarity: 0.92).
+ * Synthesize: Feed the Topic + The Retrieved Archetype into the LLM to generate the final prose.
+Pseudocode Implementation (Python/LangChain):
+import pinecone
+from langchain.chat_models import ChatOpenAI
+from langchain.embeddings import OpenAIEmbeddings
+
+# 1. Initialize The Brains
+vector_db = pinecone.Index("marvel-matrix-v1")
+llm = ChatOpenAI(model="gpt-4-turbo", temperature=0.2) # Low temp for precision
+
+def process_strategy_request(user_topic, protocol):
+    
+    # Step 2: Vectorize the User's Input
+    topic_vector = OpenAIEmbeddings().embed_query(user_topic)
+    
+    # Step 3: Semantic Search (The RAG Step)
+    # We don't guess; we find the exact matrix entry that matches.
+    matches = vector_db.query(
+        vector=topic_vector, 
+        top_k=3, 
+        include_metadata=True,
+        filter={"sector": protocol} # e.g., only search "Logistics" archetypes
+    )
+    
+    # Extract the "Truth" from our database
+    marvel_truth = matches[0].metadata['narrative_logic'] 
+    # e.g., "Damage Control exists because JIT fails during Black Swans."
+    
+    # Step 4: The Synthesis (The Translation)
+    # We force the LLM to use OUR truth, not its own training data.
+    system_prompt = f"""
+    You are the Metaphor Intelligence Engine.
+    
+    USER TOPIC: {user_topic}
+    THE NARRATIVE TRUTH: {marvel_truth}
+    
+    TASK: Translate the User Topic into a business risk assessment using ONLY the Narrative Truth provided.
+    Do not use generic Marvel trivia. Use the specific logic of the truth.
+    """
+    
+    response = llm.predict(system_prompt)
+    
+    return format_json(response)
+
+IV. API Endpoints (The Interface)
+The Frontend triggers these endpoints.
+| Method | Endpoint | Description | Payload |
+|---|---|---|---|
+| POST | /api/v1/engine/pedagogical | Generates a 4-D curriculum. | { "topic": "Photosynthesis" } |
+| POST | /api/v1/engine/audit | Runs a corporate risk audit. | { "company_data": "...", "protocol": "roxxon" } |
+| GET | /api/v1/vault/history | Retrieves past user analyses. | { "user_id": "123" } |
+| POST | /api/v1/admin/matrix | Admin Only: Adds new metaphors to the Vector DB. | { "archetype": "Dr. Doom", "logic": "Techno-Sorcery/Hubris" } |
+V. The "Self-Correction" Loop (Quality Control)
+To ensure the engine improves over time, we add a Feedback Loop.
+ * User Action: On the frontend, if a user marks an analysis as "Inaccurate," the system flags that transaction.
+ * Backend Logic:
+   * The inputs and the "bad" output are saved to a review_queue.
+   * A human administrator (you) reviews the mismatch.
+   * Fine-Tuning: You update the Vector Database entry (e.g., "adjust the keywords for 'Ultron' to include 'Social Media' so it matches better next time").
+Summary of the Stack
+ * Compute: Python (FastAPI) or Node.js (NestJS).
+ * Reasoning: OpenAI GPT-4 (via API).
+ * Memory (Long Term): Pinecone (Vector DB) storing the "Marvel Matrix."
+ * Storage: PostgreSQL (User Data).
+We will start with  specific "Vector Entries" for the Infinity Gauntlet and Infinity War (comics not movies) characters so we can populate the database (e.g., defining exactly what "Thanos" represents) then utilize X-Mens Says if Future Past and Phoenix Saga storylines to add to the lexicon 
+
