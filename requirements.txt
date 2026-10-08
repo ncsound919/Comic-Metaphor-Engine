@@ -15,7 +15,7 @@ uvicorn>=0.29.0
 pydantic>=2.5.0
 
 # UI
-gradio>=4.0.0
+gradio>=6.29.1
 
 # Document ingestion (comic books, PDFs)
 pdfplumber>=0.10.0
